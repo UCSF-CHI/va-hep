@@ -1,11 +1,40 @@
 #content-main {
-  margin: 0 $gutter-margin;
 
-  @include mq($tablet) {
-    margin: 0 40px;
+  .content-rightcol {
+    display: flex;
+
+    @supports (display: grid) {
+      display: grid;
+      grid-auto-columns: 1fr 220px;
+    }
+
   }
 
+  .content-column {
+    width: auto;
 
+    @supports (display: grid) {
+      grid-column: 1;
+    }
+
+    &#main-content {
+      padding: 0 $gutter-margin;
+
+      @include mq($tablet) {
+        padding: 0 40px;
+      }
+    }
+
+  }
+
+  .related-column {
+
+    @supports (display: grid) {
+      grid-column: 2;
+      width: auto;
+    }
+
+  }
 
   .intro {
     margin: rem(20) 0;
