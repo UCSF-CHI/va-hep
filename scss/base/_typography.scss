@@ -20,15 +20,18 @@
   }
 
   h1 {
-    @include font(26, 30);
     margin-top: 0;
+    color: $nero;
+    @include font(30);
+    line-height: 1;
+    letter-spacing: -0.015em;
 
     @include mq($tablet) {
-      @include font(30, 34);
+      @include font(40);
     }
 
     @include mq($desktop) {
-      @include font(40, 44);
+      @include font(50);
     }
 
   }//h1
