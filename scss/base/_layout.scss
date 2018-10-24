@@ -1,20 +1,27 @@
 #content-main {
 
   .content-rightcol {
-    display: flex;
 
-    @supports (display: grid) {
-      display: grid;
-      grid-auto-columns: 1fr 220px;
+    @include mq($tablet) {
+      display: flex;
+
+      @supports (display: grid) {
+        display: grid;
+        grid-auto-columns: 1fr 220px;
+      }
     }
 
   }
 
   .content-column {
-    width: auto;
 
-    @supports (display: grid) {
-      grid-column: 1;
+    @include mq($tablet) {
+      width: auto;
+
+      @supports (display: grid) {
+        grid-column: 1;
+      }
+
     }
 
     &#main-content {
@@ -29,9 +36,13 @@
 
   .related-column {
 
-    @supports (display: grid) {
-      grid-column: 2;
-      width: auto;
+    @include mq($tablet) {
+
+      @supports (display: grid) {
+        grid-column: 2;
+        width: auto;
+      }
+
     }
 
   }

@@ -28,15 +28,16 @@ $martini: #BCAAA4;
 // Breakpoints ////////////////////////////////////
 
 // Minimum Width Breakpoints
-$mobile: 'screen and (max-width: 767px)';
-$tablet: 'screen and (min-width: 768px)';
+$mobile: 'screen and (max-width: 639px)';
+$tablet: 'screen and (min-width: 640px)';
+$ipad: 'screen and (min-width: 768px)';
 $desktop: 'screen and (min-width: 960px)';
 
 // Maximum Width Breakpoints
 $tablet-max: 'screen and (max-width: 959px)';
 
 // Min/Max Width Breakpoints
-$tablet-only: 'screen and (min-width: 768px) and (max-width: 959px)';
+$tablet-only: 'screen and (min-width: 640px) and (max-width: 959px)';
 
 
 
