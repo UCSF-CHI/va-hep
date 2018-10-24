@@ -1,8 +1,19 @@
 #content-main {
-  margin: 0 rem(40);
+  margin: 0 $gutter-margin;
+
+  @include mq($tablet) {
+    margin: 0 40px;
+  }
+
+
 
   .intro {
-    margin: rem(40) 0;
+    margin: rem(20) 0;
+
+    @include mq($tablet) {
+      margin: 40px 0;
+    }
+
   }
 
 }//#content-main

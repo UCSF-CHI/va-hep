@@ -31,14 +31,6 @@
       @include font(40, 44);
     }
 
-    @include mq($desktop-med) {
-      @include font(44, 48);
-    }
-
-    @include mq($desktop-plus) {
-      @include font(46, 50);
-    }
-
   }//h1
 
   h2 {
@@ -53,11 +45,6 @@
     @include mq($desktop) {
       margin-top: rem(42);
       @include font(32, 36);
-    }
-
-    @include mq($desktop-plus) {
-      margin-top: rem(50);
-      @include font(36, 40);
     }
 
   }//h2
@@ -76,10 +63,6 @@
     @include mq($desktop) {
       margin-top: rem(36);
       @include font(28, 38);
-    }
-
-    @include mq($desktop-plus) {
-      margin-top: rem(40);
     }
 
   }//h3
@@ -147,10 +130,6 @@
 
     @include mq($desktop) {
       @include margin(rem(20) null);
-    }
-
-    @include mq($desktop-plus) {
-      @include margin(rem(24) null);
     }
 
   }//li

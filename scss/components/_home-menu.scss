@@ -1,75 +1,97 @@
 #content-main {
 
   .home-intro {
-    margin-top: rem(20);
+    margin-top: rem(10);
+
+    @include mq($tablet) {
+      margin-top: rem(20);
+    }
+
   }
 
   .home-menu {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
     margin-bottom: rem(40);
+
+    @include mq($tablet) {
+      margin-top: rem(20);
+
+      @supports (display: grid) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 40px;
+        grid-column-gap: 40px;
+      }
+
+    }
 
     nav {
       @include clearfix;
-      flex: 1;
       border-bottom: solid 3px;
-      padding: rem(20) rem(40) rem(40);
+      padding: rem(24) rem(20) rem(40);
+
+      @include mq($tablet) {
+        padding: rem(24) rem(40) rem(40);
+      }
 
       h3 {
-        @include font(30, 34);
+        @include font(24, 30);
         margin: 0 0 rem(26);
+
+        @include mq($tablet) {
+          @include font(30, 34);
+        }
+
+      }
+
+      &:first-child {
+
+        background: $bianca;
+        border-color: $martini;
+        margin-bottom: rem(20);
+
+        @include mq($tablet) {
+          grid-column: 1 / 2;
+          grid-row: 1;
+        }
+
+      }
+
+      &:nth-child(2) {
+        background: $alice-blue;
+        border-color: $maya-blue;
+
+        @include mq($tablet) {
+          grid-column: 2;
+          grid-row: 1 / 3;
+        }
+
+      }
+
+      &:last-child {
+
+        background: $white-smoke;
+        border-color: $silver;
+        margin-top: rem(20);
+
+        @include mq($tablet) {
+          grid-column: 1 / 2;
+          grid-row: 2;
+        }
+
       }
 
     }//nav
 
     ul {
       @include no-bullet;
-
-      li {
-
-        @include font(18, 20);
-        margin: rem(22) 0;
-      }
     }
 
-    .column {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
+    p,
+    li {
+      @include font(18, 20);
+      margin: rem(22) 0;
+    }
 
-      &:first-child {
-        margin-right: rem(20);
-
-        nav {
-
-          &:first-child {
-            background: $bianca;
-            border-color: $martini;
-            margin-bottom: rem(20);
-          }
-
-          &:last-child {
-            background: $white-smoke;
-            border-color: $silver;
-            margin-top: rem(20);
-          }
-
-        }
-      }
-
-      &:last-child {
-        margin-left: rem(20);
-
-        nav {
-          flex: 2;
-          background: $alice-blue;
-          border-color: $maya-blue;
-        }
-
-      }
-
-    }//.column
 
   }//.home-menu
 

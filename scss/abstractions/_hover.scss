@@ -1,8 +1,7 @@
 @mixin hover() {
-  html.pointerevents &:focus,
-  html.pointerevents &:active,
-  html.pointerevents &:hover {
-    @include transition;
+  &:focus,
+  &:active,
+  &:hover {
     @content;
   }
 }
