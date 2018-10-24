@@ -7,12 +7,11 @@
        }
    ],
    "liveSassCompile.settings.excludeList": [
-      "**/node_modules/**",
       ".vscode/**",
-
-   ],
-   "liveSassCompile.settings.includeItems": [
-       "scss/styles.scss"
+      ".editorconfig",
+      ".gitignore",
+      ".README.md",
+      "*.html"
    ],
    "liveSassCompile.settings.generateMap": true,
    "liveSassCompile.settings.autoprefix": [

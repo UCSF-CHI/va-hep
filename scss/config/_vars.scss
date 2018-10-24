@@ -1,0 +1,57 @@
+
+// Colors ////////////////////////////////////////  - http://www.color-blindness.com/color-name-hue/
+
+// globals
+$white: #fff;
+$black: #000;
+$nero: #212121; // main text color
+
+// grays
+$silver: #B5B5B5;
+$white-smoke: #EFEFEF;
+
+// blues
+$alice-blue: #EEF7FE;
+$denim: #0C78C6; // main link color
+$maya-blue: #6ABFFB;
+$prussian-blue: #003F72; // dark link color / hover
+
+// brown & yellows
+$bianca: #F8F1E8;
+$martini: #BCAAA4;
+
+
+
+
+
+// Breakpoints ////////////////////////////////////
+
+// Minimum Width Breakpoints
+$mobile: 'screen and (max-width: 619px)';
+$tablet: 'screen and (min-width: 620px)';
+$ipad: 'screen and (min-width: 768px)';
+$desktop: 'screen and (min-width: 1024px)';
+$desktop-med: 'screen and (min-width: 1212px)';
+$desktop-plus: 'screen and (min-width: 1350px)';
+
+// Maximum Width Breakpoints
+$tablet-max: 'screen and (max-width: 1023px)';
+$desktop-max: 'screen and (max-width: 1279px)';
+
+// Min/Max Width Breakpoints
+$tablet-only: 'screen and (min-width: 620px) and (max-width: 1023px)';
+$desktop-only: 'screen and (min-width: 1024px) and (max-width: 1279px)';
+
+
+
+
+
+// Transitions ////////////////////////////////////
+
+// Durations
+$transition-duration-default: 250ms;
+$transition-duration-fast: 150ms;
+
+// Timing
+$transition-easing-default: ease-in-out;
+

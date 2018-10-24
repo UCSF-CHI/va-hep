@@ -1,4 +1,38 @@
-@import "vars/colors";
+
+// config
+@import "config/vars";
+
+// normalize
+@import "normalize/normalize";
+
+// abstractions
+@import "abstractions/aspect-ratio";
+@import "abstractions/buttons";
+@import "abstractions/centering";
+@import "abstractions/clearfix";
+@import "abstractions/dont-break-out";
+@import "abstractions/font";
+@import "abstractions/grid";
+@import "abstractions/hide-text";
+@import "abstractions/hover";
+@import "abstractions/icon";
+@import "abstractions/lists";
+@import "abstractions/margin-padding";
+@import "abstractions/media-queries";
+@import "abstractions/outline";
+@import "abstractions/rems";
+@import "abstractions/transition";
+@import "abstractions/truncate";
+@import "abstractions/visuallyhidden";
+
+// base
+@import "base/a11y";
+@import "base/layout";
+@import "base/typography";
+
+// objects
+
+// components
 @import "components/home-menu";
 
 

@@ -1,0 +1,203 @@
+// base general typography
+
+#content-main {
+  color: $nero;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  a {
+    cursor: pointer;
+    color: $denim;
+    text-decoration: underline;
+
+    @include hover {
+      color: $prussian-blue;
+      text-decoration: underline;
+    }
+
+  }
+
+  h1 {
+    @include font(26, 30);
+    margin-top: 0;
+
+    @include mq($tablet) {
+      @include font(30, 34);
+    }
+
+    @include mq($desktop) {
+      @include font(40, 44);
+    }
+
+    @include mq($desktop-med) {
+      @include font(44, 48);
+    }
+
+    @include mq($desktop-plus) {
+      @include font(46, 50);
+    }
+
+  }//h1
+
+  h2 {
+    margin-top: rem(30);
+    @include font(24, 28);
+
+    @include mq($tablet) {
+      margin-top: rem(36);
+      @include font(28, 32);
+    }
+
+    @include mq($desktop) {
+      margin-top: rem(42);
+      @include font(32, 36);
+    }
+
+    @include mq($desktop-plus) {
+      margin-top: rem(50);
+      @include font(36, 40);
+    }
+
+  }//h2
+
+
+  h3 {
+    margin: rem(24) 0 rem(8);
+    color: $nero;
+    @include font(20, 28);
+
+    @include mq($tablet) {
+      margin: rem(30) 0 rem(15);
+      @include font(24, 34);
+    }
+
+    @include mq($desktop) {
+      margin-top: rem(36);
+      @include font(28, 38);
+    }
+
+    @include mq($desktop-plus) {
+      margin-top: rem(40);
+    }
+
+  }//h3
+
+  h4 {
+    font-weight: bold;
+    margin: rem(16) 0 rem(8);
+    @include font(18, 24);
+
+    @include mq($tablet) {
+      margin: rem(30) 0 rem(15);
+      @include font(21);
+    }
+
+    @include mq($desktop) {
+      @include font(24);
+    }
+
+  }//h4
+
+  h5,
+  h6 {
+    font-weight: bold;
+    margin: rem(16) 0 rem(8);
+    @include font(14, 20);
+
+    @include mq($tablet) {
+      margin: rem(30) 0 rem(15);
+      @include font(20, 28);
+    }
+
+  }//h4
+
+  p,
+  %p,
+  ul,
+  ol,
+  li {
+    @include margin(rem(24) null);
+    padding: 0;
+    @include font(15, 24);
+
+    @include mq($tablet) {
+      @include margin(rem(28) null);
+      @include font(16, 28);
+    }
+
+    &:first-of-type,
+    &:first-child {
+      margin-top: 0 !important;
+    }
+
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+
+  }//p
+
+  li {
+    @include margin(rem(12) null);
+
+    @include mq($tablet) {
+      @include margin(rem(16) null);
+    }
+
+    @include mq($desktop) {
+      @include margin(rem(20) null);
+    }
+
+    @include mq($desktop-plus) {
+      @include margin(rem(24) null);
+    }
+
+  }//li
+
+  ul,
+  ol {
+
+    li {
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+    }
+
+  }
+
+  strong {
+    font-weight: bold;
+  }//strong
+
+  blockquote {
+    position: relative;
+    padding: 0 cols(2) 0 cols(2);
+    margin: rem(20) 0;
+    @include font(18, 24);
+    font-style: italic;
+
+    @include mq($tablet) {
+      @include font(30, 36);
+      margin: rem(20) 0 rem(36);
+    }
+
+    @include mq($desktop) {
+      @include font(36, 43);
+      margin: rem(40) 0 rem(46);
+    }
+
+    p {
+      @include font(18, 24);
+
+      @include mq($tablet) {
+        @include font(30, 36);
+      }
+
+    }//p
+
+  }//blockquote
+
+}//#content-main
