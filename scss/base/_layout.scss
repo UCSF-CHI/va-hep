@@ -28,7 +28,7 @@
       padding: 0 $gutter-margin;
 
       @include mq($tablet) {
-        padding: 0 40px;
+        padding: 0 50px;
       }
     }
 
@@ -49,11 +49,6 @@
 
   .intro {
     margin: rem(20) 0;
-
-    @include mq($tablet) {
-      margin: 40px 0;
-    }
-
   }
 
 }//#content-main

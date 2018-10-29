@@ -1,15 +1,7 @@
-#content-main {
+.home-menu {
 
-  .home-intro {
-    margin-top: rem(10);
-
-    @include mq($tablet) {
-      margin-top: rem(20);
-    }
-
-  }
-
-  .home-menu {
+  // base inside of #content-main
+  #content-main & {
     margin-bottom: rem(40);
 
     @include mq($tablet) {
@@ -93,6 +85,15 @@
     }
 
 
-  }//.home-menu
+  }//#content-main &
 
-}//#content-main
+}//.home-menu
+
+.home-intro {
+  margin-top: rem(10);
+
+  @include mq($tablet) {
+    margin-top: rem(20);
+  }
+
+}//.home-intro

@@ -13,6 +13,13 @@
   list-style: none;
   padding: 0;
   margin: 0;
+
+  > li {
+    list-style: none;
+    @include padding(0 0 null 0);
+    @include margin(0 0 null 0);
+  }
+
 }
 
 @mixin add-bullet {
@@ -30,41 +37,29 @@
 
 }
 
-@mixin border-list {
+@mixin fat-bullets($color: $maya-blue) {
+  @include no-bullet;
 
-  > ul {
+  > li {
+    position: relative;
 
-    > li {
-      @include clearfix;
-      border-bottom: solid 1px $gallery;
-      @include margin(rem(20) null);
-      @include padding(0 null rem(20));
+    &::before {
+      position: absolute;
+      top: 4px;
+      left: 0;
+      display: block;
+      content: '';
+      width: 10px;
+      height: 10px;
+      background-color: $color;
+    }
 
-      @include mq($desktop) {
-        @include margin(rem(24) null);
-        @include padding(0 null rem(24));
-      }
+    a {
+      display: block;
+      padding-left: 28px;
+    }
 
-      @include mq($desktop-plus) {
-        @include margin(rem(30) null);
-        @include padding(0 null rem(30));
-      }
 
-      &:last-child {
-        border-bottom: 0;
-        padding-bottom: 0;
-      }
+  }//> li
 
-      .image-left {
-
-        @include mq($tablet) {
-          padding-bottom: 0;
-        }
-
-      }
-
-    }//> li
-
-  }//> ul
-
-}//@include border-list
+}//@fat-bullets
