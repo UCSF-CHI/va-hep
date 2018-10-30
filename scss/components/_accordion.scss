@@ -44,43 +44,45 @@
           display: none;
         }
 
-        > a {
+        > h3 {
           display: flex !important;
+          overflow: hidden;
           align-items: center;
           height: 64px;
           width: 100%;
-          padding-left: 70px;
-          color: $prussian-blue;
-          text-decoration: none;
-          background: $alice-blue url($images-path + 'icon-arrow-button.svg') no-repeat right 11px center;
-
-          @include mq($mobile) {
-            background-image: none;
-          }
+          margin: 0;
+          padding: 0 rem(11) 0 0;
+          font-family: $georgia;
+          @include font(18, 20);
+          background: $alice-blue;
 
           @include mq($tablet) {
-            display: block !important;
-            padding-left: 75px;
+            @include font(24, 64);
           }
 
-          @include hover {
-            background-image: url($images-path + 'icon-arrow-button-hover.svg');
-          }
-
-          h3 {
-            margin: 0;
-            padding: 0;
-            font-family: $georgia;
+          > a {
+            display: block;
             color: $prussian-blue;
-            @include font(20, 22);
+            text-decoration: none;
+            margin-left: 70px;
+            width: 100%;
+            background: $alice-blue url($images-path + 'icon-arrow-button.svg') no-repeat right center;
 
-            @include mq($tablet) {
-              @include font(24, 64);
+            @include mq($mobile) {
+              background-image: none;
             }
 
-          }
+            @include mq($tablet) {
+              margin-left: 75px;
+            }
 
-        }
+            @include hover {
+              background-image: url($images-path + 'icon-arrow-button-hover.svg');
+            }
+
+          } //a
+
+        }// > h3
 
         > button {
           display: none;
@@ -121,7 +123,8 @@
 
         &.patients {
 
-          > a {
+          > h3,
+          > h3 > a {
             background-color: $bianca;
           }
 
@@ -168,8 +171,8 @@
         // if no submenu
         &.no-submenu {
 
-          > a {
-            padding-left: 20px;
+          > h3 > a {
+            margin-left: 20px;
           }
 
           > button {
