@@ -1,102 +1,155 @@
-  .accordion-menu {
-    @include clearfix;
-    margin-bottom: rem(20);
+.accordion-menu {
+  @include clearfix;
+  margin-bottom: rem(20);
 
-    @include mq($tablet) {
-      margin-bottom: rem(40);
-    }
+  @include mq($tablet) {
+    margin-bottom: rem(40);
+  }
 
-    // base inside of #content-main
-    #content-main & {
+  // base inside of #content-main
+  #content-main & {
 
     .expand-all {
       @include remove-button-styles;
       float: right;
-      margin: 0 rem(11) rem(16);
-      @include font(16, 16);
+      margin: 0 0 rem(16);
+      @include font(14, 14);
       font-weight: bold;
-    }
 
-    nav {
-      clear: both;
-
-      // hide title
-      h2 {
-        @include visually-hidden;
+      @include mq($tablet) {
+        @include font(16);
       }
 
-      > ul {
-        @include no-bullet;
-        @include clearfix;
+      span {
+        @include font(20);
+      }
 
-        > li {
-          position: relative;
-          margin-bottom: rem(10);
+    }//.expand-all
 
-          &::before {
-            display: none;
+    // hide title
+    h2 {
+      @include visually-hidden;
+    }
+
+    > ul {
+      @include no-bullet;
+      @include clearfix;
+      clear: both;
+
+      > li {
+        position: relative;
+        margin-bottom: rem(10);
+
+        &::before {
+          display: none;
+        }
+
+        > a {
+          display: flex !important;
+          align-items: center;
+          height: 64px;
+          width: 100%;
+          padding-left: 70px;
+          color: $prussian-blue;
+          text-decoration: none;
+          background: $alice-blue url($images-path + 'icon-arrow-button.svg') no-repeat right 11px center;
+
+          @include mq($mobile) {
+            background-image: none;
           }
 
-          > a {
-            display: flex !important;
-            align-items: center;
-            height: 64px;
-            width: 100%;
-            padding-left: 70px;
-            font-family: $georgia;
-            @include font(20, 22);
-            color: $prussian-blue;
-            text-decoration: none;
-            background: $alice-blue url(../images/icon-arrow-button.svg) no-repeat right 11px center;
+          @include mq($tablet) {
+            display: block !important;
+            padding-left: 75px;
+          }
 
-            @include mq($mobile) {
-              background-image: none;
-            }
+          @include hover {
+            background-image: url($images-path + 'icon-arrow-button-hover.svg');
+          }
+
+          h3 {
+            margin: 0;
+            padding: 0;
+            font-family: $georgia;
+            color: $prussian-blue;
+            @include font(20, 22);
 
             @include mq($tablet) {
-              display: block !important;
-              padding-left: 75px;
               @include font(24, 64);
             }
 
           }
 
-          > button {
-            @include remove-button-styles;
-            @include hide-text;
-            position: absolute;
-            top: 10px;
-            left: 11px;
-            z-index: 1;
-            width: 44px;
-            height: 44px;
-            border-radius: 8px;
-            background: rgba($black, 0.10) url(../images/icon-plus.svg) no-repeat center center;
+        }
+
+        > button {
+          display: none;
+        }
+
+        > button {
+          @include remove-button-styles;
+          @include hide-text;
+          display: block;
+          position: absolute;
+          top: 10px;
+          left: 11px;
+          z-index: 1;
+          width: 44px;
+          height: 44px;
+          border-radius: 8px;
+          background: rgba($black, 0.10) url($images-path + 'icon-plus.svg') no-repeat center center;
+
+          &.active {
+            background-image: url($images-path + 'icon-minus.svg');
           }
 
-          &.patients {
+          @include hover {
+            background-color: rgba($black, 0.075);
+          }
 
-            > a {
-              background-color: $bianca;
+          // NO JS, open menu with focus of button
+          html:not(.js-enabled) &:focus {
+            background: red;
+
+            ~ .submenu {
+              display: block;
             }
+
+          }
+
+        }
+
+        &.patients {
+
+          > a {
+            background-color: $bianca;
+          }
+
+          .submenu {
 
             > ul {
               @include fat-bullets($martini);
             }
 
-          }//&.patients
+          }
 
-          // submenu
+        }//&.patients
+
+        // submenu
+        .submenu {
+          display: none;
+          padding: rem(20) rem(12) rem(12) rem(12);
+
+          @include mq($tablet) {
+            padding: rem(30) rem(40) rem(20) rem(45);
+          }
+
           > ul {
-            display: none;
             @include fat-bullets;
-            padding: rem(20) rem(12) rem(12) rem(12) !important;
 
             @include mq($tablet) {
               columns: 2;
-              column-width: 200px;
-              width: 637px;
-              padding: rem(30) rem(40) rem(20) rem(45) !important;
+              width: 100%;
             }
 
             > li {
@@ -110,14 +163,25 @@
 
           }// > ul
 
-        }// > li
+        }//.submenu
 
-      }// > ul
+        // if no submenu
+        &.no-submenu {
 
+          > a {
+            padding-left: 20px;
+          }
 
+          > button {
+            display: none;
+          }
 
-    }//nav
+        }//&.no-submenu
+
+      }// > li
+
+    }// > ul
 
   }//#content-main &
 
-}//.accordion
+}//.accordion-menu

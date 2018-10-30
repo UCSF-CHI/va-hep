@@ -21,6 +21,11 @@
 
   button {
     cursor: default;
+
+    &:focus {
+      outline: 2px dotted #c30000;
+    }
+
   }
 
   h1 {

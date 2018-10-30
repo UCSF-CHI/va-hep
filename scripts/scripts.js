@@ -2,10 +2,10 @@
 var VAHEP = VAHEP || {};
 
 // Global Vars
-var animationSpeed = 250;
+var animationSpeed = 200;
 
 // Tell the DOM that JS is enabled
-document.body.className += ' js-enabled';
+jQuery('html').addClass('js-enabled');
 
 // Detect for Mouse vs. Keyboard events for accessibility helpers
 document.addEventListener('keydown', function (e) {
@@ -39,6 +39,7 @@ VAHEP.accordionMenu = (function ($) {
         $(this).removeClass('active').attr('aria-expanded', 'false');
         $(this).siblings('.submenu').slideUp(animationSpeed);
       }
+
     });
 
     // Expand All Button
@@ -46,7 +47,7 @@ VAHEP.accordionMenu = (function ($) {
 
       if (!$(this).is('.active')) {
 
-        $(this).text('- Collapse all').addClass('active').attr('aria-expanded', 'true');
+        $(this).html('<span>-</span> Collapse all').addClass('active').attr('aria-expanded', 'true');
 
         $accordionMenu.each(function() {
           $(this).find('.toggle').addClass('active').attr('aria-expanded', 'true');
@@ -56,7 +57,7 @@ VAHEP.accordionMenu = (function ($) {
       }
       else {
 
-        $(this).text('+ Expand all').removeClass('active').attr('aria-expanded', 'false');
+        $(this).html('<span>+</span> Expand all').removeClass('active').attr('aria-expanded', 'false');
 
         $accordionMenu.each(function() {
           $(this).find('.toggle').removeClass('active').attr('aria-expanded', 'false');
@@ -65,6 +66,14 @@ VAHEP.accordionMenu = (function ($) {
 
       }
 
+    });
+
+    // if no submenu exists, add class to style differenty
+
+    $($accordionMenu).find('> ul > li').each(function(i) {
+      if (!$(this).find('li').length) {
+        $(this).addClass('no-submenu');
+      }
     });
 
   }

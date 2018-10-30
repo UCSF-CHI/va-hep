@@ -1,0 +1,18 @@
+
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Comps" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hep-C---Level-1---Patients-Expanded" transform="translate(-912.000000, -474.000000)" fill-rule="nonzero">
+            <g id="Box-1" transform="translate(310.000000, 464.000000)">
+                <g id="Arrow" transform="translate(602.000000, 10.000000)">
+                    <g id="arrow-right-solid-(1)">
+                        <rect id="button" fill-opacity="0.075" fill="#000000" x="0" y="0" width="44" height="44" rx="8"></rect>
+                        <path d="M20.3538668,13.406572 L21.4439237,12.3390199 C21.9054793,11.8869934 22.6518246,11.8869934 23.10847,12.3390199 L32.6538333,21.6825052 C33.1153889,22.1345317 33.1153889,22.8654683 32.6538333,23.3126861 L23.10847,32.6609801 C22.6469144,33.1130066 21.9005691,33.1130066 21.4439237,32.6609801 L20.3538668,31.593428 C19.887401,31.1365926 19.8972213,30.3912297 20.3735074,29.9440119 L26.2902578,24.4235173 L12.1784399,24.4235173 C11.5253878,24.4235173 11,23.9089764 11,23.2694069 L11,21.7305931 C11,21.0910236 11.5253878,20.5764827 12.1784399,20.5764827 L26.2902578,20.5764827 L20.3735074,15.0559881 C19.8923111,14.6087703 19.8824908,13.8634074 20.3538668,13.406572 Z" id="Shape" fill="#003F72"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
