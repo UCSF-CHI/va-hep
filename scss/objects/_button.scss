@@ -1,0 +1,40 @@
+// Site specific button mixins
+.button,
+%button {
+
+  // base inside of #content-main
+  #content-main & {
+    display: inline-block;
+    height: auto;
+    padding: rem(15) 20px;
+    font-family: $sans-serif;
+    font-weight: normal;
+    background: $prussian-blue;
+    color: $white;
+    border-radius: 8px;
+    text-align: center;
+    @include font(15);
+    line-height: 1;
+    font-weight: bold;
+    background-clip: padding-box;
+    text-decoration: none;
+    text-transform: none;
+
+    @include mq($tablet) {
+      padding: rem(17) 30px;
+      @include font(18);
+    }
+
+    @include mq($mobile) {
+      width: 100%;
+    }
+
+    @include hover {
+      text-decoration: none;
+      background-color: $denim;
+      color: $white;
+    }
+
+  }//#content-main &
+
+}//.button

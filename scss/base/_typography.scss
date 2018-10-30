@@ -6,6 +6,7 @@
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: $sans-serif;
 
   a {
     cursor: pointer;
@@ -24,6 +25,21 @@
 
     &:focus {
       outline: 2px dotted #c30000;
+    }
+
+  }
+
+  // reusable extends for headers
+  %header-caps {
+    font-family: $sans-serif;
+    text-transform: uppercase;
+    color: $nero;
+    @include font(14);
+    line-height: 1;
+    font-weight: bold;
+
+    @include mq($tablet) {
+      @include font(16);
     }
 
   }

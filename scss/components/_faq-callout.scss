@@ -1,0 +1,48 @@
+.faq-callout {
+  background: $bianca;
+  text-align: center;
+  padding: rem(20);
+  margin: rem(20) 0;
+
+  @include mq($tablet) {
+    padding: rem(40);
+    margin: rem(40) 0;
+  }
+
+  // base inside of #content-main
+  #content-main & {
+
+    h2 {
+      @extend %header-caps;
+      margin: 0 0 rem(24);
+      padding: 0;
+    }
+
+    blockquote,
+    p {
+      border: 0;
+      margin: rem(30) auto;
+      padding: 0;
+      font-weight: bold;
+      @include font(18, 24);
+      font-style: normal;
+
+      @include mq($tablet) {
+        max-width: 70%;
+        @include font(22, 30);
+      }
+
+      a {
+        text-decoration: none;
+
+        @include hover {
+          color: $denim;
+        }
+
+      }//a
+
+    }//p
+
+  }//#content-main &
+
+}//.faq-callout

@@ -20,6 +20,10 @@
         @include font(16);
       }
 
+      @include hover {
+        color: $prussian-blue;
+      }
+
       span {
         @include font(20);
       }
