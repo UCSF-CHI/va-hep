@@ -1,0 +1,90 @@
+.hero {
+
+  // base inside of #content-main
+  #content-main & {
+
+    header {
+      position: relative;
+      height: 254px;
+      padding: $gutter-mobile;
+      background: url($images-path + 'hero-moustache.jpg') center center no-repeat;
+      background-size: cover;
+      margin: 0 (-$gutter-mobile);
+
+      @include mq($tablet) {
+        margin: 0 (-$gutter-desktop);
+        padding: rem(26) $gutter-desktop;
+      }
+
+      @include mq($desktop) {
+        width: 100%;
+        margin: 0;
+      }
+
+      h1 {
+        color: $white;
+        line-height: 1.1;
+
+        span {
+          display: block;
+          color: $vista-white;
+          @include font(36);
+        }
+
+      }//h1
+
+      p {
+        position: absolute;
+        width: 90%;
+        bottom: $gutter-mobile;
+        color: $white;
+
+        @include mq($tablet) {
+          width: 50%;
+        }
+
+      }
+
+    }//header
+
+    footer {
+      background: $bianca;
+      margin: 0 (-$gutter-mobile);
+      padding: $gutter-mobile;
+
+      @include mq($tablet) {
+        margin: 0 (-$gutter-desktop);
+        padding: rem(30) $gutter-desktop;
+      }
+
+      @include mq($desktop) {
+        width: 100%;
+        margin: 0;
+      }
+
+      nav {
+
+        h2 {
+          @include visually-hidden;
+        }
+
+        ul {
+          @include no-bullet;
+
+          > li {
+            margin-bottom: rem(26);
+          }
+
+          h3 {
+            margin: 0 0 rem(4);
+          }
+
+        }//ul
+
+      }//nav
+
+    }//footer
+
+  }//#content-main &
+
+}//.hero

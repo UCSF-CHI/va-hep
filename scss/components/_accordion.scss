@@ -1,9 +1,9 @@
 .accordion-menu {
   @include clearfix;
-  margin-bottom: rem(20);
+  margin-bottom: $gutter-mobile;
 
   @include mq($tablet) {
-    margin-bottom: rem(40);
+    margin-bottom: $gutter-desktop;
   }
 
   // base inside of #content-main

@@ -25,10 +25,10 @@
     }
 
     &#main-content {
-      padding: 0 $gutter-margin;
+      padding: 0 $gutter-mobile;
 
       @include mq($tablet) {
-        padding: 0 50px;
+        padding: 0 $gutter-desktop;
       }
     }
 

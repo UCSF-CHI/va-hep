@@ -80,17 +80,11 @@
 
   h3 {
     margin: rem(24) 0 rem(8);
-    color: $nero;
-    @include font(20, 28);
+    @include font(18, 24);
 
     @include mq($tablet) {
       margin: rem(30) 0 rem(15);
-      @include font(24, 34);
-    }
-
-    @include mq($desktop) {
-      margin-top: rem(36);
-      @include font(28, 38);
+      @include font(22, 30);
     }
 
   }//h3
@@ -151,13 +145,10 @@
 
   li {
     @include margin(rem(12) null);
+    padding-bottom: 0 !important;
 
     @include mq($tablet) {
       @include margin(rem(16) null);
-    }
-
-    @include mq($desktop) {
-      @include margin(rem(20) null);
     }
 
   }//li
@@ -208,3 +199,14 @@
   }//blockquote
 
 }//#content-main
+
+/////////overrides//////////////
+
+#tier4innerContent li {
+  line-height: 1.6 !important;
+
+  @include mq($tablet) {
+    line-height: 1.75 !important;
+  }
+
+}

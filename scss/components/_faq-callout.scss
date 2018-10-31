@@ -1,12 +1,12 @@
 .faq-callout {
   background: $bianca;
   text-align: center;
-  padding: rem(20);
-  margin: rem(20) 0;
+  padding: $gutter-mobile;
+  margin: $gutter-mobile 0;
 
   @include mq($tablet) {
-    padding: rem(40);
-    margin: rem(40) 0;
+    padding: $gutter-desktop;
+    margin: $gutter-desktop 0;
   }
 
   // base inside of #content-main

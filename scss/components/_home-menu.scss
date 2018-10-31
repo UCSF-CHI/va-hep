@@ -2,16 +2,16 @@
 
   // base inside of #content-main
   #content-main & {
-    margin-bottom: rem(40);
+    margin-bottom: $gutter-desktop;
 
     @include mq($tablet) {
-      margin-top: rem(20);
+      margin-top: $gutter-mobile;
 
       @supports (display: grid) {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 40px;
-        grid-column-gap: 40px;
+        grid-column-gap: $gutter-desktop;
+        grid-column-gap: $gutter-desktop;
       }
 
     }
@@ -19,10 +19,10 @@
     nav {
       @include clearfix;
       border-bottom: solid 3px;
-      padding: rem(24) rem(20) rem(40);
+      padding: rem(24) $gutter-mobile rem(30);
 
       @include mq($tablet) {
-        padding: rem(24) rem(40) rem(40);
+        padding: rem(24) $gutter-desktop $gutter-desktop;
       }
 
       h3 {
@@ -39,7 +39,7 @@
 
         background: $bianca;
         border-color: $martini;
-        margin-bottom: rem(20);
+        margin-bottom: $gutter-mobile;
 
         @include mq($tablet) {
           grid-column: 1 / 2;
@@ -63,7 +63,7 @@
 
         background: $white-smoke;
         border-color: $silver;
-        margin-top: rem(20);
+        margin-top: $gutter-mobile;
 
         @include mq($tablet) {
           grid-column: 1 / 2;
@@ -93,7 +93,7 @@
   margin-top: rem(10);
 
   @include mq($tablet) {
-    margin-top: rem(20);
+    margin-top: $gutter-mobile;
   }
 
 }//.home-intro
