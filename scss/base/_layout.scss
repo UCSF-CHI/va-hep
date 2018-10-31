@@ -1,3 +1,8 @@
+#container,
+#container1 {
+  background-image: none !important;  //override background of sidebar
+}
+
 #content-main {
 
   .content-rightcol {
@@ -35,6 +40,7 @@
   }
 
   .related-column {
+    background: $white-smoke;
 
     @include mq($tablet) {
 
