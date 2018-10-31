@@ -50,11 +50,11 @@
     footer {
       background: $bianca;
       margin: 0 (-$gutter-mobile);
-      padding: $gutter-mobile;
+      padding: rem(30) $gutter-mobile;
 
       @include mq($tablet) {
         margin: 0 (-$gutter-desktop);
-        padding: rem(30) $gutter-desktop;
+        padding: rem(30) $gutter-desktop rem(36);
       }
 
       @include mq($desktop) {

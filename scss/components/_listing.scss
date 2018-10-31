@@ -1,0 +1,70 @@
+// Site specific listing mixins
+.listing {
+  margin: rem(40) 0;
+
+  @include mq($tablet) {
+    margin-top: rem(50);
+  }
+
+  // base inside of #content-main
+  #content-main & {
+
+    nav {
+      margin: rem(40) 0;
+
+      @include mq($tablet) {
+        margin: rem(30) 0;
+      }
+
+      h2 {
+        @extend %header-caps;
+      }
+
+    }
+
+    ul {
+      @include fat-bullets;
+
+      &.cols-2 {
+
+        @include mq($tablet) {
+          columns: 2;
+
+          > li {
+            display: inline-block;
+          }
+
+        }
+
+      }//&.cols-2
+
+      &.cols-3 {
+
+        @include mq($tablet) {
+          columns: 3;
+
+          > li {
+            display: inline-block;
+          }
+
+        }
+
+      }//&.cols-3
+
+    }// ul
+
+  }//#content-main &
+
+  &.patient {
+
+    #content-main & {
+
+      ul {
+        @include fat-bullets($martini);
+      }
+
+    }
+
+  }//&.patient
+
+}//.listing
