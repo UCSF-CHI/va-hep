@@ -52,13 +52,17 @@
       width: 10px;
       height: 10px;
       background-color: $color;
+
+      .patients & {
+        background-color: $martini;
+      }//&.patient
+
     }
 
     a {
-      display: block;
+      display: inline-block !important;
       padding-left: 28px;
     }
-
 
   }//> li
 

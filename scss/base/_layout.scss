@@ -1,6 +1,11 @@
 #container,
 #container1 {
   background-image: none !important;  //override background of sidebar
+  padding-bottom: 0;
+}
+
+#tier4innerContent {
+  position: relative;
 }
 
 #content-main {
@@ -42,6 +47,10 @@
   .related-column {
     background: $white-smoke;
 
+    @include mq($mobile) {
+      min-height: auto;
+    }
+
     @include mq($tablet) {
 
       @supports (display: grid) {
@@ -49,6 +58,24 @@
         width: auto;
       }
 
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: $white-smoke;
+        width: 220px;
+        height: 200px;
+      }
+
+    }
+
+    .patients & {
+      background: $bianca;
+
+      &::after {
+        background: $bianca;
+      }
     }
 
   }

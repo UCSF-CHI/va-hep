@@ -46,12 +46,31 @@
 
   }
 
+  %h1-large {
+    margin: 0 0 rem(20);
+    @include font(30);
+
+    span {
+      @include font(20);
+    }
+
+    @include mq($tablet) {
+      margin-top: rem(-10);
+      margin-bottom: rem(30);
+      @include font(50);
+
+      span {
+        @include font(36);
+      }
+
+    }
+  }
+
   h1 {
-    margin-top: 0;
     color: $nero;
     @include font(30);
     letter-spacing: -0.015em;
-    line-height: 1.1;
+    line-height: 1.2;
 
     span {
       display: block;
@@ -60,12 +79,26 @@
     }
 
     @include mq($tablet) {
-      @include font(40);
+      margin-top: rem(-8);
+      @include font(36);
+
+      span {
+        @include font(26);
+      }
+
     }
 
-    @include mq($desktop) {
-      @include font(50);
+    .level-1 & {
+      @extend %h1-large;
     }
+
+    .patients & {
+
+      span {
+        color: $pale-oyster;
+      }
+
+    }//.patients &
 
   }//h1
 

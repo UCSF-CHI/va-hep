@@ -55,16 +55,4 @@
 
   }//#content-main &
 
-  &.patient {
-
-    #content-main & {
-
-      ul {
-        @include fat-bullets($martini);
-      }
-
-    }
-
-  }//&.patient
-
 }//.listing

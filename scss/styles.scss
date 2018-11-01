@@ -21,6 +21,7 @@
 @import "abstractions/media-queries";
 @import "abstractions/outline";
 @import "abstractions/rems";
+@import "abstractions/spacing";
 @import "abstractions/transition";
 @import "abstractions/truncate";
 @import "abstractions/visuallyhidden";
@@ -28,11 +29,11 @@
 // base
 @import "base/a11y";
 @import "base/layout";
-@import "base/layout-patients";
 @import "base/typography";
 
 // objects
 @import "objects/button";
+@import "objects/module-nav";
 
 // components
 @import "components/home-menu";

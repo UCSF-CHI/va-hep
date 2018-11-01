@@ -13,7 +13,7 @@
 
       @include mq($tablet) {
         margin: 0 (-$gutter-desktop);
-        padding: rem(26) $gutter-desktop;
+        padding: rem(34) $gutter-desktop;
       }
 
       @include mq($desktop) {
@@ -22,7 +22,18 @@
       }
 
       h1 {
+        @extend %h1-large;
         color: $white;
+
+        span {
+          color: $white;
+
+          .patients & {
+            color: $vista-white;
+          }
+
+        }
+
       }//h1
 
       p {
@@ -40,9 +51,13 @@
     }//header
 
     footer {
-      background: $bianca;
+      background: $white-smoke;
       margin: 0 (-$gutter-mobile);
       padding: rem(30) $gutter-mobile;
+
+      .patients & {
+        background: $bianca;
+      }
 
       @include mq($tablet) {
         margin: 0 (-$gutter-desktop);

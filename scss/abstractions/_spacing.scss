@@ -1,0 +1,8 @@
+@mixin spacing {
+  margin: rem(20) 0;
+
+  @include mq($tablet) {
+    margin: rem(40) 0;
+  }
+
+}//spacing
