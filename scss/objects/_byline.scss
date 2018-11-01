@@ -1,0 +1,15 @@
+.byline {
+  @extend %p;
+  color: $nero;
+  font-weight: normal;
+  font-style: normal;
+
+  .bylinedocsource {
+    font-weight: bold;
+  }
+
+  p {
+    font-style: normal;
+  }
+
+}//.byline
