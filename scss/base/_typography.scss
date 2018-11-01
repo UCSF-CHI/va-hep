@@ -243,11 +243,31 @@
 
 /////////overrides//////////////
 
-#tier4innerContent li {
-  line-height: 1.6 !important;
+#tier4innerContent {
 
-  @include mq($tablet) {
-    line-height: 1.75 !important;
+  li {
+    margin-left: 0;
   }
 
-}
+  .content-column {
+
+    li {
+      line-height: 1.6 !important;
+
+      @include mq($tablet) {
+        line-height: 1.75 !important;
+      }
+
+    }//li
+
+  }//.content-column
+
+  .related-column {
+
+    li {
+      line-height: 1.5 !important;
+    }
+
+  }//.content-column
+
+}//#tier4innerContent

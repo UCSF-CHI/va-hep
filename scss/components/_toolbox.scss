@@ -1,0 +1,24 @@
+.toolbox {
+  margin: rem(14);
+  padding: rem(10);
+  border: 0;
+
+  // base inside of #content-main
+  #content-main & {
+
+    > ul {
+
+      > li {
+        @include font(14);
+
+        a {
+          text-decoration: none;
+        }
+
+      }//> li
+
+    }// > ul
+
+  }//#content-main &
+
+}//.toolbox

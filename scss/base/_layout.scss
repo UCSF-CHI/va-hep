@@ -44,6 +44,8 @@
 
   }
 
+  ////////// sidebar ///////////
+
   .related-column {
     background: $white-smoke;
 
@@ -78,7 +80,12 @@
       }
     }
 
-  }
+    // hide search
+    .searchbox {
+      display: none;
+    }
+
+  }//.related-column
 
   .intro {
     margin: rem(20) 0;
