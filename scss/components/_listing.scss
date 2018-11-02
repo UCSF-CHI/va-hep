@@ -1,25 +1,12 @@
 // Site specific listing mixins
 .listing {
-  margin: rem(40) 0;
-
-  @include mq($tablet) {
-    margin-top: rem(50);
-  }
+  @include spacing;
 
   // base inside of #content-main
   #content-main & {
 
-    nav {
-      margin: rem(40) 0;
-
-      @include mq($tablet) {
-        margin: rem(30) 0;
-      }
-
-      h2 {
-        @extend %header-caps;
-      }
-
+    h2 {
+      @extend %header-caps;
     }
 
     ul {

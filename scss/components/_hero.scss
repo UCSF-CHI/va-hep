@@ -1,4 +1,9 @@
 .hero {
+  margin-bottom: rem(20);
+
+  @include mq($tablet) {
+    margin-bottom: rem(40);
+  }
 
   // base inside of #content-main
   #content-main & {
@@ -22,7 +27,6 @@
       }
 
       h1 {
-        @extend %h1-large;
         color: $white;
 
         span {

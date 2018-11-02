@@ -67,28 +67,34 @@
   }
 
   h1 {
+    margin-top: rem(10);
     color: $nero;
     @include font(30);
     letter-spacing: -0.015em;
     line-height: 1.2;
+    padding: 0;
 
     span {
       display: block;
       color: $empress;
-      @include font(36);
-    }
+      @include font(26);
 
-    @include mq($tablet) {
-      margin-top: rem(-8);
-      @include font(36);
-
-      span {
+      @include mq($tablet) {
         @include font(26);
       }
 
+    }//span
+
+    @include mq($tablet) {
+      @include font(36);
     }
 
-    .level-1 & {
+    @include mq($desktop) {
+      margin-top: rem(-8);
+    }
+
+    .level-1 &,
+    .level-2 & {
       @extend %h1-large;
     }
 
@@ -104,60 +110,59 @@
 
   h2 {
     margin-top: rem(30);
-    @include font(24, 28);
+    padding: 0;
+    @include font(20, 24);
+    color: $nero;
+    letter-spacing: -0.015em;
 
     @include mq($tablet) {
       margin-top: rem(36);
-      @include font(28, 32);
+      @include font(24, 28);
     }
 
-    @include mq($desktop) {
-      margin-top: rem(42);
-      @include font(32, 36);
-    }
 
   }//h2
 
 
   h3 {
     margin: rem(24) 0 rem(8);
-    @include font(18, 24);
+    padding: 0;
+    @include font(18, 22);
+    color: $nero;
 
     @include mq($tablet) {
       margin: rem(30) 0 rem(15);
-      @include font(22, 30);
+      @include font(20, 24);
     }
 
   }//h3
 
   h4 {
-    font-weight: bold;
-    margin: rem(16) 0 rem(8);
-    @include font(18, 24);
+    margin: rem(24) 0 rem(8);
+    padding: 0;
+    @include font(16, 20);
+    color: $nero;
 
     @include mq($tablet) {
       margin: rem(30) 0 rem(15);
-      @include font(21);
-    }
-
-    @include mq($desktop) {
-      @include font(24);
+      @include font(18, 22);
     }
 
   }//h4
 
   h5,
   h6 {
-    font-weight: bold;
-    margin: rem(16) 0 rem(8);
-    @include font(14, 20);
+    margin: rem(24) 0 rem(8);
+    padding: 0;
+    @include font(14, 18);
+    color: $nero;
 
     @include mq($tablet) {
       margin: rem(30) 0 rem(15);
-      @include font(20, 28);
+      @include font(16, 20);
     }
 
-  }//h4
+  }//h5
 
   p,
   %p,
@@ -167,6 +172,7 @@
     @include margin(rem(24) null);
     padding: 0;
     @include font(15, 24);
+    color: $nero;
 
     @include mq($tablet) {
       @include margin(rem(28) null);
@@ -250,6 +256,24 @@
   }
 
   .content-column {
+
+    ul{
+      @include margin(rem(24) null);
+
+      @include mq($tablet) {
+        @include margin(rem(28) null);
+      }
+
+      &:first-of-type,
+      &:first-child {
+        margin-top: 0 !important;
+      }
+
+      &:last-child {
+        margin-bottom: 0 !important;
+      }
+
+    }//ul
 
     li {
       line-height: 1.6 !important;
