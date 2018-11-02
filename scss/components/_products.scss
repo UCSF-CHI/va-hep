@@ -1,0 +1,9 @@
+.products-container,
+.PRODUCTSCONTAINER {
+  border: 0 !important;
+  margin: rem(40) 0 !important;
+
+  @include mq($tablet) {
+    margin: rem(60) 0 !important;
+  }
+}

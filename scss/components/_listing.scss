@@ -1,12 +1,17 @@
 // Site specific listing mixins
-.listing {
+.listing,
+.toc {
   @include spacing;
+  @include clearfix;
+  border: 0;
 
   // base inside of #content-main
-  #content-main & {
+  #content-main .content-column & {
 
-    h2 {
+    h2,
+    h3 {
       @extend %header-caps;
+      color: $nero;
     }
 
     p {
@@ -19,6 +24,16 @@
 
     ul {
       @include fat-bullets;
+
+      > li {
+        @include margin(rem(12) null);
+        padding-bottom: 0 !important;
+
+        @include mq($tablet) {
+          @include margin(rem(16) null);
+        }
+
+      }//li
 
       &.cols-2 {
 

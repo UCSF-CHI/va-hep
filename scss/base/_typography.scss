@@ -56,7 +56,7 @@
     }
 
     @include mq($tablet) {
-      margin-top: rem(-10);
+      margin-top: rem(-6);
       margin-bottom: rem(30);
       @include font(50);
 

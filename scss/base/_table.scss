@@ -1,0 +1,107 @@
+// base general typography
+
+#content-main {
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid $very-light-grey;
+    @include margin(rem(22) null);
+    @include font(15);
+    line-height: 1.4;
+
+    @include mq($tablet) {
+      @include font(16);
+    }
+
+    p,
+    li {
+      @include font(15);
+      line-height: 1.4;
+
+      @include mq($tablet) {
+        @include font(16);
+      }
+
+    }//p, li
+
+    tr {
+      @include mq($tablet) {
+        &:nth-child(even) {
+          background-color: $white-smoke;
+
+          td.active {
+            background: $white-smoke;
+          }
+        }
+      }
+    }
+
+    /**
+    * Header Columns
+    */
+    th {
+      margin: 0;
+      background: $white-smoke;
+      border-right: 1px solid $very-light-grey;
+      border-left: 1px solid $very-light-grey;
+      padding: 15px;
+      color: $nero;
+      text-align: left;
+      font-weight: bold;
+
+      a {
+        color: $denim;
+
+        @include hover {
+          color: $prussian-blue;
+          text-decoration: none;
+        }
+
+      }//a
+
+      &.active {
+        background: $white-smoke;
+      }
+
+    }
+
+    /**
+    * Body Cells
+    */
+    td {
+      margin: 0;
+      border-right: 1px solid $very-light-grey;
+      border-left: 1px solid $very-light-grey;
+      padding: 15px;
+
+      &.active {
+        background: $white;
+      }
+
+      p,
+      li,
+      ol,
+      ul,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        line-height: 1.4;
+
+        &:first-of-type {
+          margin-top: 0;
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+      }
+
+    }
+
+  }//table
+
+}//#content-main
