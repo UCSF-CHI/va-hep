@@ -26,6 +26,10 @@
         margin: 0;
       }
 
+      &.basics {
+        background-image: url($images-path + 'hero-cowboy.jpg');
+      }
+
       h1 {
         color: $white;
 

@@ -49,6 +49,7 @@
   %h1-large {
     margin: 0 0 rem(20);
     @include font(30);
+    line-height: 1;
 
     span {
       @include font(20);
@@ -94,7 +95,7 @@
     }
 
     .level-1 &,
-    .level-2 & {
+    .level-2:not(.basics) & {
       @extend %h1-large;
     }
 

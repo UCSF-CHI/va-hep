@@ -3,10 +3,27 @@
   padding: 0;
   @include spacing;
 
-  a {
-    @extend %button;
-  }
+  // base inside of #content-main
+  #content-main & {
 
+    a {
+      @extend %button;
 
+      &:first-child {
+        float: left;
+      }
+
+      &:nth-child(2) {
+        display: none;
+      }
+
+      &:nth-child(3) {
+        display: none;
+        float: right;
+      }
+
+    }//a
+
+  }//#content-main &
 
 }//.module-nav

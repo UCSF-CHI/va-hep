@@ -9,6 +9,14 @@
       @extend %header-caps;
     }
 
+    p {
+
+      @include mq($tablet) {
+        width: 50%;
+      }
+
+    }
+
     ul {
       @include fat-bullets;
 
