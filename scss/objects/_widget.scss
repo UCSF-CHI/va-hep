@@ -1,0 +1,42 @@
+.related-column {
+
+  .widget {
+    @include spacing;
+    padding: 0;
+    float: none;
+    min-width: auto;
+    border: 0;
+    background: none;
+
+    // base inside of #content-main
+    #content-main & {
+
+      .widget-title {
+        padding: 0;
+      }
+
+      h4 {
+        @extend %header-caps;
+        @include font(14);
+        text-align: left;
+        margin-bottom: rem(14);
+      }
+
+      ul {
+
+        li {
+          float: none !important;
+        }
+
+      }//ul
+
+
+    }//#content-main
+
+  }//.widget
+
+}//related-column
+
+.prboxcontent {
+  padding: 0;
+}

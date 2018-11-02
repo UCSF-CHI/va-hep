@@ -290,9 +290,21 @@
   .related-column {
 
     li {
+      @include font(15, 24);
       line-height: 1.5 !important;
-    }
+      margin: rem(16) 0 !important;
+      padding: 0 !important;
 
-  }//.content-column
+      &:first-of-type {
+        margin-top: 0 !important;
+      }
+
+      &:last-of-type {
+        margin-bottom: 0 !important;
+      }
+
+    }//li
+
+  }//.related-column
 
 }//#tier4innerContent

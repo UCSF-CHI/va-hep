@@ -58,6 +58,7 @@
     }
 
     @include mq($tablet) {
+      padding: 0 rem(14);
 
       @supports (display: grid) {
         grid-column: 2;
