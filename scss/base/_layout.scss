@@ -5,7 +5,21 @@
 }
 
 #tier4innerContent {
+  float: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: initial;
   position: relative;
+}
+
+#innerContentWrapper {
+  background: transparent;
+}
+
+/* REMOVING PAGE TITLE */
+h2.page-title {
+	display: none;
 }
 
 #content-main {
@@ -100,4 +114,9 @@
 
 .top_link {
   @include font(15);
+  margin-top: rem(20);
+
+  @include mq($tablet) {
+    margin-top: rem(40);
+  }
 }

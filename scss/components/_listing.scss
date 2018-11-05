@@ -26,11 +26,11 @@
       @include fat-bullets;
 
       > li {
-        @include margin(rem(12) null);
+        @include margin(0 null rem(12));
         padding-bottom: 0 !important;
 
         @include mq($tablet) {
-          @include margin(rem(16) null);
+          @include margin(0 null rem(16));
         }
 
       }//li
