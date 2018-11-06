@@ -35,7 +35,12 @@
           }
         }
       }
-    }
+
+      &.colorrow {
+        border-color: $very-light-grey;
+      }
+
+    }//tr
 
     /**
     * Header Columns
@@ -102,11 +107,118 @@
 
     }
 
-  }//table
+    /**
+    * Mobile only
+    */
+    &.mobile {
 
-  .datatable td,
-  .datatable th {
-    border-color: $very-light-grey;
-  }
+      @include mq($mobile) {
+        border: 0;
+        border-top: 1px solid $very-light-grey;
+
+        tr {
+          border-bottom: 1px solid #ddd;
+          display: block;
+
+          &.colorrow {
+            background: transparent;
+            border-top: 0;
+          }
+
+        }//tr
+
+        // hide first Table Row (1 of following 3 options)
+        > tr:first-of-type {
+          display: none;
+        }
+
+        > thead {
+          > tr:first-of-type {
+          display: none;
+          }
+        }
+
+        > tbody:only-child {
+          > tr:first-of-type {
+          display: none;
+          }
+        }
+
+        td {
+          border-bottom: 1px solid #ddd;
+          display: block;
+          text-align: left;
+
+          &::before {
+            content: attr(data-label) '\003A\00a0';
+            float: left;
+          }
+
+          &:last-child {
+            border-bottom: 0;
+          }
+
+          &:first-child {
+            background-color: $white-smoke;
+            color: $nero;
+            font-weight: bold;
+
+            &::before {
+              display: none;
+            }
+
+          }
+
+          &:not(:first-child) {
+
+            p,
+            ul,
+            ol,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+
+              &:only-child,
+              &:first-child {
+                margin-top: rem(30) !important;
+              }
+
+            }
+
+          }//:not(:first-child)
+
+          ul,
+          ol {
+            padding-left: rem(20);
+          }
+
+        }//td
+
+        &.datatable {
+
+          td,
+          th {
+            border-top: 0;
+          }
+
+        }//&.datatable
+
+      }//mobile
+
+    }//&.mobile
+
+    &.datatable {
+
+      td,
+      th {
+      border-color: $very-light-grey;
+      }
+
+    }//&.datatable
+
+  }//table
 
 }//#content-main

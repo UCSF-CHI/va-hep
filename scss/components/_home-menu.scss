@@ -84,16 +84,21 @@
       margin: rem(22) 0;
     }
 
-
   }//#content-main &
 
 }//.home-menu
 
 .home-intro {
-  margin-top: rem(10);
 
-  @include mq($tablet) {
-    margin-top: $gutter-mobile;
-  }
+  // base inside of #content-main
+  #content-main & {
+    margin-top: 0;
+
+    @include mq($tablet) {
+      margin-top: rem(10);
+      margin-bottom: rem(30);
+    }
+
+  }//#content-main &
 
 }//.home-intro

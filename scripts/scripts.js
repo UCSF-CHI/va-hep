@@ -83,3 +83,36 @@ VAHEP.accordionMenu = (function ($) {
   }
 
 })(jQuery);
+
+// Responsive Tables, Use data attribute
+VAHEP.respsonsiveTables = (function ($) {
+
+  function init(){
+
+    var $table = $('table.mobile');
+
+    $table.each(function() {
+
+      var headertext = [];
+      var $headers = $(this).find('tr:first-child td, tr:first-child th');
+      var $tableRow = $(this).find('tr');
+
+      $headers.each(function(i) {
+        headertext.push($(this).text().trim());
+      });
+
+      $tableRow.each(function() {
+        $(this).find('td').each(function(i) {
+          $(this).attr('data-label', headertext[i]);
+        });
+      });
+
+    });
+
+  }
+
+  if($('table.mobile').length) {
+    init();
+  }
+
+})(jQuery);
