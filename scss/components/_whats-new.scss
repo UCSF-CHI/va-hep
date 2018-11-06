@@ -1,0 +1,62 @@
+.whats-new {
+
+  // base inside of #content-main
+  #content-main .content-column & {
+    @include no-bullet;
+    margin: 0;
+    padding: 0;
+    @include spacing;
+
+    > li {
+      @include clearfix;
+      overflow: hidden;
+      @include spacing;
+      padding: $gutter-mobile;
+      background: $white-smoke;
+      border-bottom: solid 3px $silver;
+
+      @include mq($tablet) {
+        padding: rem(30) $gutter-desktop rem(50) $gutter-desktop;
+      }
+
+      &.patients {
+        background-color: $bianca;
+        border-color: $martini;
+      }//&.patients
+
+    }// >li
+
+    h2,
+    h3,
+    h4,
+    h5 {
+      margin-top: 0;
+      font-family: $sans-serif;
+      font-weight: bold;
+      @include font(16, 20);
+    }
+
+    p,
+    ul,
+    ol,
+    li {
+
+      &:last-child,
+      &:only-child {
+        margin-bottom: rem(24) !important;
+
+        @include mq($tablet) {
+          margin-bottom: rem(28) !important;
+        }
+
+      }
+
+    }//p
+
+    .fat-bullets {
+      @include fat-bullets($silver);
+    }
+
+  }//#content-main &
+
+}//.whats-new

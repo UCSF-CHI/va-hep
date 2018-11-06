@@ -104,4 +104,9 @@
 
   }//table
 
+  .datatable td,
+  .datatable th {
+    border-color: $very-light-grey;
+  }
+
 }//#content-main

@@ -28,6 +28,19 @@ h2.page-title {
     display: none;
   }
 
+  // wide column
+  .content-full {
+
+    &#main-content {
+      padding: 0 $gutter-mobile;
+
+      @include mq($tablet) {
+        padding: 0 $gutter-desktop;
+      }
+    }
+
+  }
+
   .content-rightcol {
 
     @include mq($tablet) {
@@ -42,6 +55,7 @@ h2.page-title {
   }
 
   .content-column {
+    padding: 0;
 
     @include mq($tablet) {
       width: auto;
@@ -104,6 +118,11 @@ h2.page-title {
       display: none;
     }
 
+    // hide browse
+    .browse {
+      display: none;
+    }
+
   }//.related-column
 
   .intro {
@@ -113,10 +132,34 @@ h2.page-title {
 }//#content-main
 
 .top_link {
+  padding-left: $gutter-mobile;
   @include font(15);
   margin-top: rem(20);
 
   @include mq($tablet) {
     margin-top: rem(40);
+    padding-left: $gutter-desktop;
   }
+
+}
+
+// image layout
+.align-left {
+  float: left;
+  margin: 0 10px 28px 0;
+
+  @include mq($tablet) {
+    margin: 0 20px 32px 0;
+  }
+
+}
+
+.align-right {
+  float: right;
+  margin: 0 0 28px 10px;
+
+  @include mq($tablet) {
+    margin: 0 0 32px 20x;
+  }
+
 }
