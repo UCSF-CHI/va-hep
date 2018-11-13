@@ -56,9 +56,11 @@ h2.page-title {
 
   .content-column {
     padding: 0;
+    margin-bottom: rem(40);
 
     @include mq($tablet) {
       width: auto;
+      margin-bottom: 0;
 
       @supports (display: grid) {
         grid-column: 1;
@@ -80,13 +82,14 @@ h2.page-title {
 
   .related-column {
     background: $white-smoke;
+    padding-top: rem(20);
 
     @include mq($mobile) {
       min-height: auto;
     }
 
     @include mq($tablet) {
-      padding: 0 rem(14);
+      padding: rem(10) rem(14);
 
       @supports (display: grid) {
         grid-column: 2;
@@ -103,6 +106,10 @@ h2.page-title {
         height: 200px;
       }
 
+    }
+
+    ul {
+      padding: 0;
     }
 
     .patients & {

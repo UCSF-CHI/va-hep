@@ -1,5 +1,5 @@
 .toolbox {
-  margin: rem(14) 0;
+  @include spacing;
   padding: rem(10);
   border: 0;
 

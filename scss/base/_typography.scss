@@ -1,5 +1,17 @@
 // base general typography
 
+// outer h1 for mobile
+h1 {
+
+  @include mq($mobile) {
+    font-size:  1.5em;
+    color: $nero;
+  }
+
+
+}
+
+
 #content-main {
   color: $nero;
   -webkit-font-smoothing: antialiased;
@@ -49,7 +61,7 @@
   %h1-large {
     margin: 0 0 rem(20);
     @include font(30);
-    line-height: 1;
+    line-height: 1.1;
 
     span {
       @include font(20);

@@ -1,0 +1,59 @@
+.searchbox {
+  border: 0;
+  margin: 0;
+  margin: rem(40) 0;
+
+  @include mq($tablet) {
+    text-align: left;
+    margin: rem(60) 0;
+  }
+
+  label {
+    @extend %header-caps;
+  }
+
+  // base inside of #content-main
+  #content-main & {
+
+    form {
+
+      @include mq($tablet) {
+        text-align: left;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+
+        @include mq($tablet) {
+          display: flex;
+        }
+
+      }
+
+    }//form
+
+  }//#content-main &
+
+  .searchfield {
+    height: auto;
+
+    @include mq($mobile) {
+      margin-bottom: rem(16) !important;
+    }
+
+    @include mq($tablet) {
+      display: flex;
+    }
+
+  }//.searchfield
+
+  .searchbutton {
+
+    @include mq($tablet) {
+      margin-left: rem(40) !important;
+    }
+
+  }//.searchbutton
+
+}//.searchbox

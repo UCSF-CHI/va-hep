@@ -12,7 +12,7 @@
       position: relative;
       height: 254px;
       padding: $gutter-mobile;
-      background: url($images-path + 'hero-moustache.jpg') center center no-repeat;
+      background: url($images-path + 'hero/moustache.jpg') center center no-repeat;
       background-size: cover;
       margin: 0 (-$gutter-mobile);
 
@@ -26,11 +26,66 @@
         margin: 0;
       }
 
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba($prussian-blue, 0.60);
+      }
+
       &.basics {
-        background-image: url($images-path + 'hero-cowboy.jpg');
+        background-image: url($images-path + 'hero/basics.jpg');
+      }
+
+
+      &.ald {
+        background-image: url($images-path + 'hero/alcohol.jpg');
+      }
+
+      &.cirrhosis {
+        background-image: url($images-path + 'hero/doctor-cirrhosis.jpg');
+      }
+
+      &.hep-a {
+        background-image: url($images-path + 'hero/doctor-woman.jpg');
+        h1 {
+          line-height: 1.1;
+        }
+      }
+
+      &.hep-b {
+        background-image: url($images-path + 'hero/doctor-man.jpg');
+        h1 {
+          line-height: 1.1;
+        }
+      }
+
+      &.hep-c {
+        background-image: url($images-path + 'hero/moustache.jpg');
+        h1 {
+          line-height: 1.1;
+        }
+      }
+
+      &.cancer {
+        background-image: url($images-path + 'hero/doctor-patient.jpg');
+      }
+
+      &.transplant {
+        background-image: url($images-path + 'hero/doctor-transplant.jpg');
+      }
+
+      &.nafl {
+        background-image: url($images-path + 'hero/doctor-patient-2.jpg');
       }
 
       h1 {
+        line-height: 1;
+        position: relative;
+        z-index: 1;
         color: $white;
 
         span {
@@ -46,6 +101,7 @@
 
       p {
         position: absolute;
+        z-index: 1;
         width: 90%;
         bottom: $gutter-mobile;
         color: $white;

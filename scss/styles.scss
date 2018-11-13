@@ -21,6 +21,7 @@
 @import "abstractions/margin-padding";
 @import "abstractions/media-queries";
 @import "abstractions/outline";
+@import "abstractions/placeholder";
 @import "abstractions/rems";
 @import "abstractions/spacing";
 @import "abstractions/transition";
@@ -29,6 +30,7 @@
 
 // base
 @import "base/a11y";
+@import "base/forms";
 @import "base/layout";
 @import "base/typography";
 @import "base/table";
@@ -47,5 +49,7 @@
 @import "components/home-menu";
 @import "components/listing";
 @import "components/products";
+@import "components/searchbox";
+@import "components/search-results";
 @import "components/toolbox";
 @import "components/whats-new";

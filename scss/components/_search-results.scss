@@ -1,0 +1,17 @@
+.search-results {
+
+  // base inside of #content-main
+  #content-main & {
+
+    li.result-row {
+      margin-bottom: rem(30) !important;
+    }
+
+  }//#content-main & {
+
+}//.search-results
+
+
+.searchtabs {
+  border: 0 !important;
+}
