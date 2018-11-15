@@ -1987,6 +1987,10 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   padding-left: 1rem;
 }
 
+#content-main .related-column .contentsbox ul.subitems .subitems {
+  margin-left: 1rem;
+}
+
 #content-main .related-column .contentsboxcontent {
   width: 100%;
   margin: 0;
