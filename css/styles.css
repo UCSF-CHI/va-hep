@@ -1820,10 +1820,6 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   background-color: #BCAAA4;
 }
 
-.resources #content-main .accordion-menu > ul > li.patients .submenu > ul > li::before {
-  background-color: #B5B5B5;
-}
-
 #content-main .accordion-menu > ul > li.patients .submenu > ul > li a {
   display: inline-block !important;
   padding-left: 28px;
@@ -1868,15 +1864,11 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   content: '';
   width: 10px;
   height: 10px;
-  background-color: #6ABFFB;
+  background-color: #B5B5B5;
 }
 
 .patients #content-main .accordion-menu > ul > li .submenu > ul > li::before {
   background-color: #BCAAA4;
-}
-
-.resources #content-main .accordion-menu > ul > li .submenu > ul > li::before {
-  background-color: #B5B5B5;
 }
 
 #content-main .accordion-menu > ul > li .submenu > ul > li a {
@@ -2423,17 +2415,12 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   content: '';
   width: 10px;
   height: 10px;
-  background-color: #6ABFFB;
+  background-color: #B5B5B5;
 }
 
 .patients #content-main .content-column .listing ul > li::before, .patients #content-main .content-column
 .toc ul > li::before {
   background-color: #BCAAA4;
-}
-
-.resources #content-main .content-column .listing ul > li::before, .resources #content-main .content-column
-.toc ul > li::before {
-  background-color: #B5B5B5;
 }
 
 #content-main .content-column .listing ul > li a, #content-main .content-column
@@ -2700,10 +2687,6 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 .patients #content-main .content-column .whats-new .fat-bullets > li::before {
   background-color: #BCAAA4;
-}
-
-.resources #content-main .content-column .whats-new .fat-bullets > li::before {
-  background-color: #B5B5B5;
 }
 
 #content-main .content-column .whats-new .fat-bullets > li a {

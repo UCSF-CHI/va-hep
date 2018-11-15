@@ -37,7 +37,7 @@
 
 }
 
-@mixin fat-bullets($color: $maya-blue) {
+@mixin fat-bullets($color: $silver) {
   @include no-bullet;
 
   > li {
@@ -55,10 +55,6 @@
 
       .patients & {
         background-color: $martini;
-      }//&.patient
-
-      .resources & {
-        background-color: $silver;
       }//&.patient
 
     }
