@@ -1937,6 +1937,10 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   text-decoration: none;
 }
 
+#content-main .related-column .contentsbox ul.homeitem li a.homeitemself {
+  color: #212121;
+}
+
 #content-main .related-column .contentsbox ul.homeitem > .expandmenu > a {
   font-weight: bold;
 }

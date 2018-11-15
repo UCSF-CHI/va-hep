@@ -23,6 +23,11 @@
             a {
               display: block;
               text-decoration: none;
+
+              &.homeitemself {
+                color: $nero;
+              }
+
             }
 
           }
