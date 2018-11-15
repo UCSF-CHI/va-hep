@@ -1495,7 +1495,7 @@ h2.page-title {
   color: #fff;
   border-radius: 8px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   line-height: 1;
   font-weight: bold;
   background-clip: padding-box;
@@ -1910,7 +1910,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 #content-main .related-column .contentsbox {
   width: 100%;
-  margin: 0.875rem 0;
+  margin: 0 0 0.875rem 0;
   float: none;
   border: 0;
   background: none;
