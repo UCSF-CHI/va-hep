@@ -45,11 +45,9 @@ h2.page-title {
 
     @include mq($tablet) {
       display: flex;
-
-      @supports (display: grid) {
-        display: grid;
-        grid-auto-columns: 1fr 220px;
-      }
+      display: grid;
+      -ms-grid-columns: 1fr 220px;
+      grid-auto-columns: 1fr 220px;
     }
 
   }
@@ -61,11 +59,7 @@ h2.page-title {
     @include mq($tablet) {
       width: auto;
       margin-bottom: 0;
-
-      @supports (display: grid) {
-        grid-column: 1;
-      }
-
+      grid-column: 1;
     }
 
     &#main-content {
@@ -89,12 +83,9 @@ h2.page-title {
     }
 
     @include mq($tablet) {
-      padding: rem(10) rem(14);
-
-      @supports (display: grid) {
-        grid-column: 2;
-        width: auto;
-      }
+      padding: rem(20) rem(14);
+      grid-column: 2;
+      width: auto;
 
       &::after {
         content: '';

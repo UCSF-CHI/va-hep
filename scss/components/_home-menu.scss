@@ -6,14 +6,10 @@
 
     @include mq($tablet) {
       margin-top: $gutter-mobile;
-
-      @supports (display: grid) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: $gutter-desktop;
-        grid-column-gap: $gutter-desktop;
-      }
-
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      //grid-column-gap: $gutter-desktop;
+      //grid-column-gap: $gutter-desktop;
     }
 
     nav {
@@ -36,7 +32,6 @@
       }
 
       &:first-child {
-
         background: $bianca;
         border-color: $martini;
         margin-bottom: $gutter-mobile;
@@ -44,6 +39,7 @@
         @include mq($tablet) {
           grid-column: 1 / 2;
           grid-row: 1;
+          margin-right: 20px;
         }
 
       }
@@ -55,6 +51,7 @@
         @include mq($tablet) {
           grid-column: 2;
           grid-row: 1 / 3;
+          margin-left: 20px;
         }
 
       }
@@ -68,6 +65,7 @@
         @include mq($tablet) {
           grid-column: 1 / 2;
           grid-row: 2;
+          margin-right: 20px;
         }
 
       }
