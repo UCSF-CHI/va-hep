@@ -64,7 +64,8 @@
             @include font(24, 64);
           }
 
-          > a {
+          > a,
+          > span {
             display: block;
             color: $prussian-blue;
             text-decoration: none;
@@ -85,6 +86,16 @@
             }
 
           } //a
+
+          > span {
+            color: $nero;
+            background-image: none;
+
+            @include hover {
+              background-image: none;
+            }
+
+          }
 
         }// > h3
 
