@@ -89,7 +89,7 @@ VAHEP.respsonsiveTables = (function ($) {
 
   function init(){
 
-    var $table = $('table.mobile');
+    var $table = $('.datatable');
 
     $table.each(function() {
 
@@ -111,7 +111,7 @@ VAHEP.respsonsiveTables = (function ($) {
 
   }
 
-  if($('table.mobile').length) {
+  if($('.datatable').length) {
     init();
   }
 

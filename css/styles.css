@@ -1289,8 +1289,8 @@ h2.page-title {
 
 #content-main table {
   border-collapse: collapse;
-  width: 100%;
   border: 1px solid #ccc;
+  width: 100%;
   margin-top: 1.375rem;
   margin-bottom: 1.375rem;
   font-size: 0.9375rem;
@@ -1316,6 +1316,18 @@ h2.page-title {
 #content-main table li {
   font-size: 0.9375rem;
   line-height: 1.4;
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 @media screen and (min-width: 640px) {
@@ -1325,13 +1337,12 @@ h2.page-title {
   }
 }
 
-@media screen and (min-width: 640px) {
-  #content-main table tr:nth-child(even) {
-    background-color: #EFEFEF;
-  }
-  #content-main table tr:nth-child(even) td.active {
-    background: #EFEFEF;
-  }
+#content-main table tr:nth-child(even) {
+  background-color: #EFEFEF;
+}
+
+#content-main table tr:nth-child(even) td.active {
+  background: #EFEFEF;
 }
 
 #content-main table tr.colorrow {
@@ -1409,74 +1420,99 @@ h2.page-title {
   margin-bottom: 0;
 }
 
+#content-main table tfoot tr {
+  background: #fff;
+}
+
+#content-main table tfoot tr td {
+  border: 0;
+  font-style: italic;
+}
+
 @media screen and (max-width: 639px) {
-  #content-main table.mobile {
+  #content-main table.responsive {
     border: 0;
     border-top: 1px solid #ccc;
   }
-  #content-main table.mobile tr {
+  #content-main table.responsive tr {
     border-bottom: 1px solid #ddd;
     display: block;
   }
-  #content-main table.mobile tr.colorrow {
+  #content-main table.responsive tr:nth-child(even) {
+    background-color: #fff;
+  }
+  #content-main table.responsive tr:nth-child(even) td.active {
+    background: #fff;
+  }
+  #content-main table.responsive tr.colorrow {
     background: transparent;
     border-top: 0;
   }
-  #content-main table.mobile > tr:first-of-type {
+  #content-main table.responsive > tr:first-of-type {
     display: none;
   }
-  #content-main table.mobile > thead > tr:first-of-type {
+  #content-main table.responsive > thead > tr:first-of-type {
     display: none;
   }
-  #content-main table.mobile > tbody:only-child > tr:first-of-type {
+  #content-main table.responsive > tbody:only-child > tr:first-of-type {
     display: none;
   }
-  #content-main table.mobile td {
+  #content-main table.responsive td {
     border-bottom: 1px solid #ddd;
     display: block;
     text-align: left;
+    min-height: 52px;
   }
-  #content-main table.mobile td::before {
+  #content-main table.responsive td::before {
     content: attr(data-label) ": ";
     float: left;
   }
-  #content-main table.mobile td:last-child {
+  #content-main table.responsive td:last-child {
     border-bottom: 0;
   }
-  #content-main table.mobile td:first-child {
+  #content-main table.responsive td:first-child {
     background-color: #EFEFEF;
     color: #212121;
     font-weight: bold;
   }
-  #content-main table.mobile td:first-child::before {
+  #content-main table.responsive td:first-child::before {
     display: none;
   }
-  #content-main table.mobile td:not(:first-child) p:only-child, #content-main table.mobile td:not(:first-child) p:first-child,
-  #content-main table.mobile td:not(:first-child) ul:only-child,
-  #content-main table.mobile td:not(:first-child) ul:first-child,
-  #content-main table.mobile td:not(:first-child) ol:only-child,
-  #content-main table.mobile td:not(:first-child) ol:first-child,
-  #content-main table.mobile td:not(:first-child) h1:only-child,
-  #content-main table.mobile td:not(:first-child) h1:first-child,
-  #content-main table.mobile td:not(:first-child) h2:only-child,
-  #content-main table.mobile td:not(:first-child) h2:first-child,
-  #content-main table.mobile td:not(:first-child) h3:only-child,
-  #content-main table.mobile td:not(:first-child) h3:first-child,
-  #content-main table.mobile td:not(:first-child) h4:only-child,
-  #content-main table.mobile td:not(:first-child) h4:first-child,
-  #content-main table.mobile td:not(:first-child) h5:only-child,
-  #content-main table.mobile td:not(:first-child) h5:first-child,
-  #content-main table.mobile td:not(:first-child) h6:only-child,
-  #content-main table.mobile td:not(:first-child) h6:first-child {
+  #content-main table.responsive td:not(:first-child) p:only-child, #content-main table.responsive td:not(:first-child) p:first-child,
+  #content-main table.responsive td:not(:first-child) ul:only-child,
+  #content-main table.responsive td:not(:first-child) ul:first-child,
+  #content-main table.responsive td:not(:first-child) ol:only-child,
+  #content-main table.responsive td:not(:first-child) ol:first-child,
+  #content-main table.responsive td:not(:first-child) h1:only-child,
+  #content-main table.responsive td:not(:first-child) h1:first-child,
+  #content-main table.responsive td:not(:first-child) h2:only-child,
+  #content-main table.responsive td:not(:first-child) h2:first-child,
+  #content-main table.responsive td:not(:first-child) h3:only-child,
+  #content-main table.responsive td:not(:first-child) h3:first-child,
+  #content-main table.responsive td:not(:first-child) h4:only-child,
+  #content-main table.responsive td:not(:first-child) h4:first-child,
+  #content-main table.responsive td:not(:first-child) h5:only-child,
+  #content-main table.responsive td:not(:first-child) h5:first-child,
+  #content-main table.responsive td:not(:first-child) h6:only-child,
+  #content-main table.responsive td:not(:first-child) h6:first-child {
     margin-top: 1.875rem !important;
   }
-  #content-main table.mobile td ul,
-  #content-main table.mobile td ol {
+  #content-main table.responsive td ul,
+  #content-main table.responsive td ol {
     padding-left: 1.25rem;
   }
-  #content-main table.mobile.datatable td,
-  #content-main table.mobile.datatable th {
+  #content-main table.responsive.datatable td,
+  #content-main table.responsive.datatable th {
     border-top: 0;
+  }
+  #content-main table.responsive tfoot tr {
+    background: #fff;
+    border: 0;
+  }
+  #content-main table.responsive tfoot tr td {
+    background: #fff !important;
+    border: 0;
+    font-weight: normal !important;
   }
 }
 
@@ -1711,7 +1747,8 @@ h2.page-title {
   }
 }
 
-#content-main .accordion-menu > ul > li > h3 > a {
+#content-main .accordion-menu > ul > li > h3 > a,
+#content-main .accordion-menu > ul > li > h3 > span {
   display: block;
   color: #003F72;
   text-decoration: none;
@@ -1721,19 +1758,33 @@ h2.page-title {
 }
 
 @media screen and (max-width: 639px) {
-  #content-main .accordion-menu > ul > li > h3 > a {
+  #content-main .accordion-menu > ul > li > h3 > a,
+  #content-main .accordion-menu > ul > li > h3 > span {
     background-image: none;
   }
 }
 
 @media screen and (min-width: 640px) {
-  #content-main .accordion-menu > ul > li > h3 > a {
+  #content-main .accordion-menu > ul > li > h3 > a,
+  #content-main .accordion-menu > ul > li > h3 > span {
     margin-left: 75px;
   }
 }
 
-#content-main .accordion-menu > ul > li > h3 > a:focus, #content-main .accordion-menu > ul > li > h3 > a:active, #content-main .accordion-menu > ul > li > h3 > a:hover {
+#content-main .accordion-menu > ul > li > h3 > a:focus, #content-main .accordion-menu > ul > li > h3 > a:active, #content-main .accordion-menu > ul > li > h3 > a:hover,
+#content-main .accordion-menu > ul > li > h3 > span:focus,
+#content-main .accordion-menu > ul > li > h3 > span:active,
+#content-main .accordion-menu > ul > li > h3 > span:hover {
   background-image: url("../images/icon-arrow-button-hover.svg");
+}
+
+#content-main .accordion-menu > ul > li > h3 > span {
+  color: #212121;
+  background-image: none;
+}
+
+#content-main .accordion-menu > ul > li > h3 > span:focus, #content-main .accordion-menu > ul > li > h3 > span:active, #content-main .accordion-menu > ul > li > h3 > span:hover {
+  background-image: none;
 }
 
 #content-main .accordion-menu > ul > li > button {
