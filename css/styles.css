@@ -2229,6 +2229,10 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   }
 }
 
+#content-main .hero footer nav {
+  margin: 0;
+}
+
 #content-main .hero footer nav h2 {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -2501,10 +2505,6 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
     -webkit-columns: 2;
             columns: 2;
   }
-  #content-main .content-column .listing ul.cols-2 > li, #content-main .content-column
-  .toc ul.cols-2 > li {
-    display: inline-block;
-  }
 }
 
 @media screen and (min-width: 640px) {
@@ -2512,10 +2512,6 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   .toc ul.cols-3 {
     -webkit-columns: 3;
             columns: 3;
-  }
-  #content-main .content-column .listing ul.cols-3 > li, #content-main .content-column
-  .toc ul.cols-3 > li {
-    display: inline-block;
   }
 }
 
