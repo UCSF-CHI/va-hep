@@ -173,6 +173,7 @@
             > li {
 
               @include mq($tablet) {
+                display: inline-block;
                 @include font(18, 24);
                 margin-bottom: rem(22);
               }
