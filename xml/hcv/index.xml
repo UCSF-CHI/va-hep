@@ -90,9 +90,9 @@
 
               <aside class="faq-callout">
                 <title>Frequently Asked Questions</title>
-                  <ilink-vahep ref="hav/patient/faqs/hav-reversal">If I have hav, is there anything I can do to reverse it?</ilink-vahep>
+                  <ilink-vahep ref="hcv/patient/faqs/reinfection">Can I get reinfected with hepatitis C? </ilink-vahep>
 
-                  <more><ilink-vahep ref="hav/patient/faqs/index" class="button">More Questions</ilink-vahep></more>
+                  <more><ilink-vahep ref="hcv/patient/faqs/index" class="button">More Questions</ilink-vahep></more>
               </aside>
 
 

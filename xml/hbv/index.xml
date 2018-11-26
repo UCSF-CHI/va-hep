@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="hbv/index" pgid="cirrh-00-00" ss="doc" area="" title="Hepatitis B">
+<pg-metatags>
+  <meta-tag name="Creator" content="University of California, San Francisco, Center for HIV Information, HIV InSite" />
+  <meta-tag name="Description" content="Table of contents page for the Hepatitis B program, from the VA National Hepatitis C Program." />
+  <meta-tag name="Keywords" content="Hepatitis B" />
+  <meta-tag name="DateCreated" content="20070129" />
+  <meta-tag name="DateReviewed" content="20130102" />
+  <meta-tag name="Type" scheme="Resource Type" content="Teaching Material" />
+</pg-metatags>
+
+<page-0 pp="pt" title="Hepatitis B">
+
+  <article title="Hepatitis B">
+       <p class="intro">
+                  Hepatitis B virus is passed from person to person through blood, semen, or other body fluid.
+              </p>
+
+              <accordion-menu>
+                <title>Hepatitis B Menu</title>
+                <ul>
+
+                  <li class="patients">
+                    <title><ilink-vahep ref="hbv/patient/index">For Patients</ilink-vahep></title>
+                    <ul>
+                        <li><ilink-vahep ref="hbv/patient/overview">Getting Tested</ilink-vahep></li>
+                        <li><ilink-vahep ref="hbv/patient/treat">Treatment</ilink-vahep></li>
+                        <li><ilink-vahep ref="hbv/patient/prevent">Prevention</ilink-vahep></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <title><ilink-vahep ref="hbv/treatment/medications">Treatment</ilink-vahep></title>
+                  </li>
+
+                  <li>
+                    <title><ilink-vahep xref="www.immunize.org/cdc/schedules">Recommended Vaccination Schedules </ilink-vahep></title>
+                  </li>
+
+                </ul>
+
+              </accordion-menu>
+
+              <aside class="faq-callout">
+                <title>Frequently Asked Questions</title>
+                  <ilink-vahep ref="basics/what-is-hepatitis">What is Hepatitis?</ilink-vahep>
+
+                  <more><ilink-vahep ref="faqs/index" class="button">More Questions</ilink-vahep></more>
+              </aside>
+
+
+  </article>
+
+</page-0>
+
+</pg>
