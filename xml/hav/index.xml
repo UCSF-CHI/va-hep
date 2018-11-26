@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+ 
+<pg id="hav/index" pgid="cirrh-00-00" ss="doc" area="" title="Hepatitis A">
+<pg-metatags> 
+  <meta-tag name="Creator" content="University of California, San Francisco, Center for HIV Information, HIV InSite" />
+  <meta-tag name="Description" content="Table of contents page for the Hepatitis A program, from the VA National Hepatitis C Program." /> 
+  <meta-tag name="Keywords" content="Hepatitis A" />  
+  <meta-tag name="DateCreated" content="20070129" />
+  <meta-tag name="DateReviewed" content="20130102" />
+  <meta-tag name="Type" scheme="Resource Type" content="Teaching Material" />
+</pg-metatags>
+ 
+<page-0 pp="pt" title="Hepatitis A">
+ 
+  <article title="Hepatitis A">
+       <p class="intro">
+                  Hepatitis A is a contagious liver disease that usually spreads through food or water contaminated with the hepatitis A virus or close personal contact with an infected person. In 2018, multiple states reported outbreaks, primarily among people who use injection and non-injection drugs, homeless individuals, and their close direct contacts.
+              </p>    
+  
+              <accordion-menu>
+                <title>Hepatitis A Menu</title>
+                <ul>
+ 
+                  <li class="patients">
+                    <title><ilink-vahep ref="hav/patient/index">For Patients</ilink-vahep></title>
+                    <ul>
+                        <li><ilink-vahep ref="hav/patient/what-it-is">What is hepatitis A? </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/how-spread">How is hepatitis A spread? </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/risks">Who is at risk? </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/symptoms">How will I know if I have it? </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/treatment">What treatments are available?</ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/prevention">How can I prevent it? </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/vaccine-how-works">What is the hepatitis A vaccine? </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/vaccine">Should I get the hepatitis A vaccine? </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/vaccine-get-tested">Do I need to get tested first?  </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/vaccine-side-effects">What are the side effects? </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/vaccine-types">What vaccines are available?  </ilink-vahep></li>
+                        <li><ilink-vahep ref="hav/patient/resources">Resources</ilink-vahep></li>
+                    </ul>
+                  </li>
+ 
+               
+ 
+                  <li>
+                    <title><ilink-vahep sref="www.cdc.gov/hepatitis/outbreaks/2017March-HepatitisA.htm">CDC information on outbreaks </ilink-vahep></title>
+                  </li>
+ 
+                  <li>
+                    <title><ilink-vahep xref="www.immunize.org/cdc/schedules">Recommended Vaccination Schedules </ilink-vahep></title>
+                  </li>
+ 
+                </ul>
+ 
+              </accordion-menu>   
+ 
+              <aside class="faq-callout">
+                <title>Frequently Asked Questions</title>
+                  <ilink-vahep ref="hav/patient/faqs/hav-reversal">If I have hav, is there anything I can do to reverse it?</ilink-vahep>
+                 
+                  <more><ilink-vahep ref="hav/patient/faqs/index" class="button">More Questions</ilink-vahep></more>
+              </aside>
+    
+    
+  </article>
+  
+</page-0>
+ 
+</pg>

@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="hav/index" pgid="cirrh-00-00" ss="doc" area="" title="Hepatitis C">
+<pg-metatags>
+  <meta-tag name="Creator" content="University of California, San Francisco, Center for HIV Information, HIV InSite" />
+  <meta-tag name="Description" content="Table of contents page for the Hepatitis C program, from the VA National Hepatitis C Program." />
+  <meta-tag name="Keywords" content="Hepatitis C" />
+  <meta-tag name="DateCreated" content="20070129" />
+  <meta-tag name="DateReviewed" content="20130102" />
+  <meta-tag name="Type" scheme="Resource Type" content="Teaching Material" />
+</pg-metatags>
+
+<page-0 pp="pt" title="Hepatitis C">
+
+  <article title="Hepatitis C">
+       <p class="intro">
+                  The hepatitis C virus (HCV) is the most common bloodborne disease in the United States. VA has treated and cured more HCV patients than any other large healthcare system.
+              </p>
+
+              <accordion-menu>
+                <title>Hepatitis C Menu</title>
+                <ul>
+
+                  <li class="patients">
+                    <title><ilink-vahep ref="hav/patient/index">For Patients</ilink-vahep></title>
+                    <ul>
+                        <li><ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/treat/index">Treatment</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/success/index">Success Stories</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/sex/index">Sex and Sexuality</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/diet/index">Diet and Nutrition</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/mental/index">Mental Health</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/pain/index">Managing Pain</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/alternative-therapies/index">Alternative and Complementary Therapies</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/healing-arts/index.asp">Healing Arts</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/faqs/index">Frequently asked questions</ilink-vahep></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <title><ilink-vahep ref="hcv/background/index">Background</ilink-vahep></title>
+                    <ul>
+                        <li><ilink-vahep ref="hcv/background/epidemiology">Epidemiology</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/background/natural-history">Natural history</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/background/genotypes">Genotypes</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/background/transmission">Transmission</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/background/acute-HCV">Acute HCV</ilink-vahep></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <title><ilink-vahep ref="hcv/screening-diagnosis/index">Screening and Diagnosis</ilink-vahep></title>
+                    <ul>
+                        <li><ilink-vahep ref="hcv/screening-diagnosis/who-to-test">Who to test</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/screening-diagnosis/laboratory-tests">Laboratory tests</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/screening-diagnosis/screening-algorithm">Steps for diagnosis</ilink-vahep></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <title><ilink-vahep ref="hcv/clinical-management/index">Management</ilink-vahep></title>
+                    <ul>
+                        <li><ilink-vahep ref="hcv/clinical-management/alcohol">Alcohol</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/clinical-management/counseling">Counseling</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/clinical-management/integrated-mental-health-hep">Mental health</ilink-vahep></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <title><ilink-vahep ref="hcv/treatment/index">Treatment</ilink-vahep></title>
+                    <ul>
+                        <li><ilink-vahep ref="hcv/treatment/hcv-treatment-considerations">Treatment considerations</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/liver-fibrosis">Fibrosis testing</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/screening-diagnosis/screening-algorithm">Classification of direct-acting antivirals</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/hiv-coinfection/index">HIV coinfection</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/treatment/alternative-therapies">Alternative medicine</ilink-vahep></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <title><ilink-vahep ref="hcv/education/index">Provider Education</ilink-vahep></title>
+                  </li>
+
+                </ul>
+
+              </accordion-menu>
+
+              <aside class="faq-callout">
+                <title>Frequently Asked Questions</title>
+                  <ilink-vahep ref="hav/patient/faqs/hav-reversal">If I have hav, is there anything I can do to reverse it?</ilink-vahep>
+
+                  <more><ilink-vahep ref="hav/patient/faqs/index" class="button">More Questions</ilink-vahep></more>
+              </aside>
+
+
+  </article>
+
+</page-0>
+
+</pg>

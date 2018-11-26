@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!-- VA Hep -->
+<!-- v4.5 -->
+ 
+<pg id="hcv/patient/index" pgid="index" ss="doc" area="" title="Hepatitis C">
+ 
+<page-0 pp="pt" title="Hepatitis C">
+ 
+    <article>
+         <section-hero class="hep-c">
+         <title>Hepatitis C <span>For Patients</span></title>       
+         <hero-description><p>Get the facts about hepatitis C with our comprehensive health guides.</p></hero-description>
+            
+             <menu>
+                <ul>
+            <li><h3><ilink-vahep ref="hcv/patient/testing">Getting Tested</ilink-vahep></h3><p>What is hepatitis C? Who is at risk? How do you get tested?</p></li>
+            <li><h3><ilink-vahep ref="hcv/patient/diagnosis">Just Diagnosed</ilink-vahep></h3><p>What are your next steps? How to read lab tests? What is a liver biopsy?</p></li>
+            <li><h3><ilink-vahep ref="hcv/patient/treat">Treatment</ilink-vahep></h3><p>What treatments are available? What are the side effects?</p></li>
+            <li><h3><ilink-vahep ref="hcv/patient/success">Success Stories </ilink-vahep></h3><p>Veterans share their stories of living with and beating hepatitis C</p></li>
+        </ul>
+          </menu>           
+          </section-hero>   
+ 
+               <listing>
+                <title>More Patient Guides</title>
+            <ul>
+                <li><ilink-vahep ref="hcv/patient/sex">Sex and Sexuality</ilink-vahep></li> 
+                <li><ilink-vahep ref="hcv/patient/diet">Diet and Nutrition</ilink-vahep></li> 
+                <li><ilink-vahep ref="hcv/patient/mental">Mental Health </ilink-vahep></li>
+                <li><ilink-vahep ref="hcv/patient/pain">Managing Pain </ilink-vahep></li>
+                <li><ilink-vahep ref="hcv/patient/alternative-therapies">Alternative and Complementary Therapies </ilink-vahep></li>
+                <li><ilink-vahep ref="hcv/patient/healing-arts">Healing Arts </ilink-vahep></li>
+            </ul>
+              </listing>
+ 
+    </article>
+    
+</page-0>
+ 
+</pg>
