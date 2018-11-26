@@ -37,7 +37,7 @@
                   </li>
 
                   <li>
-                    <title><ilink-vahep xref="www.immunize.org/cdc/schedules">Recommended Vaccination Schedules </ilink-vahep></title>
+                    <title><ilink-xref ref="www.immunize.org/cdc/schedules">Recommended Vaccination Schedules </ilink-xref></title>
                   </li>
 
                 </ul>
