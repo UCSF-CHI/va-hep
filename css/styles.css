@@ -1354,7 +1354,7 @@ h2.page-title {
   background: #EFEFEF;
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc;
-  padding: 15px;
+  padding: 0.625rem;
   color: #212121;
   text-align: left;
   font-weight: bold;
@@ -1377,7 +1377,7 @@ h2.page-title {
   margin: 0;
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc;
-  padding: 15px;
+  padding: 0.625rem;
 }
 
 #content-main table td.active {

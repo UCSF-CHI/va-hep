@@ -50,7 +50,7 @@
       background: $white-smoke;
       border-right: 1px solid $very-light-grey;
       border-left: 1px solid $very-light-grey;
-      padding: 15px;
+      padding: rem(10);
       color: $nero;
       text-align: left;
       font-weight: bold;
@@ -78,7 +78,7 @@
       margin: 0;
       border-right: 1px solid $very-light-grey;
       border-left: 1px solid $very-light-grey;
-      padding: 15px;
+      padding: rem(10);
 
       &.active {
         background: $white;
