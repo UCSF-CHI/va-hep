@@ -41,7 +41,7 @@
           columns: 2;
 
           > li {
-            display: inline-block;
+            overflow: hidden;
           }
 
         }
@@ -54,7 +54,7 @@
           columns: 3;
 
           > li {
-            display: inline-block;
+            overflow: hidden;
           }
 
         }
