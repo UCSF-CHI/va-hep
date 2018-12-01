@@ -17,7 +17,6 @@
   <article title="Alcoholic Liver Disease">
        <p class="intro">
                   Drinking a significant amount of alcohol every day damages the liver. Treatments are limited, so the best way to fight alcoholic liver disease is to quit drinking.
-                  More than 90 percent of heavy drinkers build up excess fat in the liver, and between 10 to 20 percent alcohole liver scarring called cirrhosis. About a third of alcoholics develop acute alcoholic hepatitis, a dangerous swelling of the liver.
               </p>
 
               <accordion-menu>
@@ -27,7 +26,9 @@
                   <li class="patients">
                     <title><ilink-vahep ref="alcohol/patient/index">For Patients</ilink-vahep></title>
                     <ul>
-                        <li><ilink-vahep ref="alcohol/patient/what-you-can-do">Alcohol Drinking Diary and Change Plan</ilink-vahep></li>
+                        <li><ilink-vahep ref="alcohol/patient/index">Overview</ilink-vahep></li>
+                        <li><ilink-vahep ref="alcohol/patient/overview">About alcoholic liver disease</ilink-vahep></li>
+                        <li><ilink-vahep ref="alcohol/patient/what-you-can-do">Alcohol drinking diary and change plan</ilink-vahep></li>
                         <li><ilink-vahep ref="alcohol/patient/fibrosis">Alcohol and fibrosis</ilink-vahep></li>
                         <li><ilink-vahep ref="alcohol/patient/cirrhosis">Alcohol and cirrhosis</ilink-vahep></li>
                         <li><ilink-vahep ref="alcohol/patient/response-to-treatment">Alcohol use and hepatitis C treatment</ilink-vahep></li>
@@ -35,14 +36,12 @@
                     </ul>
                   </li>
 
-
-
                   <li>
-                    <title><ilink-vahep ref="alcohol/treatment/brief-intervention-teaching-guide">How to Help Patients Reduce Alcohol Use</ilink-vahep></title>
-                  </li>
-
-                  <li>
-                    <title><ilink-vahep ref="alcohol/treatment/audit-c">Alcohol Use Disorders Identification Test</ilink-vahep></title>
+                    <title>Resources</title>
+                    <ul>
+                        <li><ilink-vahep ref="alcohol/treatment/brief-intervention-teaching-guide">How to Help Patients Reduce Alcohol Use</ilink-vahep></li>
+                        <li><ilink-vahep ref="alcohol/treatment/audit-c">Alcohol Use Disorders Identification Test</ilink-vahep></li>
+                    </ul>
                   </li>
 
                 </ul>
@@ -51,7 +50,7 @@
 
               <aside class="faq-callout">
                 <title>Frequently Asked Questions</title>
-                  <ilink-vahep ref="basics/what-is-hepatitis">What is Hepatitis?</ilink-vahep>
+                  <ilink-vahep ref="hcv/patient/faqs/drinking-alcohol">Can I drink alcohol once in a while if I have hepatitis C?</ilink-vahep>
 
                   <more><ilink-vahep ref="faqs/index" class="button">More Questions</ilink-vahep></more>
               </aside>

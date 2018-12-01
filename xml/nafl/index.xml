@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="nafl/index" pgid="cirrh-00-00" ss="doc" area="" title="Non-Alcoholic Fatty Liver">
+<pg-metatags>
+  <meta-tag name="Creator" content="University of California, San Francisco, Center for HIV Information, HIV InSite" />
+  <meta-tag name="Description" content="Table of contents page for the Non-Alcoholic Fatty Liver program, from the VA National Hepatitis C Program." />
+  <meta-tag name="Keywords" content="Non-Alcoholic Fatty Liver" />
+  <meta-tag name="DateCreated" content="20070129" />
+  <meta-tag name="DateReviewed" content="20130102" />
+  <meta-tag name="Type" scheme="Resource Type" content="Teaching Material" />
+</pg-metatags>
+
+<page-0 pp="pt" title="Non-Alcoholic Fatty Liver">
+
+  <article title="Non-Alcoholic Fatty Liver">
+    <p class="intro">
+      When excess fat builds up in the liver of a person who doesn’t drink much alcohol, its called non-alcoholic fatty liver (NAFL). Most often, NAFL occurs in people with high blood sugar, obesity, or high cholesterol. It is the most common chronic liver disease in the United States.
+    </p>
+
+      <accordion-menu>
+        <title>Non-Alcoholic Fatty Liver Menu</title>
+        <ul>
+
+          <li class="patients">
+            <title><ilink-vahep ref="nafl/patient/index">For Patients</ilink-vahep></title>
+          </li>
+
+          <li>
+            <title><ilink-vahep ref="nafl/patient/background">Background</ilink-vahep></title>
+          </li>
+
+          <li>
+            <title>Resources</title>
+            <ul>
+                <li><ilink-vahep ref="products/NAFL-factsheet">NAFL fact sheet</ilink-vahep></li>
+                <li><ilink-vahep ref="web-resources/weight">Weight control</ilink-vahep></li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </accordion-menu>
+
+    </article>
+
+  </page-0>
+
+</pg>

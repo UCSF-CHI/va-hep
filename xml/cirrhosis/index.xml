@@ -3,10 +3,10 @@
 <!-- v4.5 -->
 
 <pg id="cirrhosis/index" pgid="cirrh-00-00" ss="doc" area="" title="Cirrhosis">
-<pg-metatags>	
+<pg-metatags>
 	<meta-tag name="Creator" content="University of California, San Francisco, Center for HIV Information, HIV InSite" />
-	<meta-tag name="Description" content="Table of contents page for the Liver Cirrhosis program, from the VA National Hepatitis C Program." />	
-	<meta-tag name="Keywords" content="cirrhosis" />	
+	<meta-tag name="Description" content="Table of contents page for the Liver Cirrhosis program, from the VA National Hepatitis C Program." />
+	<meta-tag name="Keywords" content="cirrhosis" />
 	<meta-tag name="DateCreated" content="20070129" />
 	<meta-tag name="DateReviewed" content="20130102" />
 	<meta-tag name="Type" scheme="Resource Type" content="Teaching Material" />
@@ -16,9 +16,9 @@
 
 	<article title="Cirrhosis">
 	     <p class="intro">
-                  In the United States, 4.9 million people are living with the build-up of hardened scar tissue in the liver called cirrhosis. The numbers have been increasing.
-              </p>		
-	
+                  Cirrhosis is the end stage for any chronic liver disease. In the United States, 4.9 million people are living with the build-up of hardened scar tissue in the liver called cirrhosis. The numbers have been increasing.
+              </p>
+
               <accordion-menu>
                 <title>Cirrhosis Menu</title>
                 <ul>
@@ -26,6 +26,7 @@
                   <li class="patients">
                     <title><ilink-vahep ref="cirrhosis/patient/index">For Patients</ilink-vahep></title>
                     <ul>
+                        <li><ilink-vahep ref="cirrhosis/patient/index">Overview</ilink-vahep></li>
                         <li><ilink-vahep ref="cirrhosis/patient/what-it-is">What is cirrhosis?</ilink-vahep></li>
                         <li><ilink-vahep ref="cirrhosis/patient/symptoms">What are the symptoms of cirrhosis?</ilink-vahep></li>
                         <li><ilink-vahep ref="cirrhosis/patient/decompensated">What is decompensated cirrhosis?</ilink-vahep></li>
@@ -38,12 +39,10 @@
                   </li>
 
                   <li>
-                    <title><ilink-vahep ref="cirrhosis/background/stages">Stages</ilink-vahep></title>                
-                  </li>
-
-                  <li>
-                    <title>Diagnosis and Scoring Systems</title>
+                    <title><ilink-vahep ref="cirrhosis/background/index">Stages, Diagnosis, and Scoring Systems</ilink-vahep></title>
                       <ul>
+                        <li><ilink-vahep ref="cirrhosis/background/index">Overview</ilink-vahep></li>
+                        <li><ilink-vahep ref="cirrhosis/background/stages">Stages</ilink-vahep></li>
                         <li><ilink-vahep ref="cirrhosis/background/how-to-diagnose">Making the diagnosis</ilink-vahep></li>
                         <li><ilink-vahep ref="cirrhosis/background/cirrhosis-meld-score">MELD calculation and significance</ilink-vahep></li>
                         <li><ilink-vahep ref="cirrhosis/background/meld-calculator">MELD calculator</ilink-vahep></li>
@@ -60,11 +59,19 @@
                   </li>
 
                   <li>
-                    <title><ilink-vahep ref="cirrhosis/complications/hcc-surveillance">Hepatocellular Carcinoma Screening (HCC)</ilink-vahep></title>
+                    <title><ilink-vahep ref="cirrhosis/complications/hcc-surveillance">Hepatocellular Carcinoma (HCC) Screening</ilink-vahep></title>
                   </li>
 
                   <li>
-                    <title><ilink-vahep ref="cirrhosis/cirrhosis-alcohol">Counseling Patients on Alcohol</ilink-vahep></title>
+                    <title><ilink-vahep ref="cirrhosis/cirrhosis-alcohol">Counseling Patients on Alcohol Use</ilink-vahep></title>
+                  </li>
+
+                  <li>
+                    <title>Management of Ascites, Varices, and Encephalopathy</title>
+                      <ul>
+                        <li><ilink-vahep ref="cirrhosis/complications/beta-blockers">Varices prevention and treatment</ilink-vahep></li>
+                        <li><ilink-vahep ref="cirrhosis/management/index">Decision support tool: cirrhosis quicknotes</ilink-vahep></li>
+                      </ul>
                   </li>
 
                   <li>
@@ -73,18 +80,18 @@
 
                 </ul>
 
-              </accordion-menu>		
+              </accordion-menu>
 
               <aside class="faq-callout">
                 <title>Frequently Asked Questions</title>
                   <ilink-vahep ref="cirrhosis/patient/faqs/cirrhosis-reversal">If I have cirrhosis, is there anything I can do to reverse it?</ilink-vahep>
-                  
+
                   <more><ilink-vahep ref="cirrhosis/patient/faqs/index" class="button">More Questions</ilink-vahep></more>
               </aside>
-		
-		
+
+
 	</article>
-	
+
 </page-0>
 
 </pg>

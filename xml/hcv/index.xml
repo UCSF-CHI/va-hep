@@ -16,7 +16,7 @@
 
   <article title="Hepatitis C">
        <p class="intro">
-                  The hepatitis C virus (HCV) is the most common bloodborne disease in the United States. VA has treated and cured more HCV patients than any other large healthcare system.
+                  The hepatitis C virus (HCV) is the most common bloodborne disease in the United States. VA has treated and cured more HCV patients than any other health care system in the country.
               </p>
 
               <accordion-menu>
@@ -24,25 +24,26 @@
                 <ul>
 
                   <li class="patients">
-                    <title><ilink-vahep ref="hav/patient/index">For Patients</ilink-vahep></title>
+                    <title><ilink-vahep ref="hcv/patient/index">For Patients</ilink-vahep></title>
                     <ul>
-                        <li><ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/index">Overview</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/testing/index">Getting tested</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/diagnosis/index">Just diagnosed</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/patient/treat/index">Treatment</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/success/index">Success Stories</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/sex/index">Sex and Sexuality</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/diet/index">Diet and Nutrition</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/mental/index">Mental Health</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/pain/index">Managing Pain</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/alternative-therapies/index">Alternative and Complementary Therapies</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/healing-arts/index.asp">Healing Arts</ilink-vahep></li>
-                        <li><ilink-vahep ref="hcv/patient/faqs/index">Frequently asked questions</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/success/index">Success stories</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/sex/index">Sex and sexuality</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/diet/index">Diet and nutrition</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/mental/index">Mental health</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/pain/index">Managing pain</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/alternative-therapies/index">Alternative and complementary therapies</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/patient/healing-arts/index.asp">Healing arts</ilink-vahep></li>
                     </ul>
                   </li>
 
                   <li>
                     <title><ilink-vahep ref="hcv/background/index">Background</ilink-vahep></title>
                     <ul>
+                        <li><ilink-vahep ref="hcv/background/index">Overview</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/background/epidemiology">Epidemiology</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/background/natural-history">Natural history</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/background/genotypes">Genotypes</ilink-vahep></li>
@@ -54,7 +55,8 @@
                   <li>
                     <title><ilink-vahep ref="hcv/screening-diagnosis/index">Screening and Diagnosis</ilink-vahep></title>
                     <ul>
-                        <li><ilink-vahep ref="hcv/screening-diagnosis/who-to-test">Who to test</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/screening-diagnosis/index">Overview</ilink-vahep></li>
+                        <li><ilink-vahep ref="hcv/screening-diagnosis/who-to-test">Who should be tested?</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/screening-diagnosis/laboratory-tests">Laboratory tests</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/screening-diagnosis/screening-algorithm">Steps for diagnosis</ilink-vahep></li>
                     </ul>
@@ -63,6 +65,8 @@
                   <li>
                     <title><ilink-vahep ref="hcv/clinical-management/index">Management</ilink-vahep></title>
                     <ul>
+                        <li><ilink-vahep ref="hcv/clinical-management/index">Overview</ilink-vahep></li>
+                        <li><ilink-vahep ref="products/next-steps">Next steps after diagnosis</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/clinical-management/alcohol">Alcohol</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/clinical-management/counseling">Counseling</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/clinical-management/integrated-mental-health-hep">Mental health</ilink-vahep></li>
@@ -72,6 +76,7 @@
                   <li>
                     <title><ilink-vahep ref="hcv/treatment/index">Treatment</ilink-vahep></title>
                     <ul>
+                        <li><ilink-vahep ref="hcv/treatment/index">Overview</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/treatment/hcv-treatment-considerations">Treatment considerations</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/liver-fibrosis">Fibrosis testing</ilink-vahep></li>
                         <li><ilink-vahep ref="hcv/screening-diagnosis/screening-algorithm">Classification of direct-acting antivirals</ilink-vahep></li>

@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="liver-cancer/index" pgid="cirrh-00-00" ss="doc" area="" title="Liver Cancer">
+<pg-metatags>
+  <meta-tag name="Creator" content="University of California, San Francisco, Center for HIV Information, HIV InSite" />
+  <meta-tag name="Description" content="Table of contents page for the Liver Cancer program, from the VA National Hepatitis C Program." />
+  <meta-tag name="Keywords" content="Liver Cancer" />
+  <meta-tag name="DateCreated" content="20070129" />
+  <meta-tag name="DateReviewed" content="20130102" />
+  <meta-tag name="Type" scheme="Resource Type" content="Teaching Material" />
+</pg-metatags>
+
+<page-0 pp="pt" title="Liver Cancer">
+
+  <article title="Liver Cancer">
+    <p class="intro">
+      The number of liver cancer diagnoses in the United States has tripled over the past 3 decades.
+    </p>
+
+      <accordion-menu>
+        <title>Liver Cancer Menu</title>
+        <ul>
+
+          <li class="patients">
+            <title><ilink-vahep ref="liver-cancer/patient/index">For Patients</ilink-vahep></title>
+            <ul>
+                <li><ilink-vahep ref="liver-cancer/patient/index">Overview</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/patient/what-it-is">What is liver cancer?</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/patient/who-gets-it">Who gets liver cancer?</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/patient/diagnosis">How is liver cancer diagnosed?</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/patient/things-to-know">Things to know about liver cancer</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/patient/treatment">What are the treatments for liver cancer?</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/patient/prevention">How can liver cancer be avoided?</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/patient/summary">Summary</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/patient/resources">Resources</ilink-vahep></li>
+            </ul>
+          </li>
+
+          <li>
+            <title><ilink-vahep ref="liver-cancer/background">Background</ilink-vahep></title>
+          </li>
+
+          <li>
+            <title><ilink-vahep ref="liver-cancer/okuda-staging">Okuda staging</ilink-vahep></title>
+          </li>
+
+          <li>
+            <title><ilink-vahep ref="liver-cancer/TNM-staging">TNM staging</ilink-vahep></title>
+          </li>
+
+          <li>
+            <title><ilink-vahep ref="liver-cancer/clip-score">CLIP score</ilink-vahep></title>
+          </li>
+
+          <li>
+            <title><ilink-vahep ref="liver-cancer/treatment/index">Treatment</ilink-vahep></title>
+            <ul>
+                <li><ilink-vahep ref="liver-cancer/treatment/index">Overview</ilink-vahep></li>
+                <li><ilink-vahep ref="liver-cancer/treatment/sorafenib">Sorafenib</ilink-vahep></li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </accordion-menu>
+
+    </article>
+
+  </page-0>
+
+</pg>
