@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!-- VA Hep -->
+<!-- v4.5 -->
+ 
+<pg id="news/index" pgid="index" ss="doc" area="" title="What's New">
+ 
+<page-0 pp="pt" title="What's New">
+ 
+                <article title="What's New">
+                                <news-listings>
+                                    <li>
+                                      <title><ilink-vahep ref="hcv/treatment/hcv-treatment-considerations">Chronic Hepatitis C Virus (HCV) Infection Treatment Considerations</ilink-vahep></title>
+                                      <p>Department of Veterans Affairs National Hepatitis C Resource Center Program and the National Viral Hepatitis Program;
+                                      August 27, 2018</p>
+                                    </li>
+ 
+                     
+                   <li>
+                              <title><ilink-sref ref="emergency.cdc.gov/han/han00412.asp">Health Advisory: Outbreaks of Hepatitis A Virus Infections Among Persons Who Use Drugs and Persons Experiencing Homelessness; Centers for Disease Control and Prevention, June 11, 2018</ilink-sref></title>
+                                                <ul>
+                                                                <li><ilink-sref ref="www.cdc.gov/hepatitis/outbreaks/2017march-hepatitisa.htm">Information by Location</ilink-sref> including a <ilink-sref ref="www.odh.ohio.gov/hepa">statewide community outbreak in Ohio</ilink-sref></li>
+                                                                <li><ilink-sref ref="www.cdc.gov/hepatitis/hav/afaq.htm">Hepatitis A Questions and Answers for the Public</ilink-sref></li>
+                                                                <li><ilink-vahep ref="products/hepatitisA-factsheets">Also see: Hepatitis A Fact Sheet for Patients from Veterans Health Administration</ilink-vahep></li>
+                                                </ul>    
+                                    </li> 
+ 
+                  <li class="patients">             
+                              <title>Patient Handouts from Veterans Health Administration</title>
+                              <ul>
+                                                      <li><ilink-vahep ref="products/abcs">ABCs of Hepatitis</ilink-vahep></li>
+                                                      <li><ilink-vahep ref="products/hbv-therapy-handouts">Taking Your Hepatitis B Therapy</ilink-vahep></li>
+                                                      <li><ilink-vahep ref="products/hepatitisB-factsheets">Hepatitis B Fact Sheet</ilink-vahep></li>
+                                                      <li><ilink-vahep ref="products/ascites-factsheet">Ascites Fact Sheet</ilink-vahep></li>
+                                                      <li><ilink-vahep ref="products/alternative-treatments">Coping with Liver Disease: Alternative Treatments</ilink-vahep></li>
+                                                </ul>      
+                                    </li>       
+ 
+                  <li>
+                              <title>National Campaigns</title>
+                                                <ul>
+                                                      <li><ilink-vahep ref="news/campaigns-index">Hepatitis Awareness Campaigns</ilink-vahep></li>
+                                                      <li><ilink-sref ref="https://www.hiv.va.gov/campaigns-index.asp">HIV/AIDS Awareness Campaigns</ilink-sref></li>
+                                                </ul>
+                                    </li>
+                                </news-listings>                     
+                </article>
+               
+</page-0>
+ 
+</pg>
