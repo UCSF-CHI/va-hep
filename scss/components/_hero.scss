@@ -54,7 +54,12 @@
         h1 {
           line-height: 1.1;
         }
-      }
+        p {
+          @include mq($tablet) {
+            width: 90%;
+          }
+        }
+      }//&.hep-a
 
       &.hep-b {
         background-image: url($images-path + 'hero/doctor-man.jpg');

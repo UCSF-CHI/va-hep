@@ -2143,6 +2143,12 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   line-height: 1.1;
 }
 
+@media screen and (min-width: 640px) {
+  #content-main .hero header.hep-a p {
+    width: 90%;
+  }
+}
+
 #content-main .hero header.hep-b {
   background-image: url("../images/hero/doctor-man.jpg");
 }
