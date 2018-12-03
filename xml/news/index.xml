@@ -10,13 +10,13 @@
                                 <news-listings>
                                     <li>
                                       <title><ilink-vahep ref="hcv/treatment/hcv-treatment-considerations">Chronic Hepatitis C Virus (HCV) Infection Treatment Considerations</ilink-vahep></title>
-                                      <p><cite>Department of Veterans Affairs National Hepatitis C Resource Center Program and the National Viral Hepatitis Program; updated August 27, 2018</cite></p>
+                                      <p>Department of Veterans Affairs National Hepatitis C Resource Center Program and the National Viral Hepatitis Program; updated August 27, 2018</p>
                                     </li>
 
 
                    <li>
                               <title><ilink-sref ref="emergency.cdc.gov/han/han00412.asp">Health Advisory: Outbreaks of Hepatitis A Virus Infections Among Persons Who Use Drugs and Persons Experiencing Homelessness</ilink-sref></title>
-                              <p><cite>Centers for Disease Control and Prevention; June 11, 2018</cite></p>
+                              <p>Centers for Disease Control and Prevention; June 11, 2018</p>
                                                 <ul>
                                                                 <li><ilink-sref ref="www.cdc.gov/hepatitis/outbreaks/2017march-hepatitisa.htm">Information by Location</ilink-sref> including a <ilink-sref ref="www.odh.ohio.gov/hepa">statewide community outbreak in Ohio</ilink-sref></li>
                                                                 <li><ilink-sref ref="www.cdc.gov/hepatitis/hav/afaq.htm">Hepatitis A Questions and Answers for the Public</ilink-sref></li>
