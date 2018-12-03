@@ -43,7 +43,7 @@
                                 <nav>
                                   <title>Resources</title>
                                   <ul>
-                                    <li><ilink-vahep ref="products/index">What's New</ilink-vahep></li>
+                                    <li><ilink-vahep ref="news/index">What's New</ilink-vahep></li>
                                     <li><ilink-vahep ref="policy/index">Policies and Reports</ilink-vahep></li>
                                     <li><ilink-vahep ref="products/index">Educational Resources</ilink-vahep></li>
                                     <li><ilink-vahep ref="VA-internal-resources">Internal VA Resources</ilink-vahep></li>
