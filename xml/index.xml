@@ -1,47 +1,57 @@
 <?xml version="1.0" ?>
-<!-- VA Hep -->
-<!-- v4.5 -->
+<pg id="index" pgid="we-00-00" ss="doc" area="provider/index" title="Viral Hepatitis" >
 
-<pg id="hav/patient/index" pgid="index" ss="doc" area="" title="Hepatitis A">
+<pg-bgcolor>#FFFFFF</pg-bgcolor>
 
-<page-0 pp="pt" title="Hepatitis A">
+<pg-metatags>
+    <meta-tag name="Creator" content="Veterans Health Administration, Public Health and Environmental Hazards, Office of Public Healt" />
+    <meta-tag name="Description" content="The Department of Veterans Affairs (VA) leads the country in Hepatitis screening, testing, treatment, research and prevention. An extensive list of documents can be found on this site intended for patient and provider alike." />
+    <meta-tag name="Keywords" content="hepatitis, hbv, hav, hcv, cirrhosis, HCC, hepatocellular cancer, transplant, liver, VA, National, Program, Veterans, Affairs, edical, Center, vets, disease, treatment, virus, needle, prevention, daa" />
+    <meta-tag name="DateCreated" content="20060628" />
+    <meta-tag name="DateReviewed" content="20151007" />
+    <meta-tag name="Type" scheme="Resource Type" content="Homepage" />
+    <meta-tag name="verify-v1" content="PUqFunwTvXjGoa1G/ip0pu68zx+aycz3PWexdu4Q5YY=" />
+</pg-metatags>
 
-	<article>
-	     <section-hero class="hep-a">
-	     <title>Hepatitis A <span>For Patients</span></title>		
-	     <hero-description><p>Get the facts about hepatitis A with our comprehensive health guide.</p></hero-description>
-             
-             <menu>
-                <ul>
-			<li><ilink-vahep ref="hav/patient/What-it-is">What is hepatitis A?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/how-spread">How is hepatitis A spread?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/risks"> Who is at risk?</ilink-vahep></li> 
-			<li><ilink-vahep ref="hav/patient/symptoms">How will I know if I have it?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/treatment">What treatments are available?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/prevention">How can I prevent it?</ilink-vahep></li>   
-			<li><ilink-vahep ref="hav/patient/vaccine-how-works"> What is the hepatitis A vaccine?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/vaccine">Should I get the hepatitis A vaccine?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/vaccine-get-tested.asp">Do I need to get tested first?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/vaccine-side-effects">What are the side effects?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/vaccine-types">What vaccines are available?</ilink-vahep></li>
-			<li><ilink-vahep ref="hav/patient/resources">Resources</ilink-vahep></li> 
-		</ul>
-	      </menu>			
-	      </section-hero>	
-	      
-              <listing>
-                <title>More Patient Resources</title>
-			<ul>
-				<li><ilink-vahep ref="products/hepatitisA-factsheets">Hepatitis A Fact Sheet</ilink-vahep></li>  
-				<li><ilink-vahep ref="products/abcs">The ABCs of Hepatitis Fact Sheet</ilink-vahep></li>  
-				<li><ilink-vahep ref="products/video-abc">The ABCs of Hepatitis Video</ilink-vahep></li>  
-				<li><ilink-vahep sref="www.cdc.gov/hepatitis/hav/afaq.htm">Frequently asked questions</ilink-vahep></li> 
-			</ul>
-              </listing>
-	      
-	      
-	</article>
-	
-</page-0>
+<page-0 pp="gn" title="Viral Hepatitis">
+<!--<subscribe-widget site="hepatitis" />-->
+
+                <intro-home>
+                      <p>The Department of Veterans Affairs (VA) leads the country in hepatitis screening, testing, treatment, research and prevention. This site provides information both for health care providers and for Veterans and the public.</p>
+                </intro-home>
+
+                <section-home>
+                                <nav>
+                                  <title>Introduction to the Liver</title>
+                                  <p><ilink-vahep ref="basics/index">Learn Liver Basics</ilink-vahep></p>
+                                </nav>
+
+                                <nav>
+                                  <title>Liver Diseases</title>
+                                  <ul>
+                                    <li><ilink-vahep ref="alcohol/index">Alcoholic Liver Disease</ilink-vahep></li>
+                                    <li><ilink-vahep ref="cirrhosis/index">Cirrhosis</ilink-vahep></li>
+                                    <li><ilink-vahep ref="hav/index">Hepatitis A</ilink-vahep></li>
+                                    <li><ilink-vahep ref="hbv/index">Hepatitis B</ilink-vahep></li>
+                                    <li><ilink-vahep ref="hcv/index">Hepatitis C</ilink-vahep></li>
+                                    <li><ilink-vahep ref="liver-cancer/index">Liver Cancer</ilink-vahep></li>
+                                    <li><ilink-vahep ref="liver-transplant/index">Liver Transplant</ilink-vahep></li>
+                                    <li><ilink-vahep ref="nafl/index">Non-Alcoholic Fatty Liver</ilink-vahep></li>
+                                  </ul>
+                                </nav>
+
+                                <nav>
+                                  <title>Resources</title>
+                                  <ul>
+                                    <li><ilink-vahep ref="products/index">What's New</ilink-vahep></li>
+                                    <li><ilink-vahep ref="policy/index">Policies and Reports</ilink-vahep></li>
+                                    <li><ilink-vahep ref="products/index">Educational Resources</ilink-vahep></li>
+                                    <li><ilink-vahep ref="VA-internal-resources">Internal VA Resources</ilink-vahep></li>
+                                  </ul>
+                                </nav>
+                </section-home>
+
+    </page-0>
+
 
 </pg>
