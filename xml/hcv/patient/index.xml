@@ -8,34 +8,43 @@
 
 	<article>
 	     <section-hero class="hep-c">
-	     <title>Hepatitis C <span>For Patients</span></title>		
-	     <hero-description><p>Get the facts about hepatitis C with our comprehensive health guides.</p></hero-description>
-             
-             <menu>
-                <ul>
-			<li><h3><ilink-vahep ref="hcv/patient/testing">Getting Tested</ilink-vahep></h3><p>What is hepatitis C? Who is at risk? How do you get tested?</p></li>
-			<li><h3><ilink-vahep ref="hcv/patient/diagnosis">Just Diagnosed</ilink-vahep></h3><p>What are your next steps? How to read lab tests? What is a liver biopsy?</p></li>
-            <li><h3><ilink-vahep ref="hcv/patient/treat">Treatment</ilink-vahep></h3><p>What treatments are available? What are the side effects?</p></li>
-            <li><h3><ilink-vahep ref="hcv/patient/success">Success Stories </ilink-vahep></h3><p>Veterans share their stories of living with and beating hepatitis C</p></li>
-		</ul>
-	      </menu>			
-	      </section-hero>	
+	      <title>Hepatitis C <span>For Patients</span></title>
+	      <hero-description><p>Get the facts about hepatitis C with our comprehensive health guides.</p></hero-description>
 
-               <listing>
-                <title>More Patient Guides</title>
-			<ul>
-				<li><ilink-vahep ref="hcv/patient/sex">Sex and Sexuality</ilink-vahep></li>  
-				<li><ilink-vahep ref="hcv/patient/diet">Diet and Nutrition</ilink-vahep></li>  
-				<li><ilink-vahep ref="hcv/patient/mental">Mental Health </ilink-vahep></li> 
-                <li><ilink-vahep ref="hcv/patient/pain">Managing Pain </ilink-vahep></li> 
-				<li><ilink-vahep ref="hcv/patient/alternative-therapies">Alternative and Complementary Therapies </ilink-vahep></li> 
-                <li><ilink-vahep ref="hcv/patient/healing-arts">Healing Arts </ilink-vahep></li> 
-			</ul>
-              </listing>
+        <menu>
 
-	</article>
-	
-</page-0>
+          <ul>
+            <li><title><ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep></title><p>What is hepatitis C? Who is at risk? How do you get tested?</p></li>
+            <li><title><ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep></title><p>What are your next steps? How to read lab tests? What is a liver biopsy?</p></li>
+            <li><title><ilink-vahep ref="hcv/patient/treat/index">Treatment</ilink-vahep></title><p>What treatments are available? What are the side effects?</p></li>
+            <li><title><ilink-vahep ref="hcv/patient/success/index">Success Stories </ilink-vahep></title><p>Veterans share their stories of living with and beating hepatitis C</p></li>
+          </ul>
+        </menu>
+
+	     </section-hero>
+
+      <listing>
+        <title>More Patient Guides</title>
+          <ul>
+            <li><ilink-vahep ref="hcv/patient/sex/index">Sex and Sexuality</ilink-vahep></li>
+            <li><ilink-vahep ref="hcv/patient/diet/index">Diet and Nutrition</ilink-vahep></li>
+            <li><ilink-vahep ref="hcv/patient/mental/index">Mental Health </ilink-vahep></li>
+            <li><ilink-vahep ref="hcv/patient/pain/index">Managing Pain </ilink-vahep></li>
+            <li><ilink-vahep ref="hcv/patient/alternative-therapies/index">Alternative and Complementary Therapies </ilink-vahep></li>
+          </ul>
+      </listing>
+
+      <listing>
+        <title>More patient resources</title>
+          <ul>
+            <li><ilink-vahep ref="hcv/patient/faqs/index">Frequently Asked Questions</ilink-vahep></li>
+            <li><ilink-vahep ref="products/hepatitis-c-factsheets/index">Hepatitis C Fact Sheets </ilink-vahep></li>
+            <li><ilink-vahep ref="basics/index">Introduction to the Liver: Liver Basics</ilink-vahep></li>
+          </ul>
+      </listing>
+
+	  </article>
+
+  </page-0>
 
 </pg>
- 
