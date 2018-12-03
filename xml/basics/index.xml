@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!-- v4.5 -->
+
+<pg id="basics/index" pgid="index" ss="doc" title="Liver Basics">
+
+<page-0 pp="pt" title="Liver Basics">
+
+                <pt-altheader no="1" title="Basics" />
+
+                <article>
+                     <section-hero class="basics">
+                     <title>Introduction<br />to the Liver<br/><span>Liver Basics</span></title>
+                     <start-button><ilink-vahep ref="basics/liver-overview" class="button">Start Lesson</ilink-vahep></start-button>
+                     </section-hero>
+
+                                <listing>
+                                  <p>This lesson can be viewed on a <ilink-vahep ref="basics/liver-single-page">single page</ilink-vahep> or clicked through one screen at a time.</p>
+                                  <ul>
+                                                <li><ilink-vahep ref="basics/liver-overview">Overview of the liver</ilink-vahep></li>
+                                               <li><ilink-vahep ref="basics/liver-disease">Liver disease and other complications</ilink-vahep></li>
+                                                <li><ilink-vahep ref="basics/liver-damage-tests">Tests for liver damage</ilink-vahep></li>
+                                                <li><ilink-vahep ref="basics/reversing-liver-damage">Reversing liver damage</ilink-vahep></li>
+                                                <li><ilink-vahep ref="basics/keeping-liver-healthy">Keeping your liver healthy</ilink-vahep></li>
+                                                <li><ilink-vahep ref="basics/resources">Resources</ilink-vahep></li>
+                                                <li><ilink-vahep ref="basics/glossary">Glossary</ilink-vahep></li>
+                                   </ul>
+                                </listing>
+                </article>
+
+</page-0>
+
+</pg>
