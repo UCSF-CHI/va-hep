@@ -54,11 +54,6 @@
         h1 {
           line-height: 1.1;
         }
-        p {
-          @include mq($tablet) {
-            width: 90%;
-          }
-        }
       }//&.hep-a
 
       &.hep-b {
@@ -113,6 +108,10 @@
 
         @include mq($tablet) {
           width: 50%;
+        }
+
+        a {
+          color: $white;
         }
 
       }
