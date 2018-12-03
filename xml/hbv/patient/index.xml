@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!-- VA Hep -->
+<!-- v4.5 -->
+
+<pg id="hbv/patient/index" pgid="index" ss="doc" area="" title="Hepatitis B">
+
+<page-0 pp="pt" title="Hepatitis B">
+
+	<article>
+	     <section-hero class="hep-c">
+	     <title>Hepatitis B <span>For Patients</span></title>
+	     <hero-description><p>Get the facts about hepatitis B with our comprehensive health guides.</p></hero-description>
+
+             <menu>
+                <ul>
+			<li><h3><ilink-vahep ref="hbv/patient/overview">Getting Tested</ilink-vahep></h3><p>What is hepatitis B? Who is at risk? How do you get tested?</p></li>
+            <li><h3><ilink-vahep ref="hbv/patient/treat">Treatment</ilink-vahep></h3><p>What are the treatments for hepatitis B?</p></li>
+            <li><h3><ilink-vahep ref="hbv/patient/prevent">Prevention</ilink-vahep></h3><p>How can you protect yourself and others from hepatitis B?</p></li>
+		</ul>
+	      </menu>
+	      </section-hero>
+
+               <listing>
+                <title>More Patient Resources</title>
+			<ul>
+				<li><ilink-vahep ref="products/hepatitis-b-facts">Hepatitis B Fact Sheet</ilink-vahep></li>
+				<li><ilink-vahep ref="products/hepatitis-b-testing">Hepatitis B Testing Fact Sheet</ilink-vahep></li>
+				<li><ilink-vahep ref="basics/index">Introduction to the Liver: Liver Basics</ilink-vahep></li>
+			</ul>
+              </listing>
+
+	</article>
+
+</page-0>
+
+</pg>
