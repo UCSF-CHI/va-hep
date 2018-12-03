@@ -71,30 +71,33 @@
             text-decoration: none;
             margin-left: 70px;
             width: 100%;
-            background: $alice-blue url($images-path + 'icon-arrow-button.svg') no-repeat right center;
-
-            @include mq($mobile) {
-              background-image: none;
-            }
+            background-color: $alice-blue;
 
             @include mq($tablet) {
               margin-left: 75px;
-            }
-
-            @include hover {
-              background-image: url($images-path + 'icon-arrow-button-hover.svg');
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
             }
 
           } //a
 
-          > span {
-            color: $nero;
-            background-image: none;
+          > a {
 
-            @include hover {
-              background-image: none;
+            @include mq($tablet) {
+              padding-right: rem(50);
+              background: $alice-blue url($images-path + 'icon-arrow-button.svg') no-repeat right center;
+
+              @include hover {
+                background-image: url($images-path + 'icon-arrow-button-hover.svg');
+              }
+
             }
 
+          }//> a
+
+          > span {
+            color: $nero;
           }
 
         }// > h3

@@ -1754,37 +1754,31 @@ h2.page-title {
   text-decoration: none;
   margin-left: 70px;
   width: 100%;
-  background: #EEF7FE url("../images/icon-arrow-button.svg") no-repeat right center;
-}
-
-@media screen and (max-width: 639px) {
-  #content-main .accordion-menu > ul > li > h3 > a,
-  #content-main .accordion-menu > ul > li > h3 > span {
-    background-image: none;
-  }
+  background-color: #EEF7FE;
 }
 
 @media screen and (min-width: 640px) {
   #content-main .accordion-menu > ul > li > h3 > a,
   #content-main .accordion-menu > ul > li > h3 > span {
     margin-left: 75px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
-#content-main .accordion-menu > ul > li > h3 > a:focus, #content-main .accordion-menu > ul > li > h3 > a:active, #content-main .accordion-menu > ul > li > h3 > a:hover,
-#content-main .accordion-menu > ul > li > h3 > span:focus,
-#content-main .accordion-menu > ul > li > h3 > span:active,
-#content-main .accordion-menu > ul > li > h3 > span:hover {
-  background-image: url("../images/icon-arrow-button-hover.svg");
+@media screen and (min-width: 640px) {
+  #content-main .accordion-menu > ul > li > h3 > a {
+    padding-right: 3.125rem;
+    background: #EEF7FE url("../images/icon-arrow-button.svg") no-repeat right center;
+  }
+  #content-main .accordion-menu > ul > li > h3 > a:focus, #content-main .accordion-menu > ul > li > h3 > a:active, #content-main .accordion-menu > ul > li > h3 > a:hover {
+    background-image: url("../images/icon-arrow-button-hover.svg");
+  }
 }
 
 #content-main .accordion-menu > ul > li > h3 > span {
   color: #212121;
-  background-image: none;
-}
-
-#content-main .accordion-menu > ul > li > h3 > span:focus, #content-main .accordion-menu > ul > li > h3 > span:active, #content-main .accordion-menu > ul > li > h3 > span:hover {
-  background-image: none;
 }
 
 #content-main .accordion-menu > ul > li > button {
