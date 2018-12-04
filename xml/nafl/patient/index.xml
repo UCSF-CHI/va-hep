@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!-- VA Hep -->
+<!-- v4.5 -->
+
+<pg id="nafl/patient/index" pgid="index" ss="doc" area="" title="Non-Alcoholic Fatty Liver">
+
+  <page-0 pp="pt" title="Non-Alcoholic Fatty Liver">
+
+	<article>
+    <section-hero class="nafl">
+    <title>Non-Alcoholic Fatty Liver <span>For Patients</span></title>
+    <hero-description></hero-description>
+
+          <menu class="listing">
+            <ul class="cols-2">
+			<li><ilink-vahep ref="products/NAFL-factsheet">Non-Alcoholic Fatty Liver Fact Sheet </ilink-vahep></li>
+		</ul>
+	      </menu>
+	      </section-hero>
+
+      <p>Fatty liver is the buildup of fat in liver cells. It is probably the most common type of liver disease in the United States. Fatty liver by itself rarely leads to severe liver damage.</p>
+
+      <p>Fatty liver can result from drinking too much alcohol. It also can happen in people who rarely drink. In this case, it is called "nonalcoholic fatty liver disease" or "nonalcoholic steatohepatitis," or NASH. ("Steato-" means fat.) With NASH, a patient's liver shows some inflammation that, in some cases, can lead to liver damage and cirrhosis (scarring of the liver tissue).</p>
+
+      <p>It is not clear why fat builds up in the liver, but people are more likely to develop the condition if they have diabetes, are overweight, or have high levels of cholesterol or blood fats (called "triglycerides"). The amount of fat in the liver may decrease when overweight people lose weight, when diabetics have well-controlled blood sugar levels, and when cholesterol and triglyceride levels are lowered.</p>
+
+
+      <listing>
+        <title>More Patient Resources</title>
+        <ul>
+          <li><ilink-sref sref="www.move.va.gov">MOVE! Weight Management Program</ilink-sref></li>
+          <li><ilink-sref sref="www.the-nash-education-program.com">The NASH Education Program</ilink-sref></li>
+        </ul>
+      </listing>
+
+	</article>
+
+</page-0>
+
+</pg>
