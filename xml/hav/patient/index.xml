@@ -4,15 +4,15 @@
 
 <pg id="hav/patient/index" pgid="index" ss="doc" area="" title="Hepatitis A">
 
-<page-0 pp="pt" title="Hepatitis A">
+  <page-0 pp="pt" title="Hepatitis A">
 
 	<article>
-	     <section-hero class="hep-a">
-	     <title>Hepatitis A <span>For Patients</span></title>
-	     <hero-description><p>Get the facts about hepatitis A. This health guide can be viewed on a <ilink-vahep ref="patient/hav/single-page">single page</ilink-vahep> or one screen at a time.</p></hero-description>
+    <section-hero class="hep-a">
+    <title>Hepatitis A <span>For Patients</span></title>
+    <hero-description><p>Get the facts about hepatitis A. This health guide can be viewed on a <ilink-vahep ref="patient/hav/single-page">single page</ilink-vahep> or one screen at a time.</p></hero-description>
 
-             <menu>
-                <ul>
+          <menu class="listing">
+            <ul class="cols-2">
 			<li><ilink-vahep ref="hav/patient/what-it-is">What is hepatitis A?</ilink-vahep></li>
 			<li><ilink-vahep ref="hav/patient/how-spread">How is hepatitis A spread?</ilink-vahep></li>
 			<li><ilink-vahep ref="hav/patient/risks"> Who is at risk?</ilink-vahep></li>

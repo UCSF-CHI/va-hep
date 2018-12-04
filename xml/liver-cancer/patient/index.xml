@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!-- VA Hep -->
+<!-- v4.5 -->
+
+<pg id="liver-cancer/patient/index" pgid="index" ss="doc" area="" title="Liver Cancer">
+
+  <page-0 pp="pt" title="Liver Cancer">
+
+	<article>
+    <section-hero class="hep-a">
+    <title>Liver Cancer <span>For Patients</span></title>
+    <hero-description><p>Get the facts about liver cancer. This lesson can be viewed on a <ilink-vahep ref="liver-cancer/patient/single-page">single page</ilink-vahep> or one screen at a time.</p></hero-description>
+
+          <menu class="listing">
+            <ul class="cols-2">
+			<li><ilink-vahep ref="liver-cancer/patient/what-it-is">What is liver cancer?</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-cancer/patient/who-gets-it">Who gets liver cancer?</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-cancer/patient/diagnosis">How is liver cancer diagnosed?</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-cancer/patient/things-to-know">Things to know about liver cancer</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-cancer/patient/treatment">What are the treatments for liver cancer?</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-cancer/patient/prevention">How can liver cancer be avoided?</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-cancer/patient/summary">Summary</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-cancer/patient/resources">Resources</ilink-vahep></li>
+		</ul>
+	      </menu>
+	      </section-hero>
+
+
+	</article>
+
+</page-0>
+
+</pg>
