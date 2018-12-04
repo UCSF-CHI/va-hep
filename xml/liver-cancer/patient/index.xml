@@ -7,7 +7,7 @@
   <page-0 pp="pt" title="Liver Cancer">
 
 	<article>
-    <section-hero class="hep-a">
+    <section-hero class="liver-cancer">
     <title>Liver Cancer <span>For Patients</span></title>
     <hero-description><p>Get the facts about liver cancer. This lesson can be viewed on a <ilink-vahep ref="liver-cancer/patient/single-page">single page</ilink-vahep> or one screen at a time.</p></hero-description>
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!-- VA Hep -->
+<!-- v4.5 -->
+
+<pg id="liver-transplant/patient/index" pgid="index" ss="doc" area="" title="Liver Transplant">
+
+  <page-0 pp="pt" title="Liver Transplant">
+
+	<article>
+    <section-hero class="liver-transplant">
+    <title>Liver transplant <span>For Patients</span></title>
+    <hero-description><p>Get the facts about the evaluation, transplantation, and post-transplant process in our liver transplant guide.</p></hero-description>
+
+          <menu class="listing">
+            <ul class="cols-2">
+			<li><ilink-vahep ref="liver-transplant/patient/welcome">Welcome</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-transplant/patient/team">Transplant team</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-transplant/patient/basics">Basics</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-transplant/patient/evaluation">Evaluation process</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-transplant/patient/listing-process">Listing process </ilink-vahep></li>
+			<li><ilink-vahep ref="liver-transplant/patient/nutrition">Nutrition</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-transplant/patient/surgery">Surgery</ilink-vahep></li>
+			<li><ilink-vahep ref="liver-transplant/patient/complications">Complications/medications</ilink-vahep></li>
+      <li><ilink-vahep ref="liver-transplant/patient/local-facility">My local VA facility</ilink-vahep></li>
+      <li><ilink-vahep ref="liver-transplant/patient/testimonials">Patient testimonials</ilink-vahep></li>
+      <li><ilink-vahep ref="liver-transplant/patient/acknowledgements">Acknowledgements</ilink-vahep></li>
+		</ul>
+	      </menu>
+	      </section-hero>
+
+      <listing>
+        <title>Transplant Centers</title>
+        <ul>
+          <li><ilink-vahep ref="liver-transplant/patient/centers-houston">Houston Transplant Center</ilink-vahep></li>
+          <li><ilink-vahep ref="liver-transplant/patient/centers-nashville">Nashville Transplant Center</ilink-vahep></li>
+          <li><ilink-vahep ref="liver-transplant/patient/centers-pittsburgh">Pittsburgh Transplant Center</ilink-vahep></li>
+          <li><ilink-vahep ref="liver-transplant/patient/centers-portland">Portland Transplant Center</ilink-vahep></li>
+          <li><ilink-vahep ref="liver-transplant/patient/centers-richmond">Richmond Transplant Center</ilink-vahep></li>
+        </ul>
+      </listing>
+
+      <listing>
+        <title>More Patient Resources</title>
+        <ul>
+          <li><ilink-vahep ref="products/hepatitisA-factsheets">Liver Transplant: Entire Guide</ilink-vahep></li>
+        </ul>
+      </listing>
+
+	</article>
+
+</page-0>
+
+</pg>
