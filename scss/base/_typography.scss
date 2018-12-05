@@ -301,6 +301,19 @@ h1 {
 
     }//li
 
+    ol {
+
+      li {
+        @include font(15, 24);
+
+        @include mq($tablet) {
+          @include font(16, 28);
+        }
+
+      }
+
+    }//
+
   }//.content-column
 
   .related-column {

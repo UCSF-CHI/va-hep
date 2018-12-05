@@ -1271,6 +1271,18 @@ h2.page-title {
   }
 }
 
+#tier4innerContent .content-column ol li {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 640px) {
+  #tier4innerContent .content-column ol li {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+}
+
 #tier4innerContent .related-column li {
   font-size: 0.9375rem;
   line-height: 1.6;
