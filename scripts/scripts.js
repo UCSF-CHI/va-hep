@@ -24,7 +24,7 @@ VAHEP.accordionMenu = (function ($) {
 
   function init(){
 
-    var $accordionMenu = $('.accordion-menu');
+    var $accordionMenu = $('.accordion-menu, .faq-menu');
     var $accordionToggle = $accordionMenu.find('.toggle');
     var $accordionExpandAll = $accordionMenu.find('.expand-all');
 
@@ -33,11 +33,11 @@ VAHEP.accordionMenu = (function ($) {
 
       if (!$(this).is('.active')) {
         $(this).addClass('active').attr('aria-expanded', 'true');
-        $(this).siblings('.submenu').slideDown(animationSpeed);
+        $(this).siblings('.submenu, .answer').slideDown(animationSpeed);
       }
       else {
         $(this).removeClass('active').attr('aria-expanded', 'false');
-        $(this).siblings('.submenu').slideUp(animationSpeed);
+        $(this).siblings('.submenu, .answer').slideUp(animationSpeed);
       }
 
     });
@@ -51,7 +51,7 @@ VAHEP.accordionMenu = (function ($) {
 
         $accordionMenu.each(function() {
           $(this).find('.toggle').addClass('active').attr('aria-expanded', 'true');
-          $(this).find('.submenu').slideDown(animationSpeed);
+          $(this).find('.submenu, .answer').slideDown(animationSpeed);
         });
 
       }
@@ -61,7 +61,7 @@ VAHEP.accordionMenu = (function ($) {
 
         $accordionMenu.each(function() {
           $(this).find('.toggle').removeClass('active').attr('aria-expanded', 'false');
-          $(this).find('.submenu').slideUp(animationSpeed);
+          $(this).find('.submenu, .answer').slideUp(animationSpeed);
         });
 
       }
@@ -78,7 +78,7 @@ VAHEP.accordionMenu = (function ($) {
 
   }
 
-  if($('.accordion-menu').length) {
+  if($('.accordion-menu, .faq-menu').length) {
     init();
   }
 

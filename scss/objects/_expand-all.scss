@@ -1,0 +1,25 @@
+.expand-all {
+
+  // base inside of #content-main
+  #content-main & {
+    @include remove-button-styles;
+    float: right;
+    margin: 0 0 rem(16);
+    @include font(14, 14);
+    font-weight: bold;
+
+    @include mq($tablet) {
+      @include font(16);
+    }
+
+    @include hover {
+      color: $prussian-blue;
+    }
+
+    span {
+      @include font(20);
+    }
+
+  }
+
+}//.expand-all

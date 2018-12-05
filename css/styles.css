@@ -1573,6 +1573,37 @@ h2.page-title {
   font-style: normal;
 }
 
+#content-main .expand-all {
+  position: static;
+  width: auto;
+  height: auto;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  line-height: inherit;
+  text-align: inherit;
+  color: #000;
+  float: right;
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 640px) {
+  #content-main .expand-all {
+    font-size: 1rem;
+  }
+}
+
+#content-main .expand-all:focus, #content-main .expand-all:active, #content-main .expand-all:hover {
+  color: #003F72;
+}
+
+#content-main .expand-all span {
+  font-size: 1.25rem;
+}
+
 .module-nav {
   border: 0;
   padding: 0;
@@ -1645,37 +1676,6 @@ h2.page-title {
   .accordion-menu {
     margin-bottom: 40px;
   }
-}
-
-#content-main .accordion-menu .expand-all {
-  position: static;
-  width: auto;
-  height: auto;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  line-height: inherit;
-  text-align: inherit;
-  color: #000;
-  float: right;
-  margin: 0 0 1rem;
-  font-size: 0.875rem;
-  line-height: 1;
-  font-weight: bold;
-}
-
-@media screen and (min-width: 640px) {
-  #content-main .accordion-menu .expand-all {
-    font-size: 1rem;
-  }
-}
-
-#content-main .accordion-menu .expand-all:focus, #content-main .accordion-menu .expand-all:active, #content-main .accordion-menu .expand-all:hover {
-  color: #003F72;
-}
-
-#content-main .accordion-menu .expand-all span {
-  font-size: 1.25rem;
 }
 
 #content-main .accordion-menu h2 {
@@ -2078,6 +2078,126 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 #content-main .faq-callout p a:active,
 #content-main .faq-callout p a:hover {
   color: #0C78C6;
+}
+
+.faq-menu {
+  margin-bottom: 20px;
+}
+
+.faq-menu::after {
+  display: block;
+  clear: both;
+  content: "" !important;
+}
+
+@media screen and (min-width: 640px) {
+  .faq-menu {
+    margin-bottom: 40px;
+  }
+}
+
+#content-main .faq-menu h2 {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+#content-main .faq-menu > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+#content-main .faq-menu > ul > li {
+  list-style: none;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#content-main .faq-menu > ul::after {
+  display: block;
+  clear: both;
+  content: "" !important;
+}
+
+#content-main .faq-menu > ul > li {
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+
+#content-main .faq-menu > ul > li::before {
+  display: none;
+}
+
+#content-main .faq-menu > ul > li > button {
+  position: static;
+  width: auto;
+  height: auto;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  line-height: inherit;
+  text-align: inherit;
+  color: #000;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0.75rem 1.125rem 0.75rem 3.375rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.125rem;
+  line-height: 1.1112;
+  background: #EEF7FE url("../images/icon-plus.svg") no-repeat 20px center;
+}
+
+@media screen and (min-width: 640px) {
+  #content-main .faq-menu > ul > li > button {
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+}
+
+#content-main .faq-menu > ul > li > button.active {
+  background-image: url("../images/icon-minus.svg");
+}
+
+html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus {
+  background: red;
+}
+
+html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer {
+  display: block;
+}
+
+#content-main .faq-menu > ul > li > button h3 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#content-main .faq-menu > ul > li .answer {
+  display: none;
+  padding: 1.25rem 0.75rem 0.75rem 0.75rem;
+}
+
+@media screen and (min-width: 640px) {
+  #content-main .faq-menu > ul > li .answer {
+    padding: 1.875rem 2.5rem 1.25rem 3.375rem;
+  }
 }
 
 .hero {
