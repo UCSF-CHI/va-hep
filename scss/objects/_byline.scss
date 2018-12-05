@@ -5,6 +5,7 @@
   font-style: normal;
 
   .bylinedocsource {
+    display: block;
     font-weight: bold;
   }
 
@@ -17,4 +18,9 @@
 
 .bylinedate {
   font-style: italic;
+}
+
+// hide .bylinedocsource
+.bylinedocsource {
+  display: none;
 }
