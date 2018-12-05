@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!-- VA Hep -->
+<!-- v4.5 -->
+
+<pg id="alcohol/patient/index" pgid="index" ss="doc" area="t4" title="Alcoholic Liver Disease">
+
+  <page-0 pp="pt" title="Alcoholic Liver Disease">
+
+	<article>
+    <section-hero class="ald">
+    <title>Alcoholic Liver Disease <span>For Patients</span></title>
+    <hero-description><p>Get the facts about alcoholic liver disease. This lesson can be viewed on a <ilink-vahep ref="alcohol/patient/single-page">single page</ilink-vahep> or one screen at a time.</p></hero-description>
+
+          <menu class="listing">
+            <ul class="cols-2">
+			<li><ilink-vahep ref="alcohol/patient/overview">About alcoholic liver disease</ilink-vahep></li>
+			<li><ilink-vahep ref="alcohol/patient/what-you-can-do">Alcohol drinking diary and change plan</ilink-vahep></li>
+			<li><ilink-vahep ref="alcohol/patient/fibrosis">Alcohol and fibrosis</ilink-vahep></li>
+			<li><ilink-vahep ref="alcohol/patient/cirrhosis">Alcohol and cirrhosis</ilink-vahep></li>
+			<li><ilink-vahep ref="alcohol/patient/response-to-treatment">Alcohol use and hepatitis C treatment</ilink-vahep></li>
+      <li><ilink-vahep ref="alcohol/patient/resources">Resources</ilink-vahep></li>
+		</ul>
+	      </menu>
+	      </section-hero>
+
+
+	</article>
+
+</page-0>
+
+</pg>
