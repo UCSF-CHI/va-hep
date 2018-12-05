@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!-- VA Hep -->
+<!-- v4.5 -->
+
+<pg id="cirrhosis/patient/index" pgid="index" ss="doc" area="t4" title="Cirrhosis">
+
+  <page-0 pp="pt" title="Cirrhosis">
+
+	<article>
+    <section-hero class="hep-a">
+    <title>Cirrhosis <span>For Patients</span></title>
+    <hero-description><p>Get the facts about cirrhosis. This health guide can be viewed on a <ilink-vahep ref="cirrhosis/patient/single-page">single page</ilink-vahep> or one screen at a time. It is also available as a <ilink-vahep ref="products/cirrhosis-guide">printable handbook</ilink-vahep>.</p></hero-description>
+
+          <menu class="listing">
+            <ul class="cols-1">
+			<li><ilink-vahep ref="cirrhosis/patient/introduction">Introduction: What is this program for?</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/what-liver-does">What does your liver do?</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/what-it-is.asp"> What is cirrhosis?</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/what-happens">What happens when you have cirrhosis? </ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/symptoms">What are the symptoms of cirrhosis?</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/decompensated">What is decompensated cirrhosis?</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/diagnosis">How do you know if you have cirrhosis?</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/what-provider-will-do">What will your healthcare provider do about cirrhosis?</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/what-you-can-do">What can you do about your cirrhosis?</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/emergency-room-needs">When to go to the emergency room</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/work-with-provider">What you and your provider should do to take good care of your liver</ilink-vahep></li>
+			<li><ilink-vahep ref="cirrhosis/patient/terms">Commonly used terms </ilink-vahep></li>
+      <li><ilink-vahep ref="cirrhosis/patient/resources">Resources for more information</ilink-vahep></li>
+		</ul>
+	      </menu>
+	      </section-hero>
+
+              <listing>
+                <title>More Patient Resources</title>
+			<ul>
+        <li><ilink-sref ref="www.hepatitis.va.gov/cirrhosis/patient/diet.asp">Eating tips for people with cirrhosis</ilink-sref></li>
+			</ul>
+              </listing>
+
+
+	</article>
+
+</page-0>
+
+</pg>
