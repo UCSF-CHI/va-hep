@@ -34,7 +34,7 @@
           align-items: center;
           width: 100%;
           margin: 0;
-          padding: rem(12) rem(18) rem(12) rem(54);
+          padding: rem(12) rem(18) rem(12) rem(57);
           font-family: $georgia;
           @include font(18, 20);
           background: $alice-blue url($images-path + 'icon-plus.svg') no-repeat 20px center;
@@ -43,12 +43,7 @@
             @include font(24, 30);
           }
 
-          @include hover {
-
-          }
-
           &.active {
-
             background-image: url($images-path + 'icon-minus.svg');
           }
 
@@ -76,7 +71,7 @@
           padding: rem(20) rem(12) rem(12) rem(12);
 
           @include mq($tablet) {
-            padding: rem(30) rem(40) rem(20) rem(54);
+            padding: rem(30) rem(40) rem(20) rem(57);
           }
 
         }//.a

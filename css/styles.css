@@ -1573,6 +1573,10 @@ h2.page-title {
   font-style: normal;
 }
 
+.bylinedate {
+  font-style: italic;
+}
+
 #content-main .expand-all {
   position: static;
   width: auto;
@@ -2157,7 +2161,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
           align-items: center;
   width: 100%;
   margin: 0;
-  padding: 0.75rem 1.125rem 0.75rem 3.375rem;
+  padding: 0.75rem 1.125rem 0.75rem 3.5625rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.125rem;
   line-height: 1.1112;
@@ -2196,7 +2200,7 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 
 @media screen and (min-width: 640px) {
   #content-main .faq-menu > ul > li .answer {
-    padding: 1.875rem 2.5rem 1.25rem 3.375rem;
+    padding: 1.875rem 2.5rem 1.25rem 3.5625rem;
   }
 }
 
