@@ -1641,7 +1641,6 @@ h2.page-title {
 }
 
 #content-main .module-nav a:nth-child(3) {
-  display: none;
   float: right;
 }
 
