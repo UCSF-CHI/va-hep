@@ -2267,6 +2267,12 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   background-image: url("../images/hero/basics.jpg");
 }
 
+@media screen and (min-width: 640px) {
+  #content-main .hero header.basics h1 {
+    width: 40%;
+  }
+}
+
 #content-main .hero header.ald {
   background-image: url("../images/hero/alcohol.jpg");
 }

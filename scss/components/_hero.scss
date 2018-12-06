@@ -38,6 +38,11 @@
 
       &.basics {
         background-image: url($images-path + 'hero/basics.jpg');
+        h1 {
+          @include mq($tablet) {
+            width: 40%;
+          }
+        }
       }
 
 
