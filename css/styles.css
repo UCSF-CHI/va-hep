@@ -1299,6 +1299,10 @@ h2.page-title {
   margin-bottom: 0 !important;
 }
 
+#tier4innerContent .related-column .toolbox li:last-of-type {
+  margin-bottom: 1.125rem !important;
+}
+
 #content-main table {
   border-collapse: collapse;
   border: 1px solid #ccc;
