@@ -869,7 +869,7 @@ h2.page-title {
 
 @media screen and (min-width: 640px) {
   #content-main .related-column {
-    padding: 1.25rem 0.875rem;
+    padding: 1.25rem 0.875rem 2.5rem;
     -ms-grid-column: 2;
     grid-column: 2;
     width: auto;
@@ -1297,10 +1297,6 @@ h2.page-title {
 
 #tier4innerContent .related-column li:last-of-type {
   margin-bottom: 0 !important;
-}
-
-#tier4innerContent .related-column .toolbox li:last-of-type {
-  margin-bottom: 1.125rem !important;
 }
 
 #content-main table {
