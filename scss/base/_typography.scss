@@ -8,9 +8,7 @@ h1 {
     color: $nero;
   }
 
-
 }
-
 
 #content-main {
   color: $nero;
@@ -103,7 +101,7 @@ h1 {
     }
 
     @include mq($desktop) {
-      margin-top: rem(-8);
+      margin-top: rem(-7);
     }
 
     .level-1 &,
