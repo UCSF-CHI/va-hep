@@ -1153,14 +1153,10 @@ h2.page-title {
   }
 }
 
-#content-main p:first-of-type, #content-main p:first-child,
-#content-main .byline:first-of-type,
+#content-main p:first-child,
 #content-main .byline:first-child,
-#content-main ul:first-of-type,
 #content-main ul:first-child,
-#content-main ol:first-of-type,
 #content-main ol:first-child,
-#content-main li:first-of-type,
 #content-main li:first-child {
   margin-top: 0 !important;
 }

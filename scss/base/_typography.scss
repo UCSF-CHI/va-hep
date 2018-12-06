@@ -190,7 +190,6 @@ h1 {
       @include font(16, 28);
     }
 
-    &:first-of-type,
     &:first-child {
       margin-top: 0 !important;
     }
