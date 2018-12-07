@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="hcv/background/index" pgid="prtop01-00-rr" ss="doc" area="topics" title="Background">
+
+  <page-0 pp="pr" title="Background">
+
+    <pr-header no="1" title="Background" />
+
+    <article title="Background" />
+
+    <p>The hepatitis C virus (HCV) causes both acute and chronic hepatitis. Approximately 4 million people in the United States are thought to be living with chronic HCV.</p>
+
+    <listing>
+      <ul class="cols-2">
+        <li>
+          <ilink-vahep ref="hcv/background/epidemiology">Epidemiology</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/background/natural-history">Natural history</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/background/genotypes">Genotypes</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/background/transmission">Transmission</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/background/acute-HCV">Acute HCV</ilink-vahep>
+        </li>
+      </ul>
+    </listing>
+
+  </page-0>
+
+</pg>
