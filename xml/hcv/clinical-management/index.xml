@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="hcv/clinical-management/index" pgid="prtop01-00-rr" ss="doc" area="topics" title="Management">
+
+  <page-0 pp="pr" title="Management">
+
+    <pr-header no="1" title="Management" />
+
+    <article title="Management" />
+
+    <listing>
+      <ul class="cols-2">
+        <li>
+          <ilink-vahep ref="hcv/clinical-management/alcohol">Alcohol</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/clinical-management/counseling">Counseling</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/clinical-management/integrated-mental-health-hep">Mental health</ilink-vahep>
+        </li>
+      </ul>
+    </listing>
+
+    <listing>
+      <title>Additional Resources</title>
+        <ul>
+          <li><ilink-vahep ref="products/support-group">Initiating and Maintaining Support Groups in Liver Clinics</ilink-vahep></li>
+          <li><ilink-vahep ref="web-resources/advocacy">Advocacy and Support Organizations</ilink-vahep></li>
+          <li><ilink-vahep ref="web-resources/veteran-advocacy">Veteran Health Care and Advocacy </ilink-vahep></li>
+          <li><ilink-vahep ref="web-resources/hemophilia">People with Hemophilia</ilink-vahep></li>
+          <li><ilink-vahep ref="web-resources/prisoners">Prisons and Hepatitis</ilink-vahep></li>
+        </ul>
+    </listing>
+
+  </page-0>
+
+</pg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="hcv/treatment/index" pgid="prtop01-00-rr" ss="doc" area="topics" title="Treatment">
+
+  <page-0 pp="pr" title="Treatment">
+
+    <pr-header no="1" title="Treatment" />
+
+    <article title="Treatment" />
+
+    <p>Veterans Health Administration is a national leader in the treatment of the hepatitis C virus. Since all-oral direct-acting antivirals became available in 2014, VA has virtually eliminated hepatitis C among Veterans in their care, treating more than 110,000 Veterans, with cure rates exceeding 90 percent.</p>
+
+    <listing>
+      <ul class="cols-2">
+        <li>
+          <ilink-vahep ref="hcv/treatment/hcv-treatment-considerations">Treatment considerations</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/liver-fibrosis">Fibrosis testing</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/treatment/hcv-daa-class">Classification of direct-acting antivirals</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/hiv-coinfection/index">HIV coinfection</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/treatment/fda">FDA treatment information</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/treatment/alternative-therapies">Alternative medicine</ilink-vahep>
+        </li>
+      </ul>
+    </listing>
+
+  </page-0>
+
+</pg>

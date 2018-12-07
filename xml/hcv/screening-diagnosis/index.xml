@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="hcv/screening-diagnosis/index" pgid="prtop01-00-rr" ss="doc" area="topics" title="Screening and Diagnosis">
+
+  <page-0 pp="pr" title="Screening and Diagnosis">
+
+    <pr-header no="1" title="Screening and Diagnosis" />
+
+    <article title="Screening and Diagnosis" />
+
+    <listing>
+      <ul class="cols-2">
+        <li>
+          <ilink-vahep ref="hcv/screening-diagnosis/who-to-test">Who to test</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/screening-diagnosis/laboratory-tests">Laboratory tests</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="hcv/screening-diagnosis/screening-algorithm">Steps for diagnosis</ilink-vahep>
+        </li>
+      </ul>
+    </listing>
+
+  </page-0>
+
+</pg>
