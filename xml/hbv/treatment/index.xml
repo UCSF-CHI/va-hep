@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="hbv/treatment/index" pgid="prtop01-00-rr" ss="doc" area="topics" title="Treatment">
+
+  <page-0 pp="pr" title="Treatment">
+
+    <pr-header no="1" title="Treatment" />
+
+    <article title="Treatment" />
+
+    <p>In general, all patients living with active hepatitis B virus (HBV) should be considered for HBV antiviral treatment.</p>
+
+    <listing>
+      <ul class="cols-2">
+        <li>
+          <ilink-vahep ref="hbv/treatment/medications">Medications</ilink-vahep>
+        </li>
+      </ul>
+    </listing>
+
+  </page-0>
+
+</pg>

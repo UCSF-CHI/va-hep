@@ -13,6 +13,12 @@
     <listing>
       <ul class="cols-2">
         <li>
+          <ilink-vahep ref="products/next-steps">Next steps after diagnosis</ilink-vahep>
+        </li>
+        <li>
+          <ilink-vahep ref="/hcv/liver-fibrosis">Fibrosis testing</ilink-vahep>
+        </li>
+        <li>
           <ilink-vahep ref="hcv/clinical-management/alcohol">Alcohol</ilink-vahep>
         </li>
         <li>

@@ -18,13 +18,7 @@
           <ilink-vahep ref="hcv/treatment/hcv-treatment-considerations">Treatment considerations</ilink-vahep>
         </li>
         <li>
-          <ilink-vahep ref="hcv/liver-fibrosis">Fibrosis testing</ilink-vahep>
-        </li>
-        <li>
           <ilink-vahep ref="hcv/treatment/hcv-daa-class">Classification of direct-acting antivirals</ilink-vahep>
-        </li>
-        <li>
-          <ilink-vahep ref="hcv/hiv-coinfection/index">HIV coinfection</ilink-vahep>
         </li>
         <li>
           <ilink-vahep ref="hcv/treatment/fda">FDA treatment information</ilink-vahep>

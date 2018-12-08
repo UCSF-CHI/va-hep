@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="liver-cancer/treatment/index" pgid="prtop01-00-rr" ss="doc" area="topics" title="Treatment">
+
+  <page-0 pp="pr" title="Treatment">
+
+    <pr-header no="1" title="Treatment" />
+
+    <article title="Treatment" />
+
+    <listing>
+      <ul class="cols-2">
+        <li>
+          <ilink-vahep ref="liver-cancer/treatment/sorafenib">Sorafenib</ilink-vahep>
+        </li>
+      </ul>
+    </listing>
+
+  </page-0>
+
+</pg>
