@@ -200,15 +200,6 @@ h1 {
       margin-bottom: 0 !important;
     }
 
-    li:first-child {
-      margin-top: rem(24) !important;
-
-      @include mq($tablet) {
-        margin-top: rem(28) !important;
-      }
-
-    }//li:first-child
-
   }//p
 
   li {
@@ -218,6 +209,15 @@ h1 {
     @include mq($tablet) {
       @include margin(rem(16) null);
     }
+
+    li:first-child {
+      margin-top: rem(12 !important;
+
+      @include mq($tablet) {
+        margin-top: rem(16) !important;
+      }
+
+    }//li:first-child
 
   }//li
 
