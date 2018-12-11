@@ -184,10 +184,12 @@ h1 {
     padding: 0;
     @include font(15, 24);
     color: $nero;
+    line-height: 1.6 !important; // override
 
     @include mq($tablet) {
       @include margin(rem(28) null);
       @include font(16, 28);
+      line-height: 1.75 !important; // override
     }
 
     &:first-child {
@@ -197,6 +199,15 @@ h1 {
     &:last-child {
       margin-bottom: 0 !important;
     }
+
+    li:first-child {
+      margin-top: rem(24) !important;
+
+      @include mq($tablet) {
+        margin-top: rem(28) !important;
+      }
+
+    }//li:first-child
 
   }//p
 

@@ -1138,6 +1138,7 @@ h2.page-title {
   font-size: 0.9375rem;
   line-height: 1.6;
   color: #212121;
+  line-height: 1.6 !important;
 }
 
 @media screen and (min-width: 640px) {
@@ -1150,6 +1151,7 @@ h2.page-title {
     margin-bottom: 1.75rem;
     font-size: 1rem;
     line-height: 1.75;
+    line-height: 1.75 !important;
   }
 }
 
@@ -1167,6 +1169,24 @@ h2.page-title {
 #content-main ol:last-child,
 #content-main li:last-child {
   margin-bottom: 0 !important;
+}
+
+#content-main p li:first-child,
+#content-main .byline li:first-child,
+#content-main ul li:first-child,
+#content-main ol li:first-child,
+#content-main li li:first-child {
+  margin-top: 1.5rem !important;
+}
+
+@media screen and (min-width: 640px) {
+  #content-main p li:first-child,
+  #content-main .byline li:first-child,
+  #content-main ul li:first-child,
+  #content-main ol li:first-child,
+  #content-main li li:first-child {
+    margin-top: 1.75rem !important;
+  }
 }
 
 #content-main li {
