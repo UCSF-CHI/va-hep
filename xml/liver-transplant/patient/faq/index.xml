@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="liver-transplant/patient/faqs/index" pgid="" ss="doc" area="" title="Liver Transplantation FAQ">
+
+  <page-0 pp="pt" title="Liver Transplant">
+
+
+
+    <byline-bottom>
+      <source>
+        <link-vahep ref="faqs/expert-bios" jump="#rena">Rena K. Fox, MD</link-vahep>
+      </source>
+      <display>
+        <reviewed>
+          <date>2018-04-25</date>
+        </reviewed>
+      </display>
+    </byline-bottom>
+
+    <article title="Liver Transplant">
+
+      <faq-menu>
+        <title>Liver Transplantation FAQ Menu</title>
+        <ul>
+          <li>
+            <title>How do I know if I need a liver transplant?</title>
+            <answer>
+              <p>
+                Most people with hepatitis C will never need a transplant. Your doctor will decide whether you need one.  Before they can be placed on the list, candidates for livers must undergo many tests. Almost 17,500 people were waiting for new livers in mid-2005. The waiting list is long due to a shortage of organs for donation. For more information, go to
+                <link-vahep ref="patient/complications/transplant-index">Liver Transplant Program.</link-vahep>
+              </p>
+            </answer>
+          </li>
+          <li>
+            <title>Will hepatitis B or hepatitis C infection go away after a liver transplant?</title>
+            <answer>
+              <p>No. A liver transplant does not cure the hepatitis C virus infection itself. The hepatitis C virus will still be present in the body after a transplant and will come back in the new liver. Hepatitis C treatment with direct acting antivirals (DAAs) can be used in patients before a transplant or after a transplant. Prescribing treatment of the hepatitis C virus for patients either before or after transplant should only be done by an expert.</p>
+            </answer>
+          </li>
+
+          <li>
+            <title>What is the survival rate after liver transplantation?</title>
+            <answer>
+              <p>
+                According to UNOS (United Network for Organ Sharing), about 85 to 90% of people who have liver transplants will be alive one year later. Approximately 75 to 85% of people will survive at least five years after a transplant.
+              </p>
+            </answer>
+          </li>
+
+
+        </ul>
+
+      </faq-menu>
+
+
+    </article>
+
+  </page-0>
+
+</pg>

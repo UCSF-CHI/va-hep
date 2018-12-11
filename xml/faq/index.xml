@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!-- AETC NRC-->
+<!-- v4.5 -->
+
+<pg id="faqs/index" pgid="" ss="doc" area="" title="VA FAQs">
+
+  <page-0 pp="pt" title="Frequently Asked Questions">
+
+
+    <article title="Liver Disease at VA">
+
+      <faq-menu>
+        <title>Liver Disease at VA</title>
+        <ul>
+          <li>
+            <title>Where can I get information about benefits?</title>
+            <answer>
+              <p>There are several different sources of benefits for veterans:</p>
+              <ul>
+                <li>Social security</li>
+                <li>Service-connected pensions</li>
+                <li>Non-service-connected pensions</li>
+                <li>Disabled American Veterans</li>
+                <li>Veterans of Foreign Wars</li>
+                <li>American Legion</li>
+              </ul>
+              <p>
+                Getting service-connection for HCV infection is difficult.  Most people cannot prove that they got HCV during their military service.
+              </p>
+              <p>
+                For more information, go to
+                <ilink-sref ref="www.va.gov/health/default.asp">VA Health Care Benefits</ilink-sref>
+                .
+              </p>
+            </answer>
+          </li>
+          <li>
+            <title>Will I have to pay anything for my care and medications at VA?</title>
+            <answer>
+              <p>
+                At VA, some Veterans are required to pay a copayment for VA healthcare services. Take a look at the VA Benefits website for information on
+                <ilink-sref ref="www.va.gov/HEALTHBENEFITS/cost/copays.asp">how copayment eligibility is determined</ilink-sref>
+                and
+                <ilink-sref ref="www.va.gov/healthbenefits/cost/copay_rates.asp">copay rates for healthcare services and medications</ilink-sref>
+                .
+              </p>
+            </answer>
+          </li>
+        </ul>
+
+      </faq-menu>
+
+      <menu class="listing">
+        <title>More Resources</title>
+        <ul>
+          <li>
+            <ilink-vahep ref="hcv/patient/faqs/index">Hepatitis C Virus FAQs</ilink-vahep>
+          </li>
+          <li>
+            <ilink-vahep ref="cirrhosis/patient/faqs/index">Cirrhosis FAQs</ilink-vahep>
+          </li>
+          <li>
+            <ilink-vahep ref="liver-transplant/patient/faqs/index">Liver Transplant FAQs</ilink-vahep>
+          </li>
+        </ul>
+      </menu>
+
+    </article>
+
+  </page-0>
+
+</pg>
