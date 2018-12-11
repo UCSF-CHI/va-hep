@@ -2411,6 +2411,10 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   margin: 0 0 0.25rem;
 }
 
+#content-main .hero footer nav ul p:first-of-type {
+  margin-top: 0;
+}
+
 #content-main .home-menu {
   margin-bottom: 40px;
 }
