@@ -211,7 +211,7 @@ h1 {
     }
 
     li:first-child {
-      margin-top: rem(12 !important;
+      margin-top: rem(12) !important;
 
       @include mq($tablet) {
         margin-top: rem(16) !important;
