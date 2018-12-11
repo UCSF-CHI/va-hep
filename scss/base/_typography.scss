@@ -210,12 +210,17 @@ h1 {
       @include margin(rem(16) null);
     }
 
-    li:first-child {
-      margin-top: rem(12) !important;
+    > ul,
+    > ol {
 
-      @include mq($tablet) {
-        margin-top: rem(16) !important;
-      }
+      li:first-child {
+        margin-top: rem(12) !important;
+
+        @include mq($tablet) {
+          margin-top: rem(16) !important;
+        }
+
+      }//> ul
 
     }//li:first-child
 
