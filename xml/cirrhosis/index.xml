@@ -2,96 +2,147 @@
 <!-- AETC NRC-->
 <!-- v4.5 -->
 
-<pg id="cirrhosis/index" pgid="cirrh-00-00" ss="doc" area="" title="Cirrhosis">
-<pg-metatags>
-	<meta-tag name="Creator" content="University of California, San Francisco, Center for HIV Information, HIV InSite" />
-	<meta-tag name="Description" content="Table of contents page for the Liver Cirrhosis program, from the VA National Hepatitis C Program." />
-	<meta-tag name="Keywords" content="cirrhosis" />
-	<meta-tag name="DateCreated" content="20070129" />
-	<meta-tag name="DateReviewed" content="20130102" />
-	<meta-tag name="Type" scheme="Resource Type" content="Teaching Material" />
-</pg-metatags>
+<pg id="cirrhosis/index" pgid="cirrh-00-00" ss="doc" area="t1" title="Cirrhosis">
+  <pg-metatags>
+    <meta-tag name="Creator" content="University of California, San Francisco, Center for HIV Information, HIV InSite" />
+    <meta-tag name="Description" content="Table of contents page for the Liver Cirrhosis program, from the VA National Hepatitis C Program." />
+    <meta-tag name="Keywords" content="cirrhosis" />
+    <meta-tag name="DateCreated" content="20070129" />
+    <meta-tag name="DateReviewed" content="20130102" />
+    <meta-tag name="Type" scheme="Resource Type" content="Teaching Material" />
+  </pg-metatags>
 
-<page-0 pp="pt" title="Cirrhosis">
+  <page-0 pp="pt" title="Cirrhosis">
 
-	<article title="Cirrhosis">
-	     <p class="intro">
-                  Cirrhosis is the end stage for any chronic liver disease. In the United States, 4.9 million people are living with the build-up of hardened scar tissue in the liver called cirrhosis. The numbers have been increasing.
-              </p>
+    <article title="Cirrhosis">
+      <p class="intro">
+        Cirrhosis is the end stage for any chronic liver disease. In the United States, 4.9 million people are living with the build-up of hardened scar tissue in the liver called cirrhosis. The numbers have been increasing.
+      </p>
 
-              <accordion-menu>
-                <title>Cirrhosis Menu</title>
-                <ul>
+      <accordion-menu>
+        <title>Cirrhosis Menu</title>
+        <ul>
 
-                  <li class="patients">
-                    <title><ilink-vahep ref="cirrhosis/patient/index">For Patients</ilink-vahep></title>
-                    <ul>
-                        <li><ilink-vahep ref="cirrhosis/patient/index">Overview</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/patient/what-it-is">What is cirrhosis?</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/patient/symptoms">What are the symptoms of cirrhosis?</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/patient/decompensated">What is decompensated cirrhosis?</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/patient/diagnosis">How do you know if you have cirrhosis?</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/patient/what-provider-will-do">What will your healthcare provider do about cirrhosis?</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/patient/what-you-can-do">What can you do about your cirrhosis?</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/patient/terms">Commonly used terms</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/patient/faqs/index">Frequently asked questions</ilink-vahep></li>
-                    </ul>
-                  </li>
+          <li class="patients">
+            <title>
+              <ilink-vahep ref="cirrhosis/patient/index">For Patients</ilink-vahep>
+            </title>
+            <ul>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/index">Overview</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/faqs/index">Frequently asked questions</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/introduction">Introduction</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/what-it-is">What is cirrhosis?</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/what-happens">What happens with cirrhosis?</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/symptoms">What are the symptoms?</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/decompensated">What is decompensated cirrhosis?</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/diagnosis">How to know you have it?</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/what-provider-will-do">What will your healthcare provider do?</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/what-you-can-do">What can you do?</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/emergency-room-needs">When to go to the emergency room</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/emergency-room-needs">Taking care of your liver</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/terms">Commonly used terms</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/patient/resources">Resources</ilink-vahep>
+              </li>
+            </ul>
+          </li>
 
-                  <li>
-                    <title><ilink-vahep ref="cirrhosis/background/index">Stages, Diagnosis, and Scoring Systems</ilink-vahep></title>
-                      <ul>
-                        <li><ilink-vahep ref="cirrhosis/background/index">Overview</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/background/stages">Stages</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/background/how-to-diagnose">Making the diagnosis</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/background/cirrhosis-meld-score">MELD calculation and significance</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/background/meld-calculator">MELD calculator</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/background/child-pugh-calculator">CTP calculator</ilink-vahep></li>
-                      </ul>
-                  </li>
+          <li>
+            <title>
+              <ilink-vahep ref="cirrhosis/background/stages">Stages</ilink-vahep>
+            </title>
+          </li>
 
-                  <li>
-                    <title>Specialty Referrals</title>
-                      <ul>
-                        <li><ilink-vahep ref="cirrhosis/care-coordination/gi-hepatology">When to refer to gastroenterology/hepatology</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/care-coordination/liver-transplant">When to refer for liver transplant evaluation</ilink-vahep></li>
-                      </ul>
-                  </li>
+          <li>
+            <title>
+              <ilink-vahep ref="cirrhosis/background/how-to-diagnose">Diagnosis</ilink-vahep>
+            </title>
+          </li>
 
-                  <li>
-                    <title><ilink-vahep ref="cirrhosis/complications/hcc-surveillance">Hepatocellular Carcinoma (HCC) Screening</ilink-vahep></title>
-                  </li>
+          <li>
+            <title>
+              <ilink-vahep ref="cirrhosis/management/index">Cirrhosis Quicknotes</ilink-vahep>
+            </title>
+          </li>
 
-                  <li>
-                    <title><ilink-vahep ref="cirrhosis/cirrhosis-alcohol">Counseling Patients on Alcohol Use</ilink-vahep></title>
-                  </li>
+          <li>
+            <title>
+              <ilink-vahep ref="cirrhosis/complications/hcc-surveillance">Liver Cancer Screening</ilink-vahep>
+            </title>
+          </li>
 
-                  <li>
-                    <title>Management of Ascites, Varices, and Encephalopathy</title>
-                      <ul>
-                        <li><ilink-vahep ref="cirrhosis/complications/beta-blockers">Varices prevention and treatment</ilink-vahep></li>
-                        <li><ilink-vahep ref="cirrhosis/management/index">Decision support tool: cirrhosis quicknotes</ilink-vahep></li>
-                      </ul>
-                  </li>
+          <li>
+            <title>
+              <ilink-vahep ref="cirrhosis/cirrhosis-alcohol">Alcohol Counseling</ilink-vahep>
+            </title>
+          </li>
 
-                  <li>
-                    <title><ilink-vahep ref="cirrhosis/advance-care-planning">Palliative Care and Multidisciplinary Care</ilink-vahep></title>
-                  </li>
+          <li>
+            <title>
+              <ilink-vahep ref="cirrhosis/complications/beta-blockers">Varices Prevention and Treatment</ilink-vahep>
+            </title>
+          </li>
 
-                </ul>
+          <li>
+            <title>
+              <ilink-vahep ref="cirrhosis/advance-care-planning">Palliative Care</ilink-vahep>
+            </title>
+          </li>
 
-              </accordion-menu>
+          <li>
+            <title>Specialty Referrals</title>
+            <ul>
+              <li>
+                <ilink-vahep ref="cirrhosis/care-coordination/gi-hepatology">When to refer to gastroenterology/hepatology</ilink-vahep>
+              </li>
+              <li>
+                <ilink-vahep ref="cirrhosis/care-coordination/liver-transplant">When to refer for liver transplant evaluation</ilink-vahep>
+              </li>
+            </ul>
+          </li>
 
-              <aside class="faq-callout">
-                <title>Frequently Asked Questions</title>
-                  <ilink-vahep ref="cirrhosis/patient/faqs/cirrhosis-reversal">If I have cirrhosis, is there anything I can do to reverse it?</ilink-vahep>
+        </ul>
 
-                  <more><ilink-vahep ref="cirrhosis/patient/faqs/index" class="button">More Questions</ilink-vahep></more>
-              </aside>
+      </accordion-menu>
+
+      <aside class="faq-callout">
+        <title>Frequently Asked Questions</title>
+        <ilink-vahep ref="cirrhosis/patient/faqs/cirrhosis-reversal">If I have cirrhosis, is there anything I can do to reverse it?</ilink-vahep>
+
+        <more>
+          <ilink-vahep ref="cirrhosis/patient/faqs/index" class="button">More questions</ilink-vahep>
+        </more>
+      </aside>
 
 
-	</article>
+    </article>
 
-</page-0>
+  </page-0>
 
 </pg>
