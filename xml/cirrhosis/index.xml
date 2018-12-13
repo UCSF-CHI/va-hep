@@ -38,6 +38,9 @@
                 <ilink-vahep ref="cirrhosis/patient/introduction">Introduction</ilink-vahep>
               </li>
               <li>
+                <ilink-vahep ref="cirrhosis/patient/what-liver-does">What does your liver do?</ilink-vahep>
+              </li>
+              <li>
                 <ilink-vahep ref="cirrhosis/patient/what-it-is">What is cirrhosis?</ilink-vahep>
               </li>
               <li>
