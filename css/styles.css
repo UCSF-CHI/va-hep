@@ -979,7 +979,7 @@ h2.page-title {
   outline: 2px dotted #c30000;
 }
 
-#content-main .related-column .widget h4, #content-main .faq-callout h2, #content-main .content-column .listing h2,
+#content-main .related-column .widget h4, #content-main .faq-callout h2, #content-main .faq-menu h2, #content-main .content-column .listing h2,
 #content-main .content-column .listing h3, #content-main .content-column .toc h2,
 #content-main .content-column .toc h3, #content-main .searchbox label, .searchbox #content-main label {
   margin: 0 0 1.5rem;
@@ -993,7 +993,7 @@ h2.page-title {
 }
 
 @media screen and (min-width: 640px) {
-  #content-main .related-column .widget h4, #content-main .faq-callout h2, #content-main .content-column .listing h2,
+  #content-main .related-column .widget h4, #content-main .faq-callout h2, #content-main .faq-menu h2, #content-main .content-column .listing h2,
   #content-main .content-column .listing h3, #content-main .content-column .toc h2,
   #content-main .content-column .toc h3, #content-main .searchbox label, .searchbox #content-main label {
     font-size: 1rem;
@@ -1619,6 +1619,7 @@ h2.page-title {
 @media screen and (min-width: 640px) {
   #content-main .expand-all {
     font-size: 1rem;
+    margin-top: -4px;
   }
 }
 
@@ -2106,7 +2107,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 }
 
 .faq-menu {
-  margin-bottom: 20px;
+  margin-bottom: 1.875rem;
 }
 
 .faq-menu::after {
@@ -2117,20 +2118,13 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 @media screen and (min-width: 640px) {
   .faq-menu {
-    margin-bottom: 40px;
+    margin-bottom: 3.125rem;
   }
 }
 
 #content-main .faq-menu h2 {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+  margin: 0;
+  float: left;
 }
 
 #content-main .faq-menu > ul {

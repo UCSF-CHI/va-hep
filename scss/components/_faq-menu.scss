@@ -1,9 +1,9 @@
 .faq-menu {
   @include clearfix;
-  margin-bottom: $gutter-mobile;
+  margin-bottom: rem(30);
 
   @include mq($tablet) {
-    margin-bottom: $gutter-desktop;
+    margin-bottom: rem(50);
   }
 
   // base inside of #content-main
@@ -11,7 +11,9 @@
 
     // hide title
     h2 {
-      @include visually-hidden;
+      @extend %header-caps;
+      margin: 0;
+      float: left;
     }
 
     > ul {

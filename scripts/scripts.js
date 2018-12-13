@@ -49,7 +49,7 @@ VAHEP.accordionMenu = (function ($) {
 
         $(this).html('<span>-</span> Collapse all').addClass('active').attr('aria-expanded', 'true');
 
-        $accordionMenu.each(function() {
+        $(this).parent('.accordion-menu, .faq-menu').each(function() {
           $(this).find('.toggle').addClass('active').attr('aria-expanded', 'true');
           $(this).find('.submenu, .answer').slideDown(animationSpeed);
         });
@@ -59,7 +59,7 @@ VAHEP.accordionMenu = (function ($) {
 
         $(this).html('<span>+</span> Expand all').removeClass('active').attr('aria-expanded', 'false');
 
-        $accordionMenu.each(function() {
+        $(this).parent('.accordion-menu, .faq-menu').each(function() {
           $(this).find('.toggle').removeClass('active').attr('aria-expanded', 'false');
           $(this).find('.submenu, .answer').slideUp(animationSpeed);
         });
