@@ -80,6 +80,7 @@
     li {
       @include font(18, 20);
       margin: rem(22) 0;
+      line-height: 1.4 !important;
     }
 
   }//#content-main &

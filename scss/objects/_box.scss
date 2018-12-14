@@ -1,0 +1,14 @@
+.boxes {
+  @include spacing;
+
+  // base inside of #content-main
+  #content-main & {
+
+    .boxcontent {
+      padding: rem(20);
+      border: solid 2px $very-light-grey;
+    }//boxcontent
+
+  }//#content-main &
+
+}//boxes
