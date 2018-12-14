@@ -1656,7 +1656,7 @@ h2.page-title {
 }
 
 .related-column .widget {
-  margin: 1.25rem 0;
+  margin-bottom: 1.25rem;
   padding: 0;
   float: none;
   min-width: auto;
@@ -1666,12 +1666,18 @@ h2.page-title {
 
 @media screen and (min-width: 640px) {
   .related-column .widget {
-    margin: 2.5rem 0;
+    margin-bottom: 2.5rem;
   }
 }
 
-.related-column .widget:first-child {
-  margin-top: 0;
+.related-column .widget ~ .widget {
+  margin: 1.25rem 0;
+}
+
+@media screen and (min-width: 640px) {
+  .related-column .widget ~ .widget {
+    margin: 2.5rem 0;
+  }
 }
 
 #content-main .related-column .widget .widget-title {

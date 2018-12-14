@@ -1,15 +1,20 @@
 .related-column {
 
   .widget {
-    @include spacing;
+    margin-bottom: rem(20);
     padding: 0;
     float: none;
     min-width: auto;
     border: 0;
     background: none;
 
-    &:first-child {
-      margin-top: 0;
+
+    @include mq($tablet) {
+      margin-bottom: rem(40);
+    }
+
+    ~ .widget {
+      @include spacing;
     }
 
     // base inside of #content-main
