@@ -1,7 +1,16 @@
 .toolbox {
-  @include spacing;
+  margin-bottom: rem(20);
   padding: rem(10);
   border: 0;
+
+  @include mq($tablet) {
+    margin-bottom: rem(40);
+  }
+
+  ~ .toolbox {
+    @include spacing;
+  }
+
 
   // base inside of #content-main
   #content-main & {

@@ -2765,13 +2765,23 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 }
 
 .toolbox {
-  margin: 1.25rem 0;
+  margin-bottom: 1.25rem;
   padding: 0.625rem;
   border: 0;
 }
 
 @media screen and (min-width: 640px) {
   .toolbox {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.toolbox ~ .toolbox {
+  margin: 1.25rem 0;
+}
+
+@media screen and (min-width: 640px) {
+  .toolbox ~ .toolbox {
     margin: 2.5rem 0;
   }
 }
