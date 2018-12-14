@@ -8,6 +8,10 @@
     border: 0;
     background: none;
 
+    &:first-child {
+      margin-top: 0;
+    }
+
     // base inside of #content-main
     #content-main & {
 

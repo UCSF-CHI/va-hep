@@ -1670,6 +1670,10 @@ h2.page-title {
   }
 }
 
+.related-column .widget:first-child {
+  margin-top: 0;
+}
+
 #content-main .related-column .widget .widget-title {
   padding: 0;
 }
