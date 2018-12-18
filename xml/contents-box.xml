@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<contents-boxes>
+
+
+
+<!-- Liver Basics -->
+
+  <contents-box type="basics-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="basics/index">Liver Basics</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="basics/liver-overview">Overview of the liver</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="basics/liver-as-filter">The liver as filter</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="basics/liver-as-factory">The liver as factory</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="basics/liver-functions">Summary</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="basics/liver-disease">Liver disease and other complications</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="basics/liver-disease-symptoms">Symptoms</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="basics/hepatitis">Hepatitis</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="basics/other-liver-diseases">Other liver diseases</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="basics/liver-damage-tests">Tests for liver damage</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="basics/liver-enzymes">Liver enzymes</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="basics/reversing-liver-damage">Reversing liver damage</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="basics/keeping-liver-healthy">Keeping your liver healthy</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="basics/keeping-liver-healthy-with-hepatitisC">When you have hepatitis</ilink-vahep>
+              </item>
+            </items>
+          </item>
+        </items>
+      </item>
+      <item>
+        <ilink-vahep ref="basics/resources">Resources</ilink-vahep>
+      </item>
+      <item>
+        <ilink-vahep ref="basics/glossary">Glossary</ilink-vahep>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+  <!-- Alcoholic Liver Disease -->
+
+  <contents-box type="alcohol-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="alcohol/patient/index">
+          Alcoholic Liver Disease for Patients
+        </ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="alcohol/patient/overview">About alcoholic liver disease</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="alcohol/patient/what-you-can-do">Alcohol drinking diary and change plan</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="alcohol/patient/fibrosis">Alcohol and fibrosis</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="alcohol/patient/cirrhosis">Alcohol and cirrhosis</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="alcohol/patient/response-to-treatment">Alcohol use and treatment</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="alcohol/patient/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+  <!-- Cirrhosis -->
+
+  <contents-box type="cirrhosis-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="cirrhosis/patient/index">Cirrhosis for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/introduction">Introduction</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/what-liver-does">What does your liver do?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/what-it-is">What is cirrhosis?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/what-happens">What happens with cirrhosis?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/symptoms">What are the symptoms?</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="cirrhosis/patient/decompensated">What is decompensated cirrhosis?</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="cirrhosis/patient/bleeding-varices">Bleeding varices</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="cirrhosis/patient/ascites">Ascites</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="cirrhosis/patient/encephalopathy">Encephalopathy</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="cirrhosis/patient/jaundice">Jaundice</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/diagnosis">How to know you have it</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/what-provider-will-do">What will your provider do?</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="cirrhosis/patient/what-you-can-do">What can you do?</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="cirrhosis/patient/care-of-liver">Do these things</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="cirrhosis/patient/things-to-be-careful-of">Be careful doing these</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="cirrhosis/patient/stop-and-think">Stop and think!</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/emergency-room-needs">When to go to emergency room</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/work-with-provider">Taking care of your liver</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/terms">Commonly used terms</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/resources">Resources</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="cirrhosis/patient/faqs/index">Frequently asked questions</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+  <!-- HAV Menu -->
+
+  <contents-box type="hepatitisA-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hav/patient/index">Hepatitis A for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hav/patient/what-it-is">What is hepatitis A?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hav/patient/how-spread">How is hepatitis A spread?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hav/patient/risks">Who is at risk?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hav/patient/symptoms">How will I know if I have it?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hav/patient/treatment">What treatments are available?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hav/patient/prevention">How can I prevent it?</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hav/patient/vaccine-how-works">What is the hepatitis A vaccine?</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hav/patient/vaccine">Should I get the hepatitis A vaccine?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hav/patient/vaccine-get-tested">Do I need to get tested first?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hav/patient/vaccine-side-effects">What are the side effects?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hav/patient/vaccine-types">What vaccines are available?</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="hav/patient/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+  <!-- HBV Menu -->
+
+  <contents-box type="hepatitisB-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hbv/patient/index">Hepatitis B for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hbv/patient/overview">Getting Tested</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hbv/patient/what-it-is">What is hepatitis B?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/risks">Who is at risk?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/symptoms">Will you know if you have hepatitis B?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/tests">What tests will you have to do?</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hbv/patient/treat">Treatment</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hbv/patient/treat-who-to">Treat everyone?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/treat-cure">Is treatment a cure?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/treat-drugs">What treatments are available?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/treat-tips">What do I do on treatment?</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hbv/patient/prevent">Prevention</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hbv/patient/protect-self">How do you protect yourself?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine">Should you get vaccinated?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-before-getting">Do I need to get tested first?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-exposure">What to do if you're exposed to virus?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-how-given">How is the vaccine given?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-types">What are the types of vaccines?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-side-effects">What are the side effects?</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="hbv/patient/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+  <contents-box type="hepatitisB-menu-overview">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hbv/patient/index">Hepatitis B for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hbv/patient/overview">Getting Tested</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hbv/patient/what-it-is">What is hepatitis B?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/risks">Who is at risk?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/symptoms">Will you know if you have hepatitis B?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/tests">What tests will you have to do?</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="hbv/patient/treat">Treatment</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hbv/patient/prevent">Prevention</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hbv/patient/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+  <contents-box type="hepatitisB-menu-treat">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hbv/patient/index">Hepatitis B for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hbv/patient/overview">Getting Tested</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hbv/patient/treat">Treatment</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hbv/patient/treat-who-to">Treat everyone?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/treat-cure">Is treatment a cure?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/treat-drugs">What treatments are available?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/treat-tips">What do I do on treatment?</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="hbv/patient/prevent">Prevention</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hbv/patient/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+  <contents-box type="hepatitisB-menu-prevent">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hbv/patient/index">Hepatitis B for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hbv/patient/Overview">Getting Tested</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hbv/patient/treat">Treatment</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hbv/patient/prevent">Prevention</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hbv/patient/protect-self">How do you protect yourself?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine">Should you get vaccinated?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-before-getting">Do I need to get tested first?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-exposure">What to do if you're exposed to virus?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-how-given">How is the vaccine given?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-types">What are the types of vaccines?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hbv/patient/vaccine-side-effects">What are the side effects?</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="hbv/patient/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+  <!-- HCV - "Just Diagnosed" -->
+
+  <contents-box type="diag-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-understand">Understand your diagnosis</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-learn">Learn about hepatitis C</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-lifestyle">Adopt a healthy lifestyle</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-protect-others">Protect others</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-long-term-effects">Understand long-term effects</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-complications">Liver complications</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-tell-others">Telling others and finding support</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-join-support-group">Join a support group</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-move-forward">Move forward with life</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-work-with-doctor">Working with your doctor</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-before-appointment">Before appointment</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-during-appointment">During appointment</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-monitor-health">Monitor your healtlh</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-when-to-call-doctor">When to call doctor</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-regular-tests">Regular lab tests</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-treatment-options">Treatment options for hepatitis C</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/diagnosis/coinfection-index">HIV coinfection</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-definition">What is coinfection?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-why-important">Why is it an issue?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-concerns">Concerns with coinfection</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-HIV-effects">How can HIV affect me?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-hepatitisC-effects">How can hepatitis C affect me?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-HIV-treatment">Will hepatitis C affect HIV treatments?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-hepatitisC-treatment">Will HIV affect hepatitis C treatment?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-sexual-transmission">Passing HIV or hepatitis C through sex</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-drug-transmission">Passing HIV or hepatitis C through drugs</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-is-there-cure">Is there a cure for HIV or hepatitis C?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-slowing-infection">How to slow down infections</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/diagnosis/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+  <!-- HCV - "Treatment" -->
+
+  <contents-box type="treat-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
+      <item>
+        <ilink-vahep ref="hcv/patient/treat/index">Treatment Main</ilink-vahep>
+      </item>
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/treat/decisions-index">Treatment decisions</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/decisions-before-treatment">Before treatment</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-when-to-start">Should you start at once?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-watchful-waiting">Reasons to wait for treatment</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-benefits">Benefits of treatment</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-who-to-test">Who should get treated?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-treatment">What drugs are effective?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-duration">How long does it last?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-side-effects">What are the side effects?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-working-while-on-treatment">Can you keep working?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-success">How successful is it?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-outcome-factors">What can affect outcomes?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-plan">Deciding on a plan</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/decisions-during-treatment">During treatment</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-what-to-know">What to know</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-responses">Treatment responses</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-tests-during-treatment">Tests to have</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-ways-to-help-treatment">Helping it work</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/decisions-after-treatment">After treatment</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-if-virus-cleared">Was virus cleared?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-staying-negative">Will you stay negative?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-if-virus-still-in-blood">Is virus still in blood?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/decisions-summary">Summary</ilink-vahep>
+              </item>
+            </items>
+          </item>
+        </items>
+      </item>
+      <item type="expand">
+        <ilink-vahep ref="patient/treat/side-effects-index">Side effects guide</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/side-effects-overview">Overview</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/side-effects-mental-health">Mental health</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/side-effects-whole-body">Whole body</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/side-effects-mouth-stomach-digestion">Mouth, stomach, and digestion</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/side-effects-skin-hair">Skin and hair</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/side-effects-other">Other side effects</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/side-effects-blood-tests">Blood tests</ilink-vahep>
+          </item>
+        </items>
+      </item>
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/treat/clinical-trials-index">Clinical trials</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-what-is">What is a clinical trial?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-how-work">How do clinical trials work?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-how-to-enroll">How do I begin a clinical trial?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-informed-consent">What is informed consent?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-types">What are the different types of clinical trials?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-costs">Does it cost anything to participate in a clinical trial?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-duration">How long do clinical trials last?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-time-to-drug-approval">How long does it take for a medication to be approved by the FDA?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-benefits-risks">What are the benefits and risks of being in a clinical trial?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-pays">Who pays for clinical trials?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-can-participate">Will I definitely be able to participate?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-to-find-out-more">How can I find out about participating in a hepatitis C clinical trial?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-get-more-info">Where can I get more information on clinical trials?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-to-contact">Who can I contact for more information?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-index">Drug/alcohol recovery</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-overview">Overview</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-side-effects">Treatment side effects</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-managing-side-effects">Managing side effects</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-interferon">Memories of "using" days</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-stories">People talk about recovery</ilink-vahep>
+          </item>
+        </items>
+      </item>
+      <item>
+        <ilink-vahep ref="hcv/patient/treat/resources">Resources</ilink-vahep>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+
+
+
+
+  <!-- Liver Cancer -->
+
+  <contents-box type="cancer-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="liver-cancer/patient/index">Liver Cancer for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="liver-cancer/patient/what-it-is">What is liver cancer?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-cancer/patient/who-gets-it">Who gets it?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-cancer/patient/diagnosis">How is it diagnosed?</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-cancer/patient/things-to-know">Things to know</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="liver-cancer/patient/treatment">Treatments</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="liver-cancer/patient/alcohol-injection">Alcohol injection</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="liver-cancer/patient/RFA">Radiofrequency ablation (RFA)</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="liver-cancer/patient/embolization">Embolization or chemoembolization</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="liver-cancer/patient/surgical-resection">Surgical resection</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="liver-cancer/patient/chemotherapy">Chemotherapy or radiation therapy</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="liver-cancer/patient/transplant">Liver transplant</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-cancer/patient/prevention">How to avoid liver cancer</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-cancer/patient/summary">Summary</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-cancer/patient/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+  <!-- Liver Transplant -->
+
+  <contents-box type="transplant-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="liver-transplant/patient/index">Liver Transplant for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/welcome">Welcome</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="liver-transplant/patient/team">Transplant team</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="liver-transplant/patient/team-members">Team members</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="liver-transplant/patient/support-person">Support person</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/basics">Basics</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/evaluation">Evaluation process</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/listing-process">Listing process</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/nutrition">Nutrition</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/surgery">Surgery</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/complications">Complications/ medications</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/centers-houston">Houston Center</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/centers-nashville">Nashville Center</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/centers-pittsburgh">Pittsburgh Center</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/centers-portland">Portland Center</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/centers-richmond">Richmond Center</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/local-facility">My local VA facility</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/testimonials">Patient testimonials</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/acknowledgements">Acknowledgements</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="liver-transplant/patient/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+
+  </contents-box>
+
+
+
+
+
+
+
+
+
+  <contents-box type="alternative-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Living with Hepatitis Main</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/alternative-therapies/index">Alternative Therapies</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/alternative-therapies/overview">Overview</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/alternative-therapies/safety">Are they safe?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/alternative-therapies/efficacy">Do they work?</ilink-vahep>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/alternative-therapies/physical">Physical therapies</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/yoga">Yoga</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/massage">Massage</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/aromatherapy">Aromatherapy</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/energy-healing">Energy healing</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/alternative-therapies/relaxation">Relaxation techniques</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/meditation">Meditation</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/visualization">Visualization</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/alternative-therapies/herbs">Herbal medicines</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/milk-thistle">Milk thistle</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/licorice-root">Licorice root</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/ginseng">Ginseng</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/dandelion">Dandelion</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/echinacea">Echinacea</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/thymus-extract">Thymus extract</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/herbs-to-avoid">Herbs to avoid</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/alternative-therapies/herb-cautions">Cautions about herbs</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/alternative-therapies/resources">Resources</ilink-vahep>
+              </item>
+            </items>
+          </item>
+        </items>
+
+      </item>
+
+    </items>
+  </contents-box>
+  <contents-box type="diet-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Living with Hepatitis Main</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/diet/index">Diet and Nutrition</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/diet/overview">Overview</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diet/how-diet-affects-liver">Diet and the liver</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diet/how-hepatitisC-affects-diet">Hepatitis C and diet</ilink-vahep>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/diet/eating-tips">Eating tips for people with hepatitis C</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diet/regular-meals">Meals</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diet/grains">Cereals and grains</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diet/fruits-vegetables">Fruits and vegetables</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diet/protein">Protein</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diet/fats-salt-sugar">Fats, salt, and sugar</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diet/fluids">Fluids</ilink-vahep>
+                  </item>
+                  <item type="expand">
+                    <ilink-vahep ref="hcv/patient/diet/healthy-weight">Weight</ilink-vahep>
+                    <items type="hi-self" class="subitems">
+                      <item>
+                        <ilink-vahep ref="hcv/patient/diet/overweight">Overweight</ilink-vahep>
+                      </item>
+                      <item>
+                        <ilink-vahep ref="hcv/patient/diet/underweight">Underweight</ilink-vahep>
+                      </item>
+                    </items>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diet/supplements">Dietary supplements</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diet/tips-for-people-with-cirrhosis">Eating tips for people with cirrhosis</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diet/resources">Resources</ilink-vahep>
+              </item>
+            </items>
+          </item>
+        </items>
+
+      </item>
+
+    </items>
+  </contents-box>
+
+  <contents-box type="pain-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Living with Hepatitis Main</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/pain/index">Managing Pain</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/pain/overview">Overview</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/pain/disease-and-pain">Disease and pain</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/pain/hepatitisC-pain">Pain and hepatitis C</ilink-vahep>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/pain/treatment">Treating pain</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/pain/stretching-and-exercise">Stretching and exercise</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/pain/relaxation">Relaxation</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/pain/stress-and-depression">Treating stress or depression</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/pain/conventional-interventions">Conventional interventions</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/pain/working-with-team">Working with team</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/pain/resources">Resources</ilink-vahep>
+              </item>
+            </items>
+          </item>
+        </items>
+      </item>
+
+    </items>
+  </contents-box>
+  <contents-box type="mental-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Living with Hepatitis Main</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/mental/index">Mental Health</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/mental/overview">Overview</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/mental/denial">Denial</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/mental/anger">Anger</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/mental/depression">Sadness or depression</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/mental/anxiety">Fear and anxiety</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/mental/stress">Stress</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/mental/coping-tips">Coping tips</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/mental/resources">Resources</ilink-vahep>
+              </item>
+            </items>
+
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+  <contents-box type="sex-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Living with Hepatitis Main</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/sex/index">Sex and Sexuality</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/overview">Overview</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/transmission">Risk from sexual activity</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/oral-and-anal-sex">Risk from oral/anal sex</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/virus-in-body-fluids">Is virus in body fluids?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/virus-in-blood">Blood virus level and risk</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/birth-control-as-prevention">Can birth control prevent spread of virus?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/mother-to-fetus-transmission">Risk of infecting baby</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/birth-control-while-under-treatment">Birth control during treatment</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/factors-that-increase-risk">Factors that increase risk</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/reducing-risk">Factors that reduce risk</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/sex/resources">Resources</ilink-vahep>
+              </item>
+            </items>
+          </item>
+        </items>
+      </item>
+
+    </items>
+  </contents-box>
+
+  <contents-box type="daily-menu-simple-t4">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item>
+        <ilink-vahep ref="hcv/patient/index">Living with Hepatitis Main</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hcv/patient/alcohol/index">Alcohol and Hepatitis</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/alternative-therapies/index">Alternative Therapies</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/diet/index">Diet and Nutrition</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/pain/index">Managing Pain</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/mental/index">Mental Health</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/sex/index">Sex and Sexuality</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+  <contents-box type="success-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item>
+        <ilink-vahep ref="hcv/patient/index">Living with Hepatitis Main</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hcv/patient/success/knute">Knute, Army Veteran</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/success/maurice">Maurice, Army Veteran</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/success/david">David, Army Veteran</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/success/leslie">Leslie, Air Force Veteran</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/success/mike">Mike, Marine Corps Veteran</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+
+
+
+
+  <contents-box type="hepatitisC-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/diagnosis/labtests-index">Understanding Lab Tests</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/index">Treatment</ilink-vahep>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/success/index">Success Stories</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+  <contents-box type="hepatitisC-test">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/what-it-is">What is hepatitis C?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/symptoms">What are the symptoms?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/what-happens">What happens to people with hepatitis C?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/should-you-get-tested">Should I get tested?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/tests-needed">What tests do I need?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/where-to-get-tested">Where can I get tested?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/are-personal-questions-asked">Must I answer personal questions?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/counseling">Is there counseling?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/time-required-to-test-positive">How long after exposure does it take to test positive?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/test-results-accuracy">Can test results be wrong?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/if-you-test-positive">What should I do if I test positive?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/if-you-test-negative">What should I do if I test negative?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/resources">Resources</ilink-vahep>
+              </item>
+            </items>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+  <contents-box type="hepatitisC-treat">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/index">Treatment Main</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/decisions-index">Treatment decisions</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/treat/decisions-before-treatment">Before treatment</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-when-to-start">Should you start at once?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-watchful-waiting">Reasons to wait for treatment</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-benefits">Benefits of treatment</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-who-to-test">Who should get treated?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment">What drugs are effective?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-duration">How long does it last?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-side-effects">What are the side effects?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-working-while-on-treatment">Can you keep working?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-success">How successful is it?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-outcome-factors">What can affect outcomes?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-plan">Deciding on a plan</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/treat/decisions-during-treatment">During treatment</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-what-to-know">What to know</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-responses">Treatment responses</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-tests-during-treatment">Tests to have</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-ways-to-help-treatment">Helping it work</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/treat/decisions-after-treatment">After treatment</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-if-virus-cleared">Was virus cleared?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-staying-negative">Will you stay negative?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-if-virus-still-in-blood">Is virus still in blood?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/treat/decisions-summary">Summary</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/side-effects-index">Side effects guide</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/side-effects-overview">Overview</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/side-effects-mental-health">Mental health</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/side-effects-whole-body">Whole body</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/side-effects-mouth-stomach-digestion">Mouth, stomach, and digestion</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/side-effects-skin-hair">Skin and hair</ilink-vahep>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/treat/side-effects-other">Other side effects</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/side-effects-blood-tests">Blood tests</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/clinical-trials-index">Clinical trials</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-what-is">What is a clinical trial?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-how-work">How do clinical trials work?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-how-to-enroll">How do I begin a clinical trial?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-informed-consent">What is informed consent?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-types">What are the different types of clinical trials?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-costs">Does it cost anything to participate in a clinical trial?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-duration">How long do clinical trials last?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-time-to-drug-approval">How long does it take for a medication to be approved by the FDA?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-benefits-risks">What are the benefits and risks of being in a clinical trial?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-pays">Who pays for clinical trials?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-can-participate">Will I definitely be able to participate?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-to-find-out-more">How can I find out about participating in a hepatitis C clinical trial?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-get-more-info">Where can I get more information on clinical trials?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-to-contact">Who can I contact for more information?</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-index">Drug/alcohol recovery</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-overview">Overview</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-side-effects">Treatment side effects</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-managing-side-effects">Managing side effects</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-interferon">Memories of "using" days</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-stories">People talk about recovery</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item>
+            <ilink-vahep ref="hcv/patient/treat/resources">Resources</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+</contents-boxes>
