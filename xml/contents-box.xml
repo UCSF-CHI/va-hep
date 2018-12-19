@@ -320,6 +320,77 @@
 
 
 
+  <!-- HCV Menu -->
+
+  <contents-box type="hepatitisC-menu">
+    <boxheader>Contents</boxheader>
+    <items type="hi-self">
+      <item type="expand">
+        <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
+        <items type="hi-self" class="subitems">
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/what-it-is">What is hepatitis C?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/symptoms">What are the symptoms?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/what-happens">What happens to people with hepatitis C?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/should-you-get-tested">Should I get tested?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/tests-needed">What tests do I need?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/where-to-get-tested">Where can I get tested?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/are-personal-questions-asked">Must I answer personal questions?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/counseling">Is there counseling?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/time-required-to-test-positive">How long after exposure does it take to test positive?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/test-results-accuracy">Can test results be wrong?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/if-you-test-positive">What should I do if I test positive?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/if-you-test-negative">What should I do if I test negative?</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/testing/resources">Resources</ilink-vahep>
+              </item>
+            </items>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/diagnosis/labtests-index">Understanding Lab Tests</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/treat/index">Treatment</ilink-vahep>
+          </item>
+          <item type="expand">
+            <ilink-vahep ref="hcv/patient/success/index">Success Stories</ilink-vahep>
+          </item>
+        </items>
+      </item>
+    </items>
+  </contents-box>
+
+
+
   <!-- HCV - "Just Diagnosed" -->
 
   <contents-box type="diag-menu">
@@ -1119,31 +1190,7 @@
 
 
 
-  <contents-box type="hepatitisC-menu">
-    <boxheader>Contents</boxheader>
-    <items type="hi-self">
-      <item type="expand">
-        <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
-        <items type="hi-self" class="subitems">
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/diagnosis/labtests-index">Understanding Lab Tests</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/index">Treatment</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/success/index">Success Stories</ilink-vahep>
-          </item>
-        </items>
-      </item>
-    </items>
-  </contents-box>
+
 
   <contents-box type="hepatitisC-test">
     <boxheader>Contents</boxheader>
@@ -1151,50 +1198,7 @@
       <item type="expand">
         <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
         <items type="hi-self" class="subitems">
-          <item>
-            <ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/what-it-is">What is hepatitis C?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/symptoms">What are the symptoms?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/what-happens">What happens to people with hepatitis C?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/should-you-get-tested">Should I get tested?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/tests-needed">What tests do I need?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/where-to-get-tested">Where can I get tested?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/are-personal-questions-asked">Must I answer personal questions?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/counseling">Is there counseling?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/time-required-to-test-positive">How long after exposure does it take to test positive?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/test-results-accuracy">Can test results be wrong?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/if-you-test-positive">What should I do if I test positive?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/if-you-test-negative">What should I do if I test negative?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/testing/resources">Resources</ilink-vahep>
-              </item>
-            </items>
-          </item>
+
         </items>
       </item>
     </items>
