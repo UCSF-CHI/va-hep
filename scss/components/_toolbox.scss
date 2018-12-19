@@ -24,6 +24,12 @@
           text-decoration: none;
         }
 
+        a[href$="single-page.asp"] {
+          display: inline-block;
+          margin-left: 24px;
+          text-indent: -24px;
+        }
+
       }//> li
 
     }// > ul

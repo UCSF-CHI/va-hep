@@ -2810,6 +2810,12 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   text-decoration: none;
 }
 
+#content-main .toolbox > ul > li a[href$="single-page.asp"] {
+  display: inline-block;
+  margin-left: 24px;
+  text-indent: -24px;
+}
+
 #content-main .content-column .whats-new {
   list-style: none;
   padding: 0;
