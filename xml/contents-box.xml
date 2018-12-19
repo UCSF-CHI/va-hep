@@ -329,6 +329,9 @@
         <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
         <items type="hi-self" class="subitems">
           <item type="expand">
+
+            <!-- Getting Tested -->
+
             <ilink-vahep ref="hcv/patient/testing/index">Getting Tested</ilink-vahep>
             <items type="hi-self" class="subitems">
               <item>
@@ -372,326 +375,139 @@
               </item>
             </items>
           </item>
+
+          <!-- Just Diagnosed -->
+
           <item type="expand">
             <ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-understand">Understand your diagnosis</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-learn">Learn about hepatitis C</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-lifestyle">Adopt a healthy lifestyle</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-protect-others">Protect others</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-long-term-effects">Understand long-term effects</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-complications">Liver complications</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-tell-others">Telling others and finding support</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-join-support-group">Join a support group</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-move-forward">Move forward with life</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-work-with-doctor">Working with your doctor</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-before-appointment">Before appointment</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-during-appointment">During appointment</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-monitor-health">Monitor your healtlh</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-when-to-call-doctor">When to call doctor</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-regular-tests">Regular lab tests</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-treatment-options">Treatment options for hepatitis C</ilink-vahep>
+              </item>
+              <item type="expand">
+                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-index">HIV coinfection</ilink-vahep>
+                <items type="hi-self" class="subitems">
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-definition">What is coinfection?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-why-important">Why is it an issue?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-concerns">Concerns with coinfection</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-HIV-effects">How can HIV affect me?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-hepatitisC-effects">How can hepatitis C affect me?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-HIV-treatment">Will hepatitis C affect HIV treatments?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-hepatitisC-treatment">Will HIV affect hepatitis C treatment?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-sexual-transmission">Passing HIV or hepatitis C through sex</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-drug-transmission">Passing HIV or hepatitis C through drugs</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-is-there-cure">Is there a cure for HIV or hepatitis C?</ilink-vahep>
+                  </item>
+                  <item>
+                    <ilink-vahep ref="hcv/patient/diagnosis/coinfection-slowing-infection">How to slow down infections</ilink-vahep>
+                  </item>
+                </items>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/diagnosis/resources">Resources</ilink-vahep>
+              </item>
+            </items>
           </item>
-          <item type="expand">
+          <item>
             <ilink-vahep ref="hcv/patient/diagnosis/labtests-index">Understanding Lab Tests</ilink-vahep>
           </item>
-          <item type="expand">
+          <item>
             <ilink-vahep ref="hcv/patient/treat/index">Treatment</ilink-vahep>
           </item>
           <item type="expand">
             <ilink-vahep ref="hcv/patient/success/index">Success Stories</ilink-vahep>
+            <items type="hi-self" class="subitems">
+              <item>
+                <ilink-vahep ref="hcv/patient/success/knute">Knute, Army Veteran</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/success/maurice">Maurice, Army Veteran</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/success/david">David, Army Veteran</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/success/leslie">Leslie, Air Force Veteran</ilink-vahep>
+              </item>
+              <item>
+                <ilink-vahep ref="hcv/patient/success/mike">Mike, Marine Corps Veteran</ilink-vahep>
+              </item>
+            </items>
           </item>
         </items>
       </item>
     </items>
   </contents-box>
-
-
-
-  <!-- HCV - "Just Diagnosed" -->
-
-  <contents-box type="diag-menu">
-    <boxheader>Contents</boxheader>
-    <items type="hi-self">
-      <item type="expand">
-        <ilink-vahep ref="hcv/patient/diagnosis/index">Just Diagnosed</ilink-vahep>
-        <items type="hi-self" class="subitems">
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-understand">Understand your diagnosis</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-learn">Learn about hepatitis C</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-lifestyle">Adopt a healthy lifestyle</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-protect-others">Protect others</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-long-term-effects">Understand long-term effects</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-complications">Liver complications</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-tell-others">Telling others and finding support</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-join-support-group">Join a support group</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-move-forward">Move forward with life</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-work-with-doctor">Working with your doctor</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-before-appointment">Before appointment</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-during-appointment">During appointment</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-monitor-health">Monitor your healtlh</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-when-to-call-doctor">When to call doctor</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-regular-tests">Regular lab tests</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/diagnosis/nextsteps-treatment-options">Treatment options for hepatitis C</ilink-vahep>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/diagnosis/coinfection-index">HIV coinfection</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-definition">What is coinfection?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-why-important">Why is it an issue?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-concerns">Concerns with coinfection</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-HIV-effects">How can HIV affect me?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-hepatitisC-effects">How can hepatitis C affect me?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-HIV-treatment">Will hepatitis C affect HIV treatments?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-hepatitisC-treatment">Will HIV affect hepatitis C treatment?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-sexual-transmission">Passing HIV or hepatitis C through sex</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-drug-transmission">Passing HIV or hepatitis C through drugs</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-is-there-cure">Is there a cure for HIV or hepatitis C?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/diagnosis/coinfection-slowing-infection">How to slow down infections</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/diagnosis/resources">Resources</ilink-vahep>
-          </item>
-        </items>
-      </item>
-    </items>
-  </contents-box>
-
-
-
-  <!-- HCV - "Treatment" -->
-
-  <contents-box type="treat-menu">
-    <boxheader>Contents</boxheader>
-    <items type="hi-self">
-      <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
-      <item>
-        <ilink-vahep ref="hcv/patient/treat/index">Treatment Main</ilink-vahep>
-      </item>
-      <item type="expand">
-        <ilink-vahep ref="hcv/patient/treat/decisions-index">Treatment decisions</ilink-vahep>
-        <items type="hi-self" class="subitems">
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/treat/decisions-before-treatment">Before treatment</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-when-to-start">Should you start at once?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-watchful-waiting">Reasons to wait for treatment</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-benefits">Benefits of treatment</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-who-to-test">Who should get treated?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-treatment">What drugs are effective?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-duration">How long does it last?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-side-effects">What are the side effects?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-working-while-on-treatment">Can you keep working?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-success">How successful is it?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-outcome-factors">What can affect outcomes?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-plan">Deciding on a plan</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/treat/decisions-during-treatment">During treatment</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-what-to-know">What to know</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-treatment-responses">Treatment responses</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-tests-during-treatment">Tests to have</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-ways-to-help-treatment">Helping it work</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/treat/decisions-after-treatment">After treatment</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-if-virus-cleared">Was virus cleared?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-staying-negative">Will you stay negative?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-if-virus-still-in-blood">Is virus still in blood?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/decisions-summary">Summary</ilink-vahep>
-              </item>
-            </items>
-          </item>
-        </items>
-      </item>
-      <item type="expand">
-        <ilink-vahep ref="patient/treat/side-effects-index">Side effects guide</ilink-vahep>
-        <items type="hi-self" class="subitems">
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/side-effects-overview">Overview</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/side-effects-mental-health">Mental health</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/side-effects-whole-body">Whole body</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/side-effects-mouth-stomach-digestion">Mouth, stomach, and digestion</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/side-effects-skin-hair">Skin and hair</ilink-vahep>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/treat/side-effects-other">Other side effects</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/side-effects-blood-tests">Blood tests</ilink-vahep>
-          </item>
-        </items>
-      </item>
-      <item type="expand">
-        <ilink-vahep ref="hcv/patient/treat/clinical-trials-index">Clinical trials</ilink-vahep>
-        <items type="hi-self" class="subitems">
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-what-is">What is a clinical trial?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-how-work">How do clinical trials work?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-how-to-enroll">How do I begin a clinical trial?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-informed-consent">What is informed consent?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-types">What are the different types of clinical trials?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-costs">Does it cost anything to participate in a clinical trial?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-duration">How long do clinical trials last?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-time-to-drug-approval">How long does it take for a medication to be approved by the FDA?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-benefits-risks">What are the benefits and risks of being in a clinical trial?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-pays">Who pays for clinical trials?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-can-participate">Will I definitely be able to participate?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-to-find-out-more">How can I find out about participating in a hepatitis C clinical trial?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-get-more-info">Where can I get more information on clinical trials?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-to-contact">Who can I contact for more information?</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/resources">Resources</ilink-vahep>
-          </item>
-        </items>
-      </item>
-      <item type="expand">
-        <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-index">Drug/alcohol recovery</ilink-vahep>
-        <items type="hi-self" class="subitems">
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-overview">Overview</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-side-effects">Treatment side effects</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-managing-side-effects">Managing side effects</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-interferon">Memories of "using" days</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-stories">People talk about recovery</ilink-vahep>
-          </item>
-        </items>
-      </item>
-      <item>
-        <ilink-vahep ref="hcv/patient/treat/resources">Resources</ilink-vahep>
-      </item>
-    </items>
-  </contents-box>
-
-
-
-
 
 
 
@@ -826,11 +642,6 @@
     </items>
 
   </contents-box>
-
-
-
-
-
 
 
 
@@ -1159,236 +970,3 @@
     </items>
   </contents-box>
 
-  <contents-box type="success-menu">
-    <boxheader>Contents</boxheader>
-    <items type="hi-self">
-      <item>
-        <ilink-vahep ref="hcv/patient/index">Living with Hepatitis Main</ilink-vahep>
-        <items type="hi-self" class="subitems">
-          <item>
-            <ilink-vahep ref="hcv/patient/success/knute">Knute, Army Veteran</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/success/maurice">Maurice, Army Veteran</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/success/david">David, Army Veteran</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/success/leslie">Leslie, Air Force Veteran</ilink-vahep>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/success/mike">Mike, Marine Corps Veteran</ilink-vahep>
-          </item>
-        </items>
-      </item>
-    </items>
-  </contents-box>
-
-
-
-
-
-
-
-
-  <contents-box type="hepatitisC-test">
-    <boxheader>Contents</boxheader>
-    <items type="hi-self">
-      <item type="expand">
-        <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
-        <items type="hi-self" class="subitems">
-
-        </items>
-      </item>
-    </items>
-  </contents-box>
-
-
-  <contents-box type="hepatitisC-treat">
-    <boxheader>Contents</boxheader>
-    <items type="hi-self">
-      <item type="expand">
-        <ilink-vahep ref="hcv/patient/index">Hepatitis C for Patients</ilink-vahep>
-        <items type="hi-self" class="subitems">
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/index">Treatment Main</ilink-vahep>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/treat/decisions-index">Treatment decisions</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item type="expand">
-                <ilink-vahep ref="hcv/patient/treat/decisions-before-treatment">Before treatment</ilink-vahep>
-                <items type="hi-self" class="subitems">
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-when-to-start">Should you start at once?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-watchful-waiting">Reasons to wait for treatment</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-benefits">Benefits of treatment</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-who-to-test">Who should get treated?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment">What drugs are effective?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-duration">How long does it last?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-side-effects">What are the side effects?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-working-while-on-treatment">Can you keep working?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-success">How successful is it?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-outcome-factors">What can affect outcomes?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-plan">Deciding on a plan</ilink-vahep>
-                  </item>
-                </items>
-              </item>
-              <item type="expand">
-                <ilink-vahep ref="hcv/patient/treat/decisions-during-treatment">During treatment</ilink-vahep>
-                <items type="hi-self" class="subitems">
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-what-to-know">What to know</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-treatment-responses">Treatment responses</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-tests-during-treatment">Tests to have</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-ways-to-help-treatment">Helping it work</ilink-vahep>
-                  </item>
-                </items>
-              </item>
-              <item type="expand">
-                <ilink-vahep ref="hcv/patient/treat/decisions-after-treatment">After treatment</ilink-vahep>
-                <items type="hi-self" class="subitems">
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-if-virus-cleared">Was virus cleared?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-staying-negative">Will you stay negative?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-if-virus-still-in-blood">Is virus still in blood?</ilink-vahep>
-                  </item>
-                  <item>
-                    <ilink-vahep ref="hcv/patient/treat/decisions-summary">Summary</ilink-vahep>
-                  </item>
-                </items>
-              </item>
-            </items>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/treat/side-effects-index">Side effects guide</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/side-effects-overview">Overview</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/side-effects-mental-health">Mental health</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/side-effects-whole-body">Whole body</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/side-effects-mouth-stomach-digestion">Mouth, stomach, and digestion</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/side-effects-skin-hair">Skin and hair</ilink-vahep>
-              </item>
-              <item type="expand">
-                <ilink-vahep ref="hcv/patient/treat/side-effects-other">Other side effects</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/side-effects-blood-tests">Blood tests</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/treat/clinical-trials-index">Clinical trials</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-what-is">What is a clinical trial?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-how-work">How do clinical trials work?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-how-to-enroll">How do I begin a clinical trial?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-informed-consent">What is informed consent?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-types">What are the different types of clinical trials?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-costs">Does it cost anything to participate in a clinical trial?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-duration">How long do clinical trials last?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-time-to-drug-approval">How long does it take for a medication to be approved by the FDA?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-benefits-risks">What are the benefits and risks of being in a clinical trial?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-pays">Who pays for clinical trials?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-can-participate">Will I definitely be able to participate?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-to-find-out-more">How can I find out about participating in a hepatitis C clinical trial?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-get-more-info">Where can I get more information on clinical trials?</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/clinical-trials-who-to-contact">Who can I contact for more information?</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item type="expand">
-            <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-index">Drug/alcohol recovery</ilink-vahep>
-            <items type="hi-self" class="subitems">
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-overview">Overview</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-side-effects">Treatment side effects</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-managing-side-effects">Managing side effects</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-interferon">Memories of "using" days</ilink-vahep>
-              </item>
-              <item>
-                <ilink-vahep ref="hcv/patient/treat/drug-alcohol-recovery-stories">People talk about recovery</ilink-vahep>
-              </item>
-            </items>
-          </item>
-          <item>
-            <ilink-vahep ref="hcv/patient/treat/resources">Resources</ilink-vahep>
-          </item>
-        </items>
-      </item>
-    </items>
-  </contents-box>
-</contents-boxes>
