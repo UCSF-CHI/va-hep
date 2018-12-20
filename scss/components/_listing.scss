@@ -1,9 +1,13 @@
 // Site specific listing mixins
 .listing,
 .toc {
-  @include spacing;
+  margin: rem(24) 0;
   @include clearfix;
   border: 0;
+
+  @include mq($tablet) {
+    margin: rem(28) 0;
+  }
 
   // base inside of #content-main
   #content-main .content-column & {
