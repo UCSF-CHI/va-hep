@@ -9,6 +9,14 @@
     a {
       @extend %button;
 
+      @include mq($mobile) {
+        margin-bottom: rem(20);
+      }
+
+      @include mq($tablet) {
+        min-width: 152px;
+      }
+
       &:first-child {
         float: left;
       }
