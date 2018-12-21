@@ -18,7 +18,7 @@
     li {
       @include font(15);
       line-height: 1.4;
-      @include dont-break-out;
+      //@include dont-break-out;
 
       @include mq($tablet) {
         @include font(16);
