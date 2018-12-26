@@ -2161,6 +2161,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 #content-main .faq-menu h2 {
   margin: 0;
   float: left;
+  color: #003F72;
 }
 
 #content-main .faq-menu > ul {
