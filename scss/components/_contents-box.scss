@@ -22,7 +22,6 @@
           display: inline-block;
           @include font(14);
           font-weight: bold;
-          //color: $nero;
           text-decoration: none;
         }
 
@@ -88,17 +87,10 @@
 
           }
 
-
           //nested subitems
           .subitems {
             margin-left: 0;
-
-            li {
-
-
-
-            }
-
+            padding-left: rem(16);
           }
 
         }//li

@@ -2093,6 +2093,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 #content-main .related-column .contentsbox ul li .subitems {
   margin-left: 0;
+  padding-left: 1rem;
 }
 
 .faq-callout {
