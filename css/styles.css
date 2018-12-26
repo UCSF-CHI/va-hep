@@ -962,7 +962,7 @@ h2.page-title {
 
 #content-main a {
   cursor: pointer;
-  color: #0C78C6;
+  color: #0B72BC;
   text-decoration: underline;
 }
 
@@ -1371,7 +1371,7 @@ h2.page-title {
 }
 
 #content-main table th a {
-  color: #0C78C6;
+  color: #0B72BC;
 }
 
 #content-main table th a:focus, #content-main table th a:active, #content-main table th a:hover {
@@ -1564,7 +1564,7 @@ h2.page-title {
 
 #content-main .button:focus, #content-main .button:active, #content-main .button:hover, #content-main input:focus[type="submit"], #content-main .module-nav a:focus, #content-main input:active[type="submit"], #content-main .module-nav a:active, #content-main input:hover[type="submit"], #content-main .module-nav a:hover {
   text-decoration: none;
-  background-color: #0C78C6;
+  background-color: #0B72BC;
   color: #fff;
 }
 
@@ -2017,42 +2017,52 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   overflow: hidden;
 }
 
-#content-main .related-column .contentsbox ul.homeitem li {
-  font-size: 0.875rem;
+#content-main .related-column .contentsbox .contentsboxcontent {
+  width: 100%;
+  margin: 0;
 }
 
-#content-main .related-column .contentsbox ul.homeitem li a {
-  display: block;
+#content-main .related-column .contentsbox .contentsboxcontent > a {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: bold;
   text-decoration: none;
 }
 
-#content-main .related-column .contentsbox ul.homeitem li a.homeitemself {
-  color: #212121;
-}
-
-#content-main .related-column .contentsbox ul.homeitem > .expandmenu > a {
-  font-weight: bold;
-}
-
-#content-main .related-column .contentsbox ul.subitems {
+#content-main .related-column .contentsbox ul {
   list-style: none;
   padding-left: 0;
   margin-top: 1rem !important;
+  list-style-image: none !important;
 }
 
 @media screen and (min-width: 640px) {
-  #content-main .related-column .contentsbox ul.subitems {
+  #content-main .related-column .contentsbox ul {
     margin-top: 1rem !important;
   }
 }
 
-#content-main .related-column .contentsbox ul.subitems li {
+#content-main .related-column .contentsbox ul li {
   position: relative;
   font-size: 0.875rem;
   margin-bottom: 0.5rem;
 }
 
-#content-main .related-column .contentsbox ul.subitems li::after {
+#content-main .related-column .contentsbox ul li a {
+  display: block;
+  text-decoration: none;
+}
+
+#content-main .related-column .contentsbox ul li a.homeitemself {
+  color: #212121;
+  font-weight: bold;
+}
+
+#content-main .related-column .contentsbox ul li.expandmenu {
+  position: relative;
+}
+
+#content-main .related-column .contentsbox ul li.expandmenu::after {
   content: '';
   position: absolute;
   top: 6px;
@@ -2061,28 +2071,28 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   height: 8px;
   width: 8px;
   border-width: 2px 0 0 2px;
-  border-color: #767676;
+  border-color: #0B72BC;
   border-style: solid;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
 }
 
-.patients #content-main .related-column .contentsbox ul.subitems li::after {
-  border-color: #BCAAA4;
+#content-main .related-column .contentsbox ul li.expandmenu > a {
+  padding-left: 1rem !important;
 }
 
-#content-main .related-column .contentsbox ul.subitems li a {
-  text-decoration: none;
-  padding-left: 1rem;
+#content-main .related-column .contentsbox ul li.homeitem-parent::after {
+  border-color: #212121;
 }
 
-#content-main .related-column .contentsbox ul.subitems .subitems {
-  margin-left: 1rem;
+#content-main .related-column .contentsbox ul li.homeitem-parents::after {
+  top: 4px;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
 }
 
-#content-main .related-column .contentsboxcontent {
-  width: 100%;
-  margin: 0;
+#content-main .related-column .contentsbox ul li .subitems {
+  margin-left: 0;
 }
 
 .faq-callout {
@@ -2128,7 +2138,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 #content-main .faq-callout p a:focus,
 #content-main .faq-callout p a:active,
 #content-main .faq-callout p a:hover {
-  color: #0C78C6;
+  color: #0B72BC;
 }
 
 .faq-menu {

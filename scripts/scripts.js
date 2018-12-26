@@ -116,3 +116,30 @@ VAHEP.respsonsiveTables = (function ($) {
   }
 
 })(jQuery);
+
+
+// Contents Box, active indicator
+VAHEP.contentsBox = (function ($) {
+
+  function init(){
+
+    var $contentsBox = $('.contentsbox');
+    var $homeItem = $contentsBox.find('.homeitemself');
+
+    $homeItem.each(function() {
+
+      // add class to closest parent <li>
+      $(this).parent('li').addClass('homeitem-parent');
+
+      // add class to all parent expanders
+      $(this).parents().closest('.expandmenu').addClass('homeitem-parents');
+
+    });
+
+  }
+
+  if($('.contentsbox').length) {
+    init();
+  }
+
+})(jQuery);

@@ -13,85 +13,99 @@
         @include visually-hidden;
       }
 
+      .contentsboxcontent {
+        width: 100%;
+        margin: 0;
+
+        // title
+        > a {
+          display: inline-block;
+          @include font(14);
+          font-weight: bold;
+          //color: $nero;
+          text-decoration: none;
+        }
+
+      }
+
       ul {
+        list-style: none;
+        padding-left: 0;
+        margin-top: rem(16) !important;
+        list-style-image: none !important;
 
-        &.homeitem  {
-
-          li {
-            @include font(14);
-
-            a {
-              display: block;
-              text-decoration: none;
-
-              &.homeitemself {
-                color: $nero;
-              }
-
-            }
-
-          }
-
-          > .expandmenu {
-
-            > a {
-              font-weight: bold;
-
-            }
-
-          }//> .expandmenu
-
-        }//&.homeitem
-
-        &.subitems {
-          list-style: none;
-          padding-left: 0;
+        @include mq($tablet) {
           margin-top: rem(16) !important;
+        }
 
-          @include mq($tablet) {
-            margin-top: rem(16) !important;
-          }
+        li {
+          position: relative;
+          @include font(14);
+          margin-bottom: rem(8);
 
-          li {
+          a {
+            display: block;
+            text-decoration: none;
+
+            &.homeitemself {
+              color: $nero;
+              font-weight: bold;
+            }
+
+          }//a
+
+          &.expandmenu {
             position: relative;
-            @include font(14);
-            margin-bottom: rem(8);
 
             &::after {
               content: '';
               position: absolute;
               top: 6px;
               left: 0;
-              @include chevron($size: 8px, $thickness: 2px, $color: $empress, $direction: right);
+              @include chevron($size: 8px, $thickness: 2px, $color: $denim, $direction: right);
+            }//::after
 
-              .patients & {
-                border-color: $martini;
-              }
-
+            > a {
+              padding-left: rem(16) !important;
             }
 
-            a {
-              text-decoration: none;
-              padding-left: rem(16);
+          }
+
+          &.homeitem-parent {
+
+            &::after {
+              border-color: $nero;
             }
 
-          }//li
+          }
+
+          &.homeitem-parents {
+
+            &::after {
+              top: 4px;
+              transform: rotate(225deg);
+            }
+
+          }
+
 
           //nested subitems
           .subitems {
-            margin-left: rem(16);
+            margin-left: 0;
+
+            li {
+
+
+
+            }
+
           }
 
-        }//.subitems
+        }//li
 
       }//ul
 
     }//contentsbox
-
-    .contentsboxcontent {
-      width: 100%;
-      margin: 0;
-    }
 
   }//.related-column
 
