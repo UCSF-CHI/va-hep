@@ -2066,7 +2066,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   content: '';
   position: absolute;
   top: 6px;
-  right: 4px;
+  right: 2px;
   display: inline-block;
   height: 8px;
   width: 8px;
@@ -2081,6 +2081,10 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   padding-right: 1.25rem !important;
 }
 
+#content-main .related-column .contentsbox ul li.expandmenu:focus::after, #content-main .related-column .contentsbox ul li.expandmenu:active::after, #content-main .related-column .contentsbox ul li.expandmenu:hover::after {
+  border-color: #003F72;
+}
+
 #content-main .related-column .contentsbox ul li.homeitem-parent::after {
   border-color: #212121;
 }
@@ -2091,6 +2095,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 #content-main .related-column .contentsbox ul li.homeitem-parents::after {
   top: 4px;
+  right: 0;
   -webkit-transform: rotate(225deg);
           transform: rotate(225deg);
 }

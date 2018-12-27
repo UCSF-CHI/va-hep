@@ -60,13 +60,22 @@
               content: '';
               position: absolute;
               top: 6px;
-              right: 4px;
+              right: 2px;
               @include chevron($size: 8px, $thickness: 2px, $color: $denim, $direction: right);
             }//::after
 
             > a {
               padding-right: rem(20) !important;
             }
+
+            @include hover {
+
+              &::after {
+                border-color: $prussian-blue;
+              }//::after
+
+            }
+
 
           }
 
@@ -86,6 +95,7 @@
 
             &::after {
               top: 4px;
+              right: 0;
               transform: rotate(225deg);
             }
 
