@@ -95,6 +95,21 @@
 
         }//li
 
+        // special hep c
+
+        &.hep-c {
+
+          > li {
+            display: none;
+
+            &.homeitem-parents {
+              display: block;
+            }
+
+          }
+
+        }// hep-c
+
       }//ul
 
     }//contentsbox

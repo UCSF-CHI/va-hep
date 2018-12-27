@@ -2096,6 +2096,14 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   padding-left: 1rem;
 }
 
+#content-main .related-column .contentsbox ul.hep-c > li {
+  display: none;
+}
+
+#content-main .related-column .contentsbox ul.hep-c > li.homeitem-parents {
+  display: block;
+}
+
 .faq-callout {
   background: #F8F1E8;
   text-align: center;
