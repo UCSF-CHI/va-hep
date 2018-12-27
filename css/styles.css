@@ -2081,10 +2081,6 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   padding-right: 1.25rem !important;
 }
 
-#content-main .related-column .contentsbox ul li.expandmenu:focus::after, #content-main .related-column .contentsbox ul li.expandmenu:active::after, #content-main .related-column .contentsbox ul li.expandmenu:hover::after {
-  border-color: #003F72;
-}
-
 #content-main .related-column .contentsbox ul li.homeitem-parent::after {
   border-color: #212121;
 }
@@ -2103,6 +2099,10 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 #content-main .related-column .contentsbox ul li .subitems {
   margin-left: 0;
   padding-left: 1rem;
+}
+
+#content-main .related-column .contentsbox ul li .subitems li.expandmenu:focus::after, #content-main .related-column .contentsbox ul li .subitems li.expandmenu:active::after, #content-main .related-column .contentsbox ul li .subitems li.expandmenu:hover::after {
+  border-color: #003F72;
 }
 
 #content-main .related-column .contentsbox ul.hep-c > li {

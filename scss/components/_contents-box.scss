@@ -68,15 +68,6 @@
               padding-right: rem(20) !important;
             }
 
-            @include hover {
-
-              &::after {
-                border-color: $prussian-blue;
-              }//::after
-
-            }
-
-
           }
 
           &.homeitem-parent {
@@ -105,6 +96,19 @@
           .subitems {
             margin-left: 0;
             padding-left: rem(16);
+
+            li.expandmenu {
+
+              @include hover {
+
+                &::after {
+                  border-color: $prussian-blue;
+                }//::after
+
+              }
+
+            }
+
           }
 
         }//li
