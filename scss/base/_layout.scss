@@ -47,7 +47,7 @@ h2.page-title {
       display: flex;
       display: grid;
       -ms-grid-columns: 1fr 220px;
-      grid-auto-columns: 1fr 220px;
+      grid-template-columns: 1fr 220px;
     }
 
   }

@@ -60,12 +60,12 @@
               content: '';
               position: absolute;
               top: 6px;
-              left: 0;
+              right: 4px;
               @include chevron($size: 8px, $thickness: 2px, $color: $denim, $direction: right);
             }//::after
 
             > a {
-              padding-left: rem(16) !important;
+              padding-right: rem(20) !important;
             }
 
           }
@@ -79,6 +79,10 @@
           }
 
           &.homeitem-parents {
+
+            > a {
+              font-weight: bold;
+            }
 
             &::after {
               top: 4px;

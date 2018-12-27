@@ -828,7 +828,7 @@ h2.page-title {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 220px;
-    grid-auto-columns: 1fr 220px;
+    grid-template-columns: 1fr 220px;
   }
 }
 
@@ -2066,7 +2066,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   content: '';
   position: absolute;
   top: 6px;
-  left: 0;
+  right: 4px;
   display: inline-block;
   height: 8px;
   width: 8px;
@@ -2078,11 +2078,15 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 }
 
 #content-main .related-column .contentsbox ul li.expandmenu > a {
-  padding-left: 1rem !important;
+  padding-right: 1.25rem !important;
 }
 
 #content-main .related-column .contentsbox ul li.homeitem-parent::after {
   border-color: #212121;
+}
+
+#content-main .related-column .contentsbox ul li.homeitem-parents > a {
+  font-weight: bold;
 }
 
 #content-main .related-column .contentsbox ul li.homeitem-parents::after {
@@ -2801,7 +2805,10 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 }
 
 .toolbox {
+  margin-top: 1.875rem;
+  margin-right: 0;
   margin-bottom: 1.25rem;
+  margin-left: 0;
   padding: 0.625rem;
   border: 0;
 }
