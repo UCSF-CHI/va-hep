@@ -9,6 +9,10 @@
     margin: rem(28) 0;
   }
 
+  ~ .listing {
+    @include spacing;
+  }
+
   // base inside of #content-main
   #content-main .content-column & {
 

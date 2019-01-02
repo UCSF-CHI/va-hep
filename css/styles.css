@@ -2632,6 +2632,18 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   }
 }
 
+.listing ~ .listing,
+.toc ~ .listing {
+  margin: 1.25rem 0;
+}
+
+@media screen and (min-width: 640px) {
+  .listing ~ .listing,
+  .toc ~ .listing {
+    margin: 2.5rem 0;
+  }
+}
+
 #content-main .content-column .listing h2,
 #content-main .content-column .listing h3, #content-main .content-column
 .toc h2,
