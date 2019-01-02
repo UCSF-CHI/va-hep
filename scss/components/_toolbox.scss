@@ -11,6 +11,10 @@
     @include spacing;
   }
 
+  &:first-of-type {
+    margin-top: 0;
+  }
+
 
   // base inside of #content-main
   #content-main & {

@@ -2846,6 +2846,10 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   }
 }
 
+.toolbox:first-of-type {
+  margin-top: 0;
+}
+
 #content-main .toolbox > ul > li {
   font-size: 0.875rem;
 }
