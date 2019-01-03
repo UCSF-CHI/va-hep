@@ -350,3 +350,21 @@ h1 {
   }//.related-column
 
 }//#tier4innerContent
+
+// PDF, file icon overrides
+
+a[href$=".pdf"],
+a[href$=".ppt"],
+a[href$=".pptx"],
+a[href$=".doc"],
+a[href$=".docx"],
+a[href$=".xls"],
+a[href$=".xlsx"],
+a[href$=".csv"],
+a[href$=".vsd"],
+a[href$=".vdw"],
+a[href$=".mp3"],
+a[href$=".zip"],
+a[href$=".rar"] {
+  line-height: inherit;
+}

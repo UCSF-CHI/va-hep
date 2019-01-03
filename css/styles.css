@@ -1309,6 +1309,22 @@ h2.page-title {
   margin-bottom: 0 !important;
 }
 
+a[href$=".pdf"],
+a[href$=".ppt"],
+a[href$=".pptx"],
+a[href$=".doc"],
+a[href$=".docx"],
+a[href$=".xls"],
+a[href$=".xlsx"],
+a[href$=".csv"],
+a[href$=".vsd"],
+a[href$=".vdw"],
+a[href$=".mp3"],
+a[href$=".zip"],
+a[href$=".rar"] {
+  line-height: inherit;
+}
+
 #content-main table {
   border-collapse: collapse;
   border: 1px solid #ccc;
@@ -1580,7 +1596,7 @@ h2.page-title {
 }
 
 .bylinedate {
-  font-style: italic;
+  font-style: italic !important;
 }
 
 .bylinedocsource {
