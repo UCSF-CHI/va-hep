@@ -1729,6 +1729,42 @@ a[href$=".rar"] {
   border: solid 2px #ccc;
 }
 
+.related-column .promo,
+.related-column .promo-home {
+  margin: 0 0 1.25rem;
+  padding: 0;
+  border: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .related-column .promo,
+  .related-column .promo-home {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.related-column .promo ~ .promo,
+.related-column .promo ~ .promo-home,
+.related-column .promo-home ~ .promo,
+.related-column .promo-home ~ .promo-home {
+  margin: 1.25rem 0;
+}
+
+@media screen and (min-width: 640px) {
+  .related-column .promo ~ .promo,
+  .related-column .promo ~ .promo-home,
+  .related-column .promo-home ~ .promo,
+  .related-column .promo-home ~ .promo-home {
+    margin: 2.5rem 0;
+  }
+}
+
+.related-column .promo img,
+.related-column .promo-home img {
+  width: 100% !important;
+  height: auto !important;
+}
+
 .accordion-menu {
   margin-bottom: 20px;
 }
