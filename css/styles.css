@@ -828,7 +828,7 @@ h2.page-title {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 220px;
-    grid-template-columns: 1fr 220px;
+    grid-template-columns: 1fr auto;
   }
 }
 
@@ -873,6 +873,7 @@ h2.page-title {
     -ms-grid-column: 2;
     grid-column: 2;
     width: auto;
+    max-width: 220px;
   }
   #content-main .related-column::after {
     content: '';
