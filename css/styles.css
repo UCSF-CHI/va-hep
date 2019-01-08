@@ -1328,7 +1328,7 @@ a[href$=".rar"] {
 
 #content-main table {
   border-collapse: collapse;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   width: 100%;
   margin-top: 1.375rem;
   margin-bottom: 1.375rem;
@@ -1373,14 +1373,14 @@ a[href$=".rar"] {
 }
 
 #content-main table tr.colorrow {
-  border-color: #ccc;
+  border-color: #ddd;
 }
 
 #content-main table th {
   margin: 0;
   background: #EFEFEF;
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
   padding: 0.625rem;
   color: #212121;
   text-align: left;
@@ -1402,8 +1402,8 @@ a[href$=".rar"] {
 
 #content-main table td {
   margin: 0;
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
   padding: 0.625rem;
 }
 
@@ -1459,7 +1459,7 @@ a[href$=".rar"] {
 @media screen and (max-width: 639px) {
   #content-main table.responsive {
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ddd;
   }
   #content-main table.responsive tr {
     border-bottom: 1px solid #ddd;
@@ -1545,7 +1545,7 @@ a[href$=".rar"] {
 
 #content-main table.datatable td,
 #content-main table.datatable th {
-  border-color: #ccc;
+  border-color: #ddd;
 }
 
 #content-main .button, #content-main input[type="submit"], #content-main .module-nav a {
@@ -1727,7 +1727,7 @@ a[href$=".rar"] {
 
 #content-main .boxes .boxcontent {
   padding: 1.25rem;
-  border: solid 2px #ccc;
+  border: solid 2px #ddd;
 }
 
 .related-column .promo,
@@ -2654,7 +2654,7 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 
 @media screen and (min-width: 640px) {
   #content-main .home-intro {
-    margin-top: 0.625rem;
+    margin-top: 0;
     margin-bottom: 1.875rem;
   }
 }
@@ -3044,5 +3044,87 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 #content-main .content-column .whats-new .fat-bullets > li a {
   display: inline-block !important;
   padding-left: 28px;
+}
+
+.slider .scrollable {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .slider .scrollable {
+    background-color: #EFEFEF;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider .scrollable .items > div .slider-info {
+    background-color: #EFEFEF;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slider .scrollable .items > div .slider-info {
+    width: 33.33333% !important;
+    background-color: #DDD;
+  }
+}
+
+.slider .scrollable .items > div .slider-info h3 {
+  font-size: 1.375rem;
+  line-height: 1.1819;
+  margin-bottom: 0.625rem;
+  text-shadow: none;
+  color: #212121;
+}
+
+.slider .scrollable .items > div .slider-info p {
+  font-size: 0.9375rem;
+  line-height: 1.3334;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #212121;
+}
+
+.slider .scrollable .items > div .slider-info p a {
+  color: #0B72BC;
+}
+
+@media screen and (min-width: 768px) {
+  .slider .slider-thumbnails .thumbnails-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slider .slider-thumbnails .thumbnails-wrap > a {
+    display: block;
+    width: 33.33333%;
+    font-size: 0.875rem;
+    line-height: 1.1429;
+    border: 0;
+    background: #003F72;
+    outline-color: #fff;
+  }
+  .keyboard-user .slider .slider-thumbnails .thumbnails-wrap > a:focus {
+    -webkit-box-shadow: 0 0 0 0.1875rem white inset;
+            box-shadow: 0 0 0 0.1875rem white inset;
+  }
+  .keyboard-user.pointerevents .slider .slider-thumbnails .thumbnails-wrap > a:focus:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .slider .slider-thumbnails .thumbnails-wrap > a:focus {
+    outline: 0;
+  }
+  .slider .slider-thumbnails .thumbnails-wrap > a.selected {
+    background: #EFEFEF;
+  }
+  .slider .slider-thumbnails .thumbnails-wrap > a.selected span {
+    color: #212121;
+    font-weight: bold;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

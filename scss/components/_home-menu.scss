@@ -94,7 +94,7 @@
     margin-top: 0;
 
     @include mq($tablet) {
-      margin-top: rem(10);
+      margin-top: 0;
       margin-bottom: rem(30);
     }
 

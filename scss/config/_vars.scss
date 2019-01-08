@@ -15,9 +15,10 @@ $nero: #212121; // main text color
 
 // grays
 $empress: #767676;
+$gainsboro: #DDD;
 $silver: #B5B5B5;
 $white-smoke: #EFEFEF;
-$very-light-grey: #ccc;
+$very-light-grey: #ddd;
 
 // blues
 $alice-blue: #EEF7FE;
@@ -43,6 +44,7 @@ $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Minimum Width Breakpoints
 $mobile: 'screen and (max-width: 639px)';
+$mobile-plus: 'screen and (max-width: 767px)';
 $tablet: 'screen and (min-width: 640px)';
 $ipad: 'screen and (min-width: 768px)';
 $desktop: 'screen and (min-width: 960px)';

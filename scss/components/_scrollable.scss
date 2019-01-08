@@ -1,0 +1,26 @@
+.scrollable {
+  font-family: $sans-serif;
+
+  .items {
+
+    > div {
+
+      .slider-info {
+
+        h3 {
+          @include font(22, 26);
+          margin-bottom: rem(10);
+        }
+
+        p {
+          @include font(15, 20);
+          font-family: $sans-serif;
+        }
+
+      }
+
+    }
+
+  }
+
+}

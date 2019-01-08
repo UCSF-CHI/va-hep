@@ -1,0 +1,93 @@
+.slider {
+
+  .scrollable {
+    font-family: $sans-serif;
+
+    @include mq($mobile-plus) {
+      background-color: $white-smoke;
+    }
+
+    .items {
+
+      > div {
+
+        .slider-info {
+
+          @include mq($mobile-plus) {
+            background-color: $white-smoke;
+          }
+
+          @include mq($ipad) {
+            width: percentage(1/3) !important;
+            background-color: $gainsboro;
+          }
+
+          h3 {
+            @include font(22, 26);
+            margin-bottom: rem(10);
+            text-shadow: none;
+            color: $nero;
+          }
+
+          p {
+            @include font(15, 20);
+            font-family: $sans-serif;
+            color: $nero;
+
+            a {
+              color: $denim;
+            }
+
+          }
+
+        }//.slider-info
+
+      }//> div
+
+    }//.items
+
+  }// .scrollable
+
+  .slider-thumbnails {
+
+    .thumbnails-wrap {
+
+      @include mq($ipad) {
+        display: flex;
+        width: 100%;
+        margin: 0;
+      }
+
+      > a {
+
+        @include mq($ipad) {
+          display: block;
+          width: percentage(1/3);
+          @include font(14, 16);
+          border: 0;
+          background: $prussian-blue;
+          @include outline($color: $white, $spread: rem(3), $opacity: 1, $stroke: inset);
+
+          &:focus {
+            outline: 0;
+          }
+
+          &.selected {
+            background: $white-smoke;
+
+            span {
+              color: $nero;
+              font-weight: bold;
+            }
+
+          }
+
+        }//ipad
+
+      }//> a
+
+    }//.thumbnails-wrap
+
+  }//.slider-thumbnails
+
+}// .slider
