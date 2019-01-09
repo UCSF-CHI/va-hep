@@ -18,6 +18,7 @@
     background-clip: padding-box;
     text-decoration: none;
     text-transform: none;
+    @include transition;
 
     @include mq($tablet) {
       padding: rem(17) 30px;

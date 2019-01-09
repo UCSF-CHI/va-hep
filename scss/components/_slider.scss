@@ -69,6 +69,7 @@
           border: 0;
           background: $prussian-blue;
           @include outline($color: $white, $spread: rem(3), $opacity: 1, $stroke: inset);
+          @include transition;
 
           &:focus {
             outline: 0;

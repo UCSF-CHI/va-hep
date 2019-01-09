@@ -1565,6 +1565,8 @@ a[href$=".rar"] {
   background-clip: padding-box;
   text-decoration: none;
   text-transform: none;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
 }
 
 @media screen and (min-width: 640px) {
@@ -3110,6 +3112,8 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
     border: 0;
     background: #003F72;
     outline-color: #fff;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
   }
   .keyboard-user .slider .slider-thumbnails .thumbnails-wrap > a:focus {
     -webkit-box-shadow: 0 0 0 0.1875rem white inset;
