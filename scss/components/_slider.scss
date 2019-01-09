@@ -30,12 +30,13 @@
           }
 
           p {
-            @include font(15, 20);
+            @include font(15, 22);
             font-family: $sans-serif;
             color: $nero;
 
             a {
               color: $denim;
+              font-weight: bold;
             }
 
           }
