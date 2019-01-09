@@ -3100,6 +3100,7 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 
 @media screen and (min-width: 768px) {
   .slider .slider-thumbnails .thumbnails-wrap > a {
+    cursor: default;
     display: block;
     width: 33.33333%;
     font-size: 0.875rem;
@@ -3118,6 +3119,10 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   }
   .slider .slider-thumbnails .thumbnails-wrap > a:focus {
     outline: 0;
+  }
+  .slider .slider-thumbnails .thumbnails-wrap > a:focus, .slider .slider-thumbnails .thumbnails-wrap > a:active, .slider .slider-thumbnails .thumbnails-wrap > a:hover {
+    text-decoration: none;
+    background-color: #0B72BC;
   }
   .slider .slider-thumbnails .thumbnails-wrap > a.selected {
     background: #EFEFEF;

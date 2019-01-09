@@ -61,6 +61,7 @@
       > a {
 
         @include mq($ipad) {
+          cursor: default;
           display: block;
           width: percentage(1/3);
           @include font(14, 16);
@@ -70,6 +71,11 @@
 
           &:focus {
             outline: 0;
+          }
+
+          @include hover {
+            text-decoration: none;
+            background-color: $denim;
           }
 
           &.selected {
