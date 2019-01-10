@@ -86,6 +86,11 @@
 
       &.transplant {
         background-image: url($images-path + 'hero/doctor-transplant.jpg');
+        p {
+          @include mq($tablet) {
+            width: 90%;
+          }
+        }
       }
 
       &.nafl {
