@@ -91,7 +91,7 @@
  						<xsl:otherwise>
  							<h1 class="pgtitle"><xsl:value-of select="/pg/@title" /></h1>
  						</xsl:otherwise>
-					</xsl:choose>	
+					</xsl:choose>
 				</xsl:when>
 				<xsl:when test="contains ($AREA, 't1')">
 					<h1 class="pgtitle"><xsl:value-of select="/pg/@title" /></h1>
@@ -101,8 +101,8 @@
 				</xsl:when>
 				<xsl:otherwise>
 					<!--<xsl:value-of select="@title" />-->
-				</xsl:otherwise>	
-                    	</xsl:choose>  
+				</xsl:otherwise>
+                    	</xsl:choose>
                 <!--<h1 class="pgtitle">
                     <xsl:value-of select="/pg/@title" />
                 </h1>-->
@@ -175,7 +175,7 @@
  						<xsl:otherwise>
  							<h1 class="pgtitle"><xsl:value-of select="document($TSXML)/pg/@title" /></h1>
  						</xsl:otherwise>
-					</xsl:choose>	
+					</xsl:choose>
 				</xsl:when>
 				<xsl:when test="contains ($AREA, 't1')">
 					<h1 class="pgtitle"><xsl:value-of select="document($TSXML)/pg/@title" /></h1>
@@ -185,8 +185,8 @@
 				</xsl:when>
 				<xsl:otherwise>
 					<!--<xsl:value-of select="@title" />-->
-				</xsl:otherwise>	
-                    	</xsl:choose>  
+				</xsl:otherwise>
+                    	</xsl:choose>
                 <xsl:apply-templates select="document($TSXML)/pg/page-0/byline" mode="byline" />
             </xsl:otherwise>
         </xsl:choose>
@@ -1259,13 +1259,13 @@
     <xsl:template match="article" mode="header">
 	<xsl:if test="@archive">
 	<div class="archive">
-		<h2>Archived</h2>
+		<h1>Archived</h1>
 
 		<p>You are viewing outdated content. This information may no longer be accurate or relevant and is provided for research or recordkeeping purposes only.<!--<img src="{$TSP}images/icons/archive-logo.jpg" alt="Archival Content"/>--></p>
 	</div>
 	</xsl:if>
-                
-        <div class="pgtitle">  
+
+        <div class="pgtitle">
             <xsl:if test="@class"><xsl:attribute name="class">pgtitle <xsl:value-of select="@class" /></xsl:attribute></xsl:if>
                 <xsl:choose>
                     <xsl:when test="title">
@@ -1336,14 +1336,14 @@
 				</xsl:when>
 				<xsl:when test="contains ($AREA, 't1')">
 					<h1 class="pgtitle"><xsl:apply-templates select="title" /></h1>
-				</xsl:when>	
+				</xsl:when>
 				<xsl:when test="contains ($PGID, 'faq')">
 					<h1 class="pgtitle">Frequently Asked Questions<span><xsl:apply-templates select="title" /><xsl:if test="contains ($PGID, 'patient')"><xsl:text> for Patients</xsl:text></xsl:if></span></h1>
 				</xsl:when>
 				<xsl:otherwise>
 					<!--<xsl:apply-templates select="title" />-->
 				</xsl:otherwise>
-                    	</xsl:choose>  
+                    	</xsl:choose>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:choose>
@@ -1409,7 +1409,7 @@
  						<xsl:otherwise>
  							<h1 class="pgtitle"><xsl:value-of select="@title" /></h1>
  						</xsl:otherwise>
-					</xsl:choose>	
+					</xsl:choose>
 				</xsl:when>
 				<xsl:when test="contains ($AREA, 't1')">
 					<h1 class="pgtitle"><xsl:value-of select="@title" /></h1>
@@ -1419,8 +1419,8 @@
 				</xsl:when>
 				<xsl:otherwise>
 					<!--<xsl:value-of select="@title" />-->
-				</xsl:otherwise>	
-                    	</xsl:choose>  
+				</xsl:otherwise>
+                    	</xsl:choose>
                     </xsl:otherwise>
                 </xsl:choose>
         </div>
@@ -2195,16 +2195,16 @@
                     </xsl:attribute>
                 </xsl:if>
                 <xsl:apply-templates />
-            </a> 
-        
+            </a>
+
 	<xsl:if test="not(image)">
 		    <img src="{$TSP}images/icons/link-external.gif" alt="Link will take you outside the VA website. VA is not responsible for the content of the linked site." title="Link will take you outside the VA website. VA is not responsible for the content of the linked site." class="linkicons" />
 	</xsl:if>
             <br />
         </xsl:template>
-        
-      
-    
+
+
+
         <xsl:template match="ilink-sref">
             <a href="https://{@ref}">
                 <xsl:if test="@title">
@@ -2214,7 +2214,7 @@
                 </xsl:if>
                 <xsl:apply-templates />
             </a>
-            
+
 	    <xsl:if test="not(image)">
 		<img src="{$TSP}images/icons/link-external.gif" alt="Link will take you outside the VA website. VA is not responsible for the content of the linked site." title="Link will take you outside the VA website. VA is not responsible for the content of the linked site." class="linkicons" />
 	    </xsl:if>
@@ -3340,11 +3340,11 @@
 
     <xsl:template match="i">
         <i>
-            <xsl:if test="@class">	
+            <xsl:if test="@class">
 		<xsl:attribute name="class">
 			<xsl:value-of select="@class" />
 		</xsl:attribute>
-	    </xsl:if>	
+	    </xsl:if>
             <xsl:apply-templates />
         </i>
     </xsl:template>
@@ -3447,7 +3447,7 @@
 
     <xsl:template match="ul">
         <ul>
-        <xsl:if test="@class">	
+        <xsl:if test="@class">
 			<xsl:attribute name="class">
 				<xsl:value-of select="@class" />
 			</xsl:attribute>
@@ -3458,7 +3458,7 @@
 
     <xsl:template match="li/ul">
         <ul>
-        <xsl:if test="@class">	
+        <xsl:if test="@class">
 			<xsl:attribute name="class">
 				<xsl:value-of select="@class" />
 			</xsl:attribute>
@@ -5444,7 +5444,7 @@
 	    ui_click: true
 	    }
 	</script></li>-->
- 
+
 
     </xsl:template>
 
@@ -5567,7 +5567,7 @@
             <ul>
                 <xsl:apply-templates mode="tools" />
             </ul>
-        </div>  
+        </div>
         </xsl:if>
     </xsl:template>
 
@@ -6048,17 +6048,17 @@
 
 
 <xsl:template match="sec[@type='reveal']">
-    <ul class="accordion-list"> 
+    <ul class="accordion-list">
     <li>
-                <div class="main"> 
+                <div class="main">
            <div class="secReveal hidden" id="reveal1">
                                 <a class="showDiv" query="#reveal1" href=""> <xsl:apply-templates /></a>
 
                     </div>
 
-                    <div class="hideSelf"> 
-                                <a class="showDiv" query="#reveal1" href=""><xsl:apply-templates /></a> 
-                    </div>                  
+                    <div class="hideSelf">
+                                <a class="showDiv" query="#reveal1" href=""><xsl:apply-templates /></a>
+                    </div>
                 </div>
     </li>
     </ul>
@@ -6071,8 +6071,8 @@
                                 <xsl:apply-templates /></a>
 
                     </div>
-                <div class="hideSelf"> 
-                                                <a class="showDiv" query="#reveal1" href=""> <xsl:apply-templates /></a> 
+                <div class="hideSelf">
+                                                <a class="showDiv" query="#reveal1" href=""> <xsl:apply-templates /></a>
                     </div>
 </xsl:template>
 
@@ -6753,7 +6753,7 @@
         <xsl:when test="$CLASS='PE'">
             <p>This medication does not act against HIV itself. Instead, it boosts the blood levels of certain HIV medications.</p>
         </xsl:when>
-        
+
         <xsl:when test="$CLASS='PKE'">
             <p>A pharmacokinetic enhancer &#34;boosts&#34; certain other drugs by increasing their levels in the body and slowing their elimination.</p>
         </xsl:when>
@@ -6815,7 +6815,7 @@
 		<form>
 		<input type="button" value="Print" onClick="window.print()" />
 		</form>
-		
+
 		</div>
 
     <div class="formulations">
@@ -7800,7 +7800,7 @@
 			<a href="https://hivtest.cdc.gov/press_files/Default.aspx?s_cid=hivtesting_011" title="Take the Test, Take Control. National HIV Testing Day � 6/27/2010"><img src="https://www.cdc.gov/images/campaigns/hivtesting/2010/TakeTheTest_100x120.gif" style="width:100px; height:120px; border:0px;" alt="Take the Test, Take Control. National HIV Testing Day � 6/27/2010" /></a>
 		</div>
     </xsl:template>
-    
+
     <xsl:template match="tabs">
         <div id="tabContent">
             <div id="tab-accord" class="tab-accord">
@@ -7819,7 +7819,7 @@
 		<xsl:apply-templates />
 	</div>
     </xsl:template>
-    
+
     <xsl:template match="accordions">
     	<xsl:apply-templates />
 	<script type="text/javascript" language="JavaScript">
@@ -7857,14 +7857,14 @@
 
 	</script>
     </xsl:template>
-   
+
     <xsl:template match="accordion">
 	<div class="accordionsexpand">
 		<xsl:if test="@expand"><button class="accordionall accordionexpand">All</button></xsl:if>
 		<xsl:apply-templates />
 	</div>
     </xsl:template>
-    <xsl:template match="accordion-item">   
+    <xsl:template match="accordion-item">
 	  <xsl:apply-templates />
     </xsl:template>
     <xsl:template match="reveal-link">
@@ -7874,14 +7874,14 @@
 	<xsl:apply-templates />
     </xsl:template>
     <xsl:template match="collapse-link">
-   
+
     </xsl:template>
     <xsl:template match="reveal-text">
     	<div class="accordionpanel">
 	    <xsl:apply-templates />
         </div>
     </xsl:template>
-    
+
 <!--Re-org 2018-->
 	<!--homepage-->
 	<xsl:template match="intro-home">
@@ -7895,23 +7895,23 @@
 			<h2 class="visually-hidden">Viral Hepatitis Menu</h2>
 			<div class="home-menu">
 				<xsl:apply-templates mode="homepage" />
-			</div>	
+			</div>
 		</section>
-	</xsl:template>   
+	</xsl:template>
 
 	<xsl:template match="nav" mode="homepage">
 		<nav>
 		<xsl:apply-templates mode="homepage" />
 		<xsl:apply-templates select="*[not(self::title)]" />
 		</nav>
-	</xsl:template>   
+	</xsl:template>
 
 	<xsl:template match="title" mode="homepage">
 		<h3><xsl:apply-templates /></h3>
-	</xsl:template>       
+	</xsl:template>
 
 
-	<!--t1-->	
+	<!--t1-->
 	<xsl:template match="accordion-menu">
 		<section class="accordion-menu">
 			<h2><xsl:apply-templates select="title" /></h2>
@@ -7919,14 +7919,14 @@
 				<span>+</span> Expand all
                 	</button>
 			<xsl:apply-templates mode="t1" select="*[not(self::title)]" />
-		</section>	
-	</xsl:template> 
+		</section>
+	</xsl:template>
 
 	<xsl:template match="ul" mode="t1">
                 <ul>
                 <xsl:apply-templates mode="t1" />
                 </ul>
-	</xsl:template> 
+	</xsl:template>
 
 	<xsl:template match="li" mode="t1">
                 <li>
@@ -7948,17 +7948,17 @@
 							<button aria-expanded="false" class="toggle">Toggle Submenu</button>
 							<nav class="submenu">
 								<xsl:apply-templates select="*[not(self::title)]" />
-							</nav>					
+							</nav>
 						</xsl:when>
 						<xsl:otherwise>
 							<h3><a href="#"><xsl:apply-templates select="title" /></a></h3><button aria-expanded="false" class="toggle">Toggle Submenu</button>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:otherwise>
-			</xsl:choose>	
+			</xsl:choose>
 
-		</li>	
-	</xsl:template> 
+		</li>
+	</xsl:template>
 
 	<xsl:template match="aside">
 		<aside>
@@ -7970,11 +7970,11 @@
 			<xsl:apply-templates mode="t1" />
 		</aside>
 	</xsl:template>
-	
+
 	<xsl:template match="more" mode="t1">
 		<xsl:apply-templates />
-	</xsl:template>	
-	
+	</xsl:template>
+
 	<!--t4-->
 	<xsl:template match="section-hero">
               <section class="hero">
@@ -8007,10 +8007,10 @@
 			</xsl:when>
 			<xsl:when test="contains ($PGID, 'basics')">
 				Introduction to the Liver<span>Liver Basics</span>
-			</xsl:when>			
+			</xsl:when>
 			<xsl:otherwise>
 			</xsl:otherwise>
-		  </xsl:choose>	
+		  </xsl:choose>
                   </h1>
                   <xsl:apply-templates select="hero-description" />
                 </header>
@@ -8026,29 +8026,29 @@
 			    <xsl:apply-templates mode="t4" />
 			  </nav>
 		     </xsl:otherwise>
-		  </xsl:choose>   
+		  </xsl:choose>
                 </footer>
-              </section>  
-	</xsl:template>	
+              </section>
+	</xsl:template>
 
-	<xsl:template match="hero-description">		
+	<xsl:template match="hero-description">
 		<xsl:apply-templates />
-	</xsl:template>	
+	</xsl:template>
 
-	<xsl:template match="start-button">		
+	<xsl:template match="start-button">
 		<xsl:apply-templates />
-	</xsl:template>	
+	</xsl:template>
 
-	<xsl:template match="menu" mode="t4">		
-		<xsl:apply-templates mode="t4" />	
-	</xsl:template>	
+	<xsl:template match="menu" mode="t4">
+		<xsl:apply-templates mode="t4" />
+	</xsl:template>
 
 	<xsl:template match="ul" mode="t4">
 	     <ul>
 	     	<xsl:if test="@class"><xsl:attribute name="class"><xsl:value-of select="@class" /></xsl:attribute></xsl:if>
 		<xsl:apply-templates mode="t4" />
-	     </ul>	
-	</xsl:template>	
+	     </ul>
+	</xsl:template>
 
 	<xsl:template match="li" mode="t4">
 	      <li>
@@ -8058,45 +8058,45 @@
 		      		<xsl:if test="title"><h3><xsl:apply-templates select="title" /></h3></xsl:if>
 		      		<xsl:apply-templates select="*[not(self::title)]" />
 			</xsl:otherwise>
-		      </xsl:choose>	
+		      </xsl:choose>
 	      </li>
-	</xsl:template>	
-	
+	</xsl:template>
+
 	<xsl:template match="listing">
 	 <nav class="listing">
 	      <xsl:choose>
 	      	<xsl:when test="title"><h2><xsl:apply-templates select="title" /></h2></xsl:when>
 	      	<xsl:otherwise><h2 class="visually-hidden">Lesson Menu</h2></xsl:otherwise>
-	      </xsl:choose>	
+	      </xsl:choose>
 	      <xsl:apply-templates select="*[not(self::title)]" />
-	 </nav>     
-	</xsl:template>	
+	 </nav>
+	</xsl:template>
 
 	<!--news-->
 
 	<xsl:template match="news-listings">
 	 <ul class="whats-new">
 	      <xsl:apply-templates mode="news" />
-	 </ul>     
-	</xsl:template>	
+	 </ul>
+	</xsl:template>
 
 	<xsl:template match="li" mode="news">
 	      <li>
 	     	<xsl:if test="@class"><xsl:attribute name="class"><xsl:value-of select="@class" /></xsl:attribute></xsl:if>
 		<h2><xsl:apply-templates select="title" /></h2>
 		<xsl:apply-templates select="p" />
-		<xsl:apply-templates select="ul" mode="news" />	
+		<xsl:apply-templates select="ul" mode="news" />
 	      </li>
-	</xsl:template>	
+	</xsl:template>
 
 	<xsl:template match="ul" mode="news">
 	      <ul class="fat-bullets">
 		<xsl:if test="title"><h2><xsl:apply-templates select="title" /></h2></xsl:if>
-		<xsl:apply-templates select="*[not(self::title)]" />	
+		<xsl:apply-templates select="*[not(self::title)]" />
 	      </ul>
-	</xsl:template>	
-	
-	
+	</xsl:template>
+
+
 	<!--T12 FAQs-->
 
 	<xsl:template match="faq-menu">
@@ -8106,30 +8106,30 @@
 				<span>+</span> Expand all
                 	</button>
 			<xsl:apply-templates mode="faq" select="*[not(self::title)]" />
-		</section>	
-	</xsl:template> 
+		</section>
+	</xsl:template>
 
 	<xsl:template match="ul" mode="faq">
                 <ul>
                 <xsl:apply-templates mode="faq" />
                 </ul>
-	</xsl:template> 
+	</xsl:template>
 
 	<xsl:template match="li" mode="faq">
                 <li>
 			<xsl:if test="@class"><xsl:attribute name="class"><xsl:value-of select="@class" /></xsl:attribute></xsl:if>
 			<button aria-expanded="false" class="toggle"><h3><xsl:apply-templates select="title" /></h3></button>
 			<xsl:apply-templates select="answer" mode="faq"/>
-		</li>	
-	</xsl:template> 
-	
+		</li>
+	</xsl:template>
+
 	<xsl:template match="answer" mode="faq">
                 <div class="answer">
                 	<xsl:apply-templates />
                 </div>
-	</xsl:template> 
-	
-	
+	</xsl:template>
+
+
     <xsl:template mode="subscribe" match="*" />
     <xsl:template mode="imglib" match="*" />
     <xsl:template mode="page" match="*" />
