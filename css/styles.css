@@ -1208,6 +1208,10 @@ h2.page-title {
   display: block;
 }
 
+#content-main ol {
+  padding-left: 1.125rem;
+}
+
 #content-main strong {
   font-weight: bold;
 }
