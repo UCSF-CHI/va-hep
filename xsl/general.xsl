@@ -2891,7 +2891,7 @@
             </a>
         </xsl:if>
         <xsl:if test="title">
-            <h4>
+            <h3>
                 <xsl:if test="title/@class">
                     <xsl:attribute name="class">
                         <xsl:value-of select="title/@class" />
@@ -2899,7 +2899,7 @@
                 </xsl:if>
 
                 <xsl:apply-templates select="title" />
-            </h4>
+            </h3>
         </xsl:if>
 
         <xsl:apply-templates select="*[not(self::title)]" />
@@ -3147,10 +3147,10 @@
 
 	<div class="widget">
             <xsl:choose>
-                <xsl:when test="@title"><div class="widget-title"><h4 class="prboxtitle"><xsl:value-of select="@title" /></h4></div></xsl:when>
+                <xsl:when test="@title"><div class="widget-title"><h3 class="prboxtitle"><xsl:value-of select="@title" /></h3></div></xsl:when>
                 <xsl:when test="title">
 		    <div class="widget-title">
-                	<h4 class="prboxtitle">
+                	<h3 class="prboxtitle">
 						<xsl:choose>
 							<xsl:when test="title/ilink-vahiv">
 								<xsl:apply-templates select="title/ilink-vahiv" />
@@ -3162,7 +3162,7 @@
 								<xsl:value-of select="title" />
 							</xsl:otherwise>
 						</xsl:choose>
-                	</h4>
+                	</h3>
 		    </div>
                 </xsl:when>
                 <xsl:otherwise></xsl:otherwise>
@@ -3199,10 +3199,10 @@
     <xsl:template match="related-bottom">
 		        <div class="widget">
             <xsl:choose>
-                <xsl:when test="@title"><div class="widget-title" style="width: 100% !important;"><h4 class="prboxtitle"><xsl:value-of select="@title" /></h4></div></xsl:when>
+                <xsl:when test="@title"><div class="widget-title" style="width: 100% !important;"><h3 class="prboxtitle"><xsl:value-of select="@title" /></h3></div></xsl:when>
                 <xsl:when test="title">
 		    <div class="widget-title" style="width: 100% !important;">
-                	<h4 class="prboxtitle">
+                	<h3 class="prboxtitle">
 						<xsl:choose>
 							<xsl:when test="title/ilink-vahiv">
 								<xsl:apply-templates select="title/ilink-vahiv" />
@@ -3214,7 +3214,7 @@
 								<xsl:value-of select="title" />
 							</xsl:otherwise>
 						</xsl:choose>
-                	</h4>
+                	</h3>
 		    </div>
                 </xsl:when>
                 <xsl:otherwise></xsl:otherwise>
@@ -3600,20 +3600,20 @@
                     <xsl:if test="@title">
 						<xsl:choose>
                                 <xsl:when test="$PAGEINCL != ''">
-									<h4>
+									<h3>
 										<xsl:value-of select="@title" disable-output-escaping="yes" />
 										<xsl:if test="@ref">
 											(<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 										</xsl:if>
-									</h4>
+									</h3>
 								</xsl:when>
                                 <xsl:when test="$TSXML != '' and document($TSXML)/pg/@include != ''">
-                                    <h4>
+                                    <h3>
                                         <xsl:value-of select="@title" disable-output-escaping="yes" />
                                         <xsl:if test="@ref">
                                             (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
                                         </xsl:if>
-                                    </h4>
+                                    </h3>
                                 </xsl:when>
 								<xsl:otherwise>
 									<h2>
@@ -3628,19 +3628,19 @@
 						<xsl:if test="title">
 							<xsl:choose>
                                 <xsl:when test="$PAGEINCL != ''">
-									<h4>
+									<h3>
 										<xsl:apply-templates select="title" />
 										<xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 										</xsl:if>
-									</h4>
+									</h3>
 								</xsl:when>
                                 <xsl:when test="$TSXML != '' and document($TSXML)/pg/@include != ''">
-                                    <h4>
+                                    <h3>
                                         <xsl:value-of select="title" disable-output-escaping="yes" />
                                         <xsl:if test="@ref">
                                             (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
                                         </xsl:if>
-                                    </h4>
+                                    </h3>
                                 </xsl:when>
 								<xsl:otherwise>
 									<h2>
@@ -3665,20 +3665,20 @@
 			<xsl:when test="@title">
 			<xsl:choose>
 				<xsl:when test="$PAGEINCL != ''">
-					<h4>
+					<h3>
 					<xsl:value-of select="@title" disable-output-escaping="yes" />
 					<xsl:if test="@ref">
 					(<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 					</xsl:if>
-					</h4>
+					</h3>
 				</xsl:when>
 				<xsl:when test="$TSXML != '' and document($TSXML)/pg/@include != ''">
-					<h4>
+					<h3>
 					<xsl:value-of select="@title" disable-output-escaping="yes" />
 					<xsl:if test="@ref">
 					(<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 					</xsl:if>
-					</h4>
+					</h3>
                             	</xsl:when>
 				<xsl:otherwise>
 					<h2>
@@ -3695,19 +3695,19 @@
 					<xsl:when test="title">
 						<xsl:choose>
                             <xsl:when test="$PAGEINCL != ''">
-								<h4>
+								<h3>
 									<xsl:apply-templates select="title" />
 									<xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 									</xsl:if>
-								</h4>
+								</h3>
 							</xsl:when>
                             <xsl:when test="$TSXML != '' and document($TSXML)/pg/@include != ''">
-                                <h4>
+                                <h3>
                                     <xsl:value-of select="title" disable-output-escaping="yes" />
                                     <xsl:if test="@ref">
                                         (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
                                     </xsl:if>
-                                </h4>
+                                </h3>
                             </xsl:when>
 							<xsl:otherwise>
 								<h2>
@@ -3732,7 +3732,7 @@
             <xsl:when test="@class= 'intra'">
                 <xsl:if test="$INTRA != ''">
 
-                    <h4 class="{$HCLASS}section">
+                    <h3 class="{$HCLASS}section">
                         <xsl:if test="@no">
                             <a name="S{@no}X">
                                 <xsl:text> </xsl:text>
@@ -3747,7 +3747,7 @@
                         <xsl:if test="@ref"> (<a href="#note{@ref}">
                                 <xsl:value-of select="@ref" />
                             </a>)</xsl:if>
-                    </h4>
+                    </h3>
 
                     <xsl:apply-templates />
                 </xsl:if>
@@ -3773,7 +3773,7 @@
 					</h5>
 				</xsl:when>
 				<xsl:otherwise>
-					<h4 class="{$HCLASS}section"><xsl:value-of select="@title" disable-output-escaping="yes" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)</xsl:if></h4>
+					<h3 class="{$HCLASS}section"><xsl:value-of select="@title" disable-output-escaping="yes" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)</xsl:if></h3>
 					</xsl:otherwise>
 					</xsl:choose>
 					<xsl:apply-templates />
@@ -3794,7 +3794,7 @@
 						</xsl:when>
 
 						<xsl:otherwise>
-						<h4 class="{$HCLASS}section"><xsl:apply-templates select="title" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a></xsl:if></h4>
+						<h3 class="{$HCLASS}section"><xsl:apply-templates select="title" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a></xsl:if></h3>
 						</xsl:otherwise>
 					</xsl:choose>
 					<xsl:apply-templates select="*[not(self::title)]" />
@@ -4108,7 +4108,7 @@
             <xsl:if test="@title">
                 <tr>
                     <td valign="top" class="{$HCLASS}section">
-                        <h4>
+                        <h3>
                             <a name="S{@no}X">
                                 <xsl:text> </xsl:text>
                             </a>
@@ -4121,7 +4121,7 @@
                             <xsl:if test="@ref"> (<a href="#note{@ref}">
                                     <xsl:value-of select="@ref" />
                                 </a>)</xsl:if>
-                        </h4>
+                        </h3>
                     </td>
                 </tr>
             </xsl:if>
@@ -5372,7 +5372,7 @@
 
             <form method="get" action="{$LINKPATH}{$SEARCHSITE}" name="SearchBoxForm">
     	<label for="QTLabel">
-    		<h4>Search <xsl:value-of select="$SITENAME" /></h4>
+    		<h3>Search <xsl:value-of select="$SITENAME" /></h3>
     	</label>
 
 			<input type="hidden" name="RPP" value="10" />
@@ -5403,7 +5403,7 @@
 		</xsl:variable>
 		<form method="get" action="va">
     	<label for="QTLabel">
-    		<h4>Search <xsl:value-of select="$SITENAME" /></h4>
+    		<h3>Search <xsl:value-of select="$SITENAME" /></h3>
     	</label>
 			<input type="hidden" name="page" value="sr-pr-00" />
 			<input type="hidden" name="post" value="9" />
@@ -5521,9 +5521,9 @@
     </xsl:template>
 
     <xsl:template match="sub-section">
-        <h4>
+        <h3>
             <xsl:value-of select="subsec-title" />
-        </h4>
+        </h3>
 
         <xsl:apply-templates />
 
@@ -6438,10 +6438,10 @@
     <xsl:template match="pr-box" mode="boxes">
         <div class="widget">
             <xsl:choose>
-                <xsl:when test="@title"><div class="widget-title"><h4 class="prboxtitle"><xsl:value-of select="@title" /></h4></div></xsl:when>
+                <xsl:when test="@title"><div class="widget-title"><h3 class="prboxtitle"><xsl:value-of select="@title" /></h3></div></xsl:when>
                 <xsl:when test="title">
 		    <div class="widget-title">
-                	<h4 class="prboxtitle">
+                	<h3 class="prboxtitle">
 						<xsl:choose>
 							<xsl:when test="title/ilink-vahiv">
 								<xsl:apply-templates select="title/ilink-vahiv" />
@@ -6453,7 +6453,7 @@
 								<xsl:value-of select="title" />
 							</xsl:otherwise>
 						</xsl:choose>
-                	</h4>
+                	</h3>
 		    </div>
                 </xsl:when>
                 <xsl:otherwise></xsl:otherwise>
@@ -6507,10 +6507,10 @@
     <xsl:template match="about-box" mode="boxes">
 	        <div class="widget">
             <xsl:choose>
-                <xsl:when test="@title"><div class="widget-title"><h4 class="prboxtitle"><xsl:value-of select="@title" /></h4></div></xsl:when>
+                <xsl:when test="@title"><div class="widget-title"><h3 class="prboxtitle"><xsl:value-of select="@title" /></h3></div></xsl:when>
                 <xsl:when test="title">
 		    <div class="widget-title">
-                	<h4 class="prboxtitle">
+                	<h3 class="prboxtitle">
 						<xsl:choose>
 							<xsl:when test="title/ilink-vahiv">
 								<xsl:apply-templates select="title/ilink-vahiv" />
@@ -6522,7 +6522,7 @@
 								<xsl:value-of select="title" />
 							</xsl:otherwise>
 						</xsl:choose>
-                	</h4>
+                	</h3>
 		    </div>
                 </xsl:when>
                 <xsl:otherwise></xsl:otherwise>
@@ -6838,7 +6838,7 @@
 </xsl:template>
 
 <xsl:template match="form[@type='combo']">
-    <h4 style="margin:0;padding:3px;"><xsl:apply-templates /></h4>
+    <h3 style="margin:0;padding:3px;"><xsl:apply-templates /></h3>
 </xsl:template>
 
 <xsl:template match="dosages" mode="formulation">
@@ -7049,7 +7049,7 @@
     <xsl:apply-templates mode="caution" />
 </xsl:template>
 <xsl:template match="drug-name" mode="same-effects">
-    <h4><xsl:apply-templates /></h4>
+    <h3><xsl:apply-templates /></h3>
 </xsl:template>
 
 <xsl:template match="side-effect">
@@ -7742,7 +7742,7 @@
     <xsl:template match="subscribe-widget" mode="subscribe">
     <div class="widget">
 
-    	<div class="widget-title"><h4>Get Updates</h4></div>
+    	<div class="widget-title"><h3>Get Updates</h3></div>
 
     	<p class="widget-email-desc">Subscribe to Receive <xsl:value-of select="$SITENAME" /> Email Updates</p>
 
