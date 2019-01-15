@@ -1562,16 +1562,8 @@
   <!-- THIS IS THE SPECIAL CHARACTER TEMPLATE, DEPENDS ON ROB'S SCRIPT -->
   <xsl:template match="character">
     <xsl:choose>
-      <xsl:when test="$TS = 'true'">
-        <xsl:text disable-output-escaping="yes">&amp;#</xsl:text>
-        <xsl:value-of select="@code" />
-        ;
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>&amp;#</xsl:text>
-        <xsl:value-of select="@code" />
-        ;
-      </xsl:otherwise>
+      <xsl:when test="$TS = 'true'"><xsl:text disable-output-escaping="yes">&amp;#</xsl:text><xsl:value-of select="@code" />;</xsl:when>
+      <xsl:otherwise><xsl:text>&amp;#</xsl:text><xsl:value-of select="@code" />;</xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
