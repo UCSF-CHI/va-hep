@@ -224,7 +224,7 @@
                 </a>
             </xsl:if>
             <!--<xsl:if test="@title">
-                <h3><xsl:value-of select="@title" /></h3>
+                <h2><xsl:value-of select="@title" /></h2>
             </xsl:if>-->
             <xsl:apply-templates mode="includeTable" />
         </div>
@@ -384,7 +384,7 @@
 
     <xsl:template match="pony-text">
         <xsl:if test="title">
-            <h3><xsl:apply-templates select="title"/></h3>
+            <h2><xsl:apply-templates select="title"/></h2>
         </xsl:if>
         <xsl:apply-templates select="*[not(self::title)]" />
     </xsl:template>
@@ -408,9 +408,9 @@
     <div class="allslides">
          <xsl:for-each select="slide">
             <div class="oneofallslides">
-                <h3>
+                <h2>
                     <xsl:value-of select="@title" />
-                </h3>
+                </h2>
                 <p class="oneslide">
                     <img src="{$TSP}{@src}" width="{@width}" height="{@height}" border="1" alt="{@alt}" />
                 </p>
@@ -562,7 +562,7 @@
 <!-- IMAGE LIBRARY TEMPLATES with XML CHANGES -->
 <xsl:template match="pr-img-header" mode="header">
     <div class="ptheader">
-        <h3><xsl:value-of select="@title" /></h3>
+        <h2><xsl:value-of select="@title" /></h2>
         <img src="{$TSP}images/{image-1/@src}" width="45" height="45" border="0" alt="{image-1/@alt}" />
         <img src="{$TSP}images/{image-2/@src}" width="45" height="45" border="0" alt="{image-2/@alt}" />
         <img src="{$TSP}images/{image-3/@src}" width="45" height="45" border="0" alt="{image-3/@alt}" />
@@ -576,10 +576,10 @@
     <xsl:if test="slide/@no = $SLX">
         <xsl:choose>
             <xsl:when test="$SLN/sl-title">
-                <h3><xsl:apply-templates select="$SLN/sl-title" /></h3>
+                <h2><xsl:apply-templates select="$SLN/sl-title" /></h2>
             </xsl:when>
             <xsl:otherwise>
-                <h3><xsl:apply-templates select="$SLN/@title" /></h3>
+                <h2><xsl:apply-templates select="$SLN/@title" /></h2>
             </xsl:otherwise>
         </xsl:choose>
 
@@ -609,10 +609,10 @@
             <p>
                 <xsl:choose>
                     <xsl:when test="slide2/sl-title">
-                        <h3><xsl:apply-templates select="slide2/sl-title" /></h3>
+                        <h2><xsl:apply-templates select="slide2/sl-title" /></h2>
                     </xsl:when>
                     <xsl:otherwise>
-                        <h3><xsl:apply-templates select="slide2/@title" /></h3>
+                        <h2><xsl:apply-templates select="slide2/@title" /></h2>
                     </xsl:otherwise>
                 </xsl:choose>
             </p>
@@ -627,10 +627,10 @@
             <p>
                 <xsl:choose>
                     <xsl:when test="slide3/sl-title">
-                        <h3><xsl:apply-templates select="slide3/sl-title" /></h3>
+                        <h2><xsl:apply-templates select="slide3/sl-title" /></h2>
                     </xsl:when>
                     <xsl:otherwise>
-                        <h3><xsl:apply-templates select="slide3/@title" /></h3>
+                        <h2><xsl:apply-templates select="slide3/@title" /></h2>
                     </xsl:otherwise>
                 </xsl:choose>
             </p>
@@ -644,14 +644,14 @@
 
 <xsl:template match="sl-credits">
     <xsl:if test=". != ''">
-        <h3>Credits</h3>
+        <h2>Credits</h2>
         <p><xsl:apply-templates /></p>
     </xsl:if>
 </xsl:template>
 
 <xsl:template match="sl-desc">
     <xsl:if test=". != ''">
-        <h3>Description</h3>
+        <h2>Description</h2>
         <p><xsl:apply-templates /></p>
     </xsl:if>
 </xsl:template>
@@ -686,7 +686,7 @@
     </xsl:variable>
 
     <xsl:if test="@title">
-        <h3><a name="S{@no}X"><xsl:text> </xsl:text></a><xsl:value-of select="@title" /></h3>
+        <h2><a name="S{@no}X"><xsl:text> </xsl:text></a><xsl:value-of select="@title" /></h2>
     </xsl:if>
     <xsl:apply-templates />
 
@@ -1428,18 +1428,18 @@
 
     <xsl:template match="article" mode="includeHeader">
         <div class="pgtitle">
-            <h3 class="pgtitle">
+            <h2 class="pgtitle">
                 <xsl:value-of select="@title" />
-            </h3>
+            </h2>
         </div>
     </xsl:template>
 
 <xsl:template match="pt-header" mode="header">
     <div class="ptheader">
         <h2><span class="italic">for</span> Veterans and the Public</h2>
-        <!--<xsl:if test="@title"><h3>
+        <!--<xsl:if test="@title"><h2>
             <xsl:value-of select="@title" />
-        </h3></xsl:if>-->
+        </h2></xsl:if>-->
         <!--<img src="{$TSP}images/{@img}" border="0" alt="Section Icon" />-->
      </div>
 </xsl:template>
@@ -1447,9 +1447,9 @@
 <xsl:template match="pt-altheader" mode="header">
     <div class="ptheader">
         <h2><span class="italic">for</span> Veterans and the Public</h2>
-        <!--<xsl:if test="@title"><h3>
+        <!--<xsl:if test="@title"><h2>
             <xsl:value-of select="@title" />
-        </h3></xsl:if>-->
+        </h2></xsl:if>-->
     </div>
 </xsl:template>
 
@@ -2940,14 +2940,14 @@
     </xsl:template>
 
     <xsl:template match="boxheader" mode="boxheader">
-        <h3>
+        <h2>
             <xsl:if test="@class">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@class" />
                 </xsl:attribute>
             </xsl:if>
             <xsl:apply-templates />
-        </h3>
+        </h2>
     </xsl:template>
 
     <xsl:template match="boxfooter" mode="boxfooter">
@@ -3174,12 +3174,12 @@
 	</div>
 
         <!--<div class="relatedbox">
-           <xsl:if test="@title"> <h3>
+           <xsl:if test="@title"> <h2>
                 <xsl:value-of select="@title" />
-           </h3></xsl:if>
-            <xsl:if test="title"> <h3>
+           </h2></xsl:if>
+            <xsl:if test="title"> <h2>
                 <xsl:apply-templates select="title" />
-            </h3></xsl:if>
+            </h2></xsl:if>
 
             <div class="rrboxcontent">
                 <xsl:apply-templates select="*[not(self::title)]" />
@@ -3228,12 +3228,12 @@
 
 		<!--<a name="related"><xsl:text> </xsl:text></a>
         <div class="relatedboxbottom">
-            <xsl:if test="@title"><h3>
+            <xsl:if test="@title"><h2>
                 <xsl:value-of select="@title" />
-            </h3></xsl:if>
-            <xsl:if test="title"> <h3>
+            </h2></xsl:if>
+            <xsl:if test="title"> <h2>
                 <xsl:apply-templates select="title" />
-            </h3></xsl:if>
+            </h2></xsl:if>
 
             <div class="rrboxcontent">
                 <xsl:apply-templates select="*[not(self::title)]" />
@@ -3534,9 +3534,9 @@
     </xsl:template>
 
     <xsl:template match="figureheader">
-        <h3 class="figureheader">
+        <h2 class="figureheader">
             <xsl:apply-templates />
-        </h3>
+        </h2>
     </xsl:template>
 
     <xsl:template match="image">
@@ -3616,12 +3616,12 @@
                                     </h4>
                                 </xsl:when>
 								<xsl:otherwise>
-									<h3>
+									<h2>
 										<xsl:value-of select="@title" disable-output-escaping="yes" />
 										<xsl:if test="@ref">
 											(<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 										</xsl:if>
-									</h3>
+									</h2>
 								</xsl:otherwise>
 							</xsl:choose>
 						</xsl:if>
@@ -3643,11 +3643,11 @@
                                     </h4>
                                 </xsl:when>
 								<xsl:otherwise>
-									<h3>
+									<h2>
 										<xsl:apply-templates select="title" />
 										<xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 										</xsl:if>
-									</h3>
+									</h2>
 								</xsl:otherwise>
 							</xsl:choose>
                     	</xsl:if>
@@ -3681,12 +3681,12 @@
 					</h4>
                             	</xsl:when>
 				<xsl:otherwise>
-					<h3>
+					<h2>
 					<xsl:value-of select="@title" disable-output-escaping="yes" />
 					<xsl:if test="@ref">
 					(<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 					</xsl:if>
-					</h3>
+					</h2>
 				</xsl:otherwise>
 			</xsl:choose>
 
@@ -3710,11 +3710,11 @@
                                 </h4>
                             </xsl:when>
 							<xsl:otherwise>
-								<h3>
+								<h2>
 									<xsl:apply-templates select="title" />
 									<xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 									</xsl:if>
-								</h3>
+								</h2>
 							</xsl:otherwise>
 						</xsl:choose>
 						<xsl:apply-templates select="*[not(self::title)]" />
@@ -4154,18 +4154,18 @@
 						</a>
 					</xsl:if>
                 	<xsl:if test="@title">
-						<h3>
+						<h2>
 							<xsl:value-of disable-output-escaping="yes" select="@title" />
 							<xsl:if test="@ref"> (<a href="#note{@ref}"> <xsl:value-of select="@ref" /> </a>)</xsl:if>
-						</h3>
+						</h2>
                     </xsl:if>
                     <xsl:if test="title">
-                        <h3>
+                        <h2>
                             <xsl:apply-templates select="title" />
                             <xsl:if test="@ref"> (<a href="#note{@ref}">
                                     <xsl:value-of select="@ref" />
                                 </a>)</xsl:if>
-                        </h3>
+                        </h2>
                     </xsl:if>
 
 					<xsl:apply-templates select="related-desc" />
@@ -4180,18 +4180,18 @@
 					</a>
 				</xsl:if>
 				<xsl:if test="@title">
-					<h3>
+					<h2>
 						<xsl:value-of disable-output-escaping="yes" select="@title" />
 						<xsl:if test="@ref"> (<a href="#note{@ref}"> <xsl:value-of select="@ref" /> </a>)</xsl:if>
-					</h3>
+					</h2>
 				</xsl:if>
 				<xsl:if test="title">
-					<h3>
+					<h2>
 						<xsl:apply-templates select="title" />
 						<xsl:if test="@ref"> (<a href="#note{@ref}">
 								<xsl:value-of select="@ref" />
 							</a>)</xsl:if>
-					</h3>
+					</h2>
 				</xsl:if>
 
 				<xsl:apply-templates select="related-desc" />
@@ -4229,7 +4229,7 @@
            </xsl:choose>
         </xsl:if>
         <xsl:if test="@tool">
-            <h3>Clinician Tools:</h3>
+            <h2>Clinician Tools:</h2>
             <ul>
                <xsl:choose>
                     <xsl:when test="$TS = 'true'">
@@ -4261,7 +4261,7 @@
         </ul>
         <xsl:if test="@tool">
 
-            <h3>Clinician Tools:</h3>
+            <h2>Clinician Tools:</h2>
             <ul>
                <xsl:choose>
                     <xsl:when test="$TS = 'true'">
@@ -4801,9 +4801,9 @@
     <xsl:template match="contents" mode="contents">
 
         <div class="contentsbox">
-            <h3>
+            <h2>
                 <xsl:value-of select="@title" />
-            </h3>
+            </h2>
 
             <div class="contentsboxcontent"><xsl:apply-templates /></div>
         </div>
@@ -5304,9 +5304,9 @@
 
     <xsl:template match="browse" mode="browse">
         <div class="browse" onmouseover="javascript:this.className+=' sfhover'" onmouseout="javascript:this.className=' browse'">
-            <h3>
+            <h2>
                 <xsl:value-of select="title" />
-            </h3>
+            </h2>
             <xsl:apply-templates select="items" />
         </div>
     </xsl:template>
@@ -5454,10 +5454,10 @@
         <div class="browse main">
            <xsl:choose>
                 <xsl:when test="$TS = 'true'">
-                   <h3>
+                   <h2>
                        <a href="{$LINKPATH}provider/topics/index.asp" query="#topicMenu" class="showDiv hideSelf">Browse <span class="italic" query="#topicMenu">by</span> Topic   +</a>
                        <a href="{$LINKPATH}provider/topics/index.asp" query="#topicMenu" class="showDiv hideSelf hidden">Browse <span class="italic" query="#topicMenu">by</span> Topic   ^</a>
-                   </h3>
+                   </h2>
 
                     <ul id="topicMenu" class="browsetopics hidden">
 
@@ -5469,10 +5469,10 @@
                 </xsl:when>
 
                 <xsl:otherwise>
-                   <h3>
+                   <h2>
                        <a href="va?page=we-teamsite&#38;TS=provider/topics/index" query="#topicMenu" class="showDiv hideSelf">Browse <span class="italic" query="#topicMenu">by</span> Topic   +</a>
                        <a href="va?page=we-teamsite&#38;TS=provider/topics/index" query="#topicMenu" class="showDiv hideSelf hidden">Browse <span class="italic" query="#topicMenu">by</span> Topic   ^</a>
-                   </h3>
+                   </h2>
 
                     <ul id="topicMenu" class="browsetopics hidden">
 <xsl:if test="document('../TEAMSITE/topic-browse.xml')">
@@ -5488,9 +5488,9 @@
     <!-- based on AETC 'Clinical Manual' tags -->
     <xsl:template match="chapters">
 
-                    <h3>
+                    <h2>
                         <xsl:value-of select="@title" />
-                    </h3>
+                    </h2>
 
                     <xsl:apply-templates />
 
@@ -5498,9 +5498,9 @@
 
     <xsl:template match="sub-contents">
         <div style="clear: left">
-            <xsl:if test="@title"><h3 class="pgtitle">
+            <xsl:if test="@title"><h2 class="pgtitle">
                 <xsl:value-of select="@title" />
-            </h3></xsl:if>
+            </h2></xsl:if>
 
             <xsl:apply-templates />
         </div>
@@ -5511,10 +5511,10 @@
     </xsl:template>
 
     <xsl:template match="section">
-        <h3>
+        <h2>
             <a name="S{secno}X"><xsl:text> </xsl:text></a>
             Section <xsl:value-of select="secno" />: <xsl:value-of select="sec-title" />
-        </h3>
+        </h2>
 
         <xsl:apply-templates />
 
@@ -6037,7 +6037,7 @@
 
 <xsl:template match="links/sec">
 
-<h3><xsl:value-of select="@title" disable-output-escaping="yes" /></h3>
+<h2><xsl:value-of select="@title" disable-output-escaping="yes" /></h2>
 
            <ul>  <!-- since Insite links don't come wrapped in <ul> tag -->
                <xsl:apply-templates />
@@ -6468,9 +6468,9 @@
 
 	 <!--<div class="prbox">
             <xsl:choose>
-                <xsl:when test="@title"><h3 class="prboxtitle"><xsl:value-of select="@title" /></h3></xsl:when>
+                <xsl:when test="@title"><h2 class="prboxtitle"><xsl:value-of select="@title" /></h2></xsl:when>
                 <xsl:when test="title">
-                	<h3 class="prboxtitle">
+                	<h2 class="prboxtitle">
 						<xsl:choose>
 							<xsl:when test="title/ilink-vahiv">
 								<xsl:apply-templates select="title/ilink-vahiv" />
@@ -6482,7 +6482,7 @@
 								<xsl:value-of select="title" />
 							</xsl:otherwise>
 						</xsl:choose>
-                	</h3>
+                	</h2>
                 </xsl:when>
                 <xsl:otherwise></xsl:otherwise>
             </xsl:choose>
@@ -6537,8 +6537,8 @@
 
         <!--<div class="prbox">
             <xsl:choose>
-                <xsl:when test="@title"><h3 class="aboutboxtitle"><xsl:value-of select="@title" /></h3></xsl:when>
-                <xsl:when test="title"><h3 class="aboutboxtitle"><xsl:apply-templates /></h3></xsl:when>
+                <xsl:when test="@title"><h2 class="aboutboxtitle"><xsl:value-of select="@title" /></h2></xsl:when>
+                <xsl:when test="title"><h2 class="aboutboxtitle"><xsl:apply-templates /></h2></xsl:when>
                 <xsl:otherwise></xsl:otherwise>
             </xsl:choose>
 
@@ -6819,7 +6819,7 @@
 		</div>
 
     <div class="formulations">
-        <h3>Approved adult dosing</h3>
+        <h2>Approved adult dosing</h2>
     <xsl:apply-templates />
     </div>
 </xsl:template>
@@ -6832,7 +6832,7 @@
 <xsl:template match="formulation">
     <xsl:if test="form-note"><p class="form-note"><xsl:value-of select="form-note" /></p></xsl:if>
     <div class="formulation">
-    <!--<h3><xsl:value-of select="strength" /><xsl:text> </xsl:text><xsl:value-of select="form" /></h3>-->
+    <!--<h2><xsl:value-of select="strength" /><xsl:text> </xsl:text><xsl:value-of select="form" /></h2>-->
         <xsl:apply-templates mode="formulation" />
     </div>
 </xsl:template>
@@ -6997,7 +6997,7 @@
 </xsl:template>
 
 <xsl:template match="drug-notes">
-    <h3>Notes on taking this medication</h3>
+    <h2>Notes on taking this medication</h2>
     <ul><xsl:apply-templates mode="drug-notes" /></ul>
 </xsl:template>
 <xsl:template match="restrictions" mode="drug-notes">
@@ -7014,7 +7014,7 @@
 </xsl:template>
 
 <xsl:template match="side-effects">
-    <h3>Side effects</h3>
+    <h2>Side effects</h2>
     <ul><xsl:apply-templates /></ul>
     <xsl:apply-templates mode="caution" />
     <xsl:choose>
@@ -7030,7 +7030,7 @@
 </xsl:template>
 
 <xsl:template match="same-effects">
-    <h3>Same side effects as</h3>
+    <h2>Same side effects as</h2>
     <xsl:apply-templates mode="same-effects" />
     <xsl:choose>
         <xsl:when test="$TS = 'true'">
@@ -7072,13 +7072,13 @@
 
 <xsl:template match="instructions">
    <div class="instructions">
-        <h3>Notes</h3>
+        <h2>Notes</h2>
     </div>
 </xsl:template>
 
 <xsl:template match="instructions-right">
     <div class="instructions">
-        <h3>Notes</h3>
+        <h2>Notes</h2>
     </div>
 </xsl:template>
 
@@ -7812,7 +7812,7 @@
 	<xsl:apply-templates />
     </xsl:template>
     <xsl:template match="tab-title">
-	<h3 class="tab"><a role="button" class="m" href="#"><xsl:apply-templates /></a></h3>
+	<h2 class="tab"><a role="button" class="m" href="#"><xsl:apply-templates /></a></h2>
     </xsl:template>
     <xsl:template match="tab-content">
 	<div class="pane" style="display: none;">
@@ -7907,7 +7907,7 @@
 	</xsl:template>
 
 	<xsl:template match="title" mode="homepage">
-		<h3><xsl:apply-templates /></h3>
+		<h2><xsl:apply-templates /></h2>
 	</xsl:template>
 
 
