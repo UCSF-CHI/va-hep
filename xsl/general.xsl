@@ -7907,7 +7907,7 @@
 	</xsl:template>
 
 	<xsl:template match="title" mode="homepage">
-		<h2><xsl:apply-templates /></h2>
+		<h3><xsl:apply-templates /></h3>
 	</xsl:template>
 
 
