@@ -2927,9 +2927,9 @@
             </a>
         </xsl:if>
         <xsl:if test="title">
-            <h6>
+            <h5>
                 <xsl:apply-templates select="title" />
-            </h6>
+            </h5>
         </xsl:if>
 
         <xsl:apply-templates select="*[not(self::title)]" />
@@ -3861,7 +3861,7 @@
             <xsl:when test="@class= 'intra'">
                 <xsl:if test="$INTRA != ''">
 
-                    <h6 class="{$HCLASS}section">
+                    <h5 class="{$HCLASS}section">
                         <xsl:if test="@no">
                             <a name="S{@no}X">
                                 <xsl:text> </xsl:text>
@@ -3876,14 +3876,14 @@
                         <xsl:if test="@ref"> (<a href="#note{@ref}">
                                 <xsl:value-of select="@ref" />
                             </a>)</xsl:if>
-                    </h6>
+                    </h5>
 
                     <xsl:apply-templates />
 
                 </xsl:if>
             </xsl:when>
             <xsl:otherwise>
-                <h6 class="{$HCLASS}section">
+                <h5 class="{$HCLASS}section">
                     <xsl:if test="@no">
                         <a name="S{@no}X">
                             <xsl:text> </xsl:text>
@@ -3898,7 +3898,7 @@
                     <xsl:if test="@ref"> (<a href="#note{@ref}">
                             <xsl:value-of select="@ref" />
                         </a>)</xsl:if>
-                </h6>
+                </h5>
 
                 <xsl:apply-templates />
             </xsl:otherwise>
