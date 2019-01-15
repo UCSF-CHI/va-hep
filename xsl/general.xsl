@@ -431,14 +431,12 @@
       <!-- TEST FOR NEW MOBILE PARAM IN URL, AND PROPOGATE IT -->
       <xsl:when test="$MOBILE = 'y' and $TS = 'true'">
         <xsl:value-of select="$LINKPATH" />
-        <xsl:value-of select="$FILE" />
-        .asp?m=y
+        <xsl:value-of select="$FILE" />.asp?m=y
       </xsl:when>
 
       <xsl:when test="$TS = 'true'">
         <xsl:value-of select="$LINKPATH" />
-        <xsl:value-of select="$FILE" />
-        .asp
+        <xsl:value-of select="$FILE" />.asp
       </xsl:when>
 
       <xsl:otherwise>
@@ -453,14 +451,12 @@
       <!-- TEST FOR NEW MOBILE PARAM IN URL, AND PROPOGATE IT -->
       <xsl:when test="$MOBILE = 'y' and $TS = 'true'">
         <xsl:value-of select="$LINKPATH" />
-        <xsl:value-of select="$FILE" />
-        .asp?m=y&#38;
+        <xsl:value-of select="$FILE" />.asp?m=y&#38;
       </xsl:when>
 
       <xsl:when test="$TS = 'true'">
         <xsl:value-of select="$LINKPATH" />
-        <xsl:value-of select="$FILE" />
-        .asp?
+        <xsl:value-of select="$FILE" />.asp?
       </xsl:when>
 
       <xsl:otherwise>
