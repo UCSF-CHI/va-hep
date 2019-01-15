@@ -429,41 +429,17 @@
     <xsl:param name="FILE" />
     <xsl:choose>
       <!-- TEST FOR NEW MOBILE PARAM IN URL, AND PROPOGATE IT -->
-      <xsl:when test="$MOBILE = 'y' and $TS = 'true'">
-        <xsl:value-of select="$LINKPATH" />
-        <xsl:value-of select="$FILE" />.asp?m=y
-      </xsl:when>
-
-      <xsl:when test="$TS = 'true'">
-        <xsl:value-of select="$LINKPATH" />
-        <xsl:value-of select="$FILE" />.asp
-      </xsl:when>
-
-      <xsl:otherwise>
-        va?page=we-teamsite&#38;TS=
-        <xsl:value-of select="$FILE" />
-      </xsl:otherwise>
+      <xsl:when test="$MOBILE = 'y' and $TS = 'true'"><xsl:value-of select="$LINKPATH" /><xsl:value-of select="$FILE" />.asp?m=y</xsl:when>
+      <xsl:when test="$TS = 'true'"><xsl:value-of select="$LINKPATH" /><xsl:value-of select="$FILE" />.asp</xsl:when>
+      <xsl:otherwise>va?page=we-teamsite&#38;TS=<xsl:value-of select="$FILE" /></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   <xsl:template name="convertPost">
     <xsl:param name="FILE" />
     <xsl:choose>
       <!-- TEST FOR NEW MOBILE PARAM IN URL, AND PROPOGATE IT -->
-      <xsl:when test="$MOBILE = 'y' and $TS = 'true'">
-        <xsl:value-of select="$LINKPATH" />
-        <xsl:value-of select="$FILE" />.asp?m=y&#38;
-      </xsl:when>
-
-      <xsl:when test="$TS = 'true'">
-        <xsl:value-of select="$LINKPATH" />
-        <xsl:value-of select="$FILE" />.asp?
-      </xsl:when>
-
-      <xsl:otherwise>
-        va?page=we-teamsite&#38;TS=
-        <xsl:value-of select="$FILE" />
-        &#38;
-      </xsl:otherwise>
+      <xsl:when test="$MOBILE = 'y' and $TS = 'true'"><xsl:value-of select="$LINKPATH" /><xsl:value-of select="$FILE" />.asp?m=y&#38;</xsl:when>
+      <xsl:when test="$TS = 'true'"><xsl:value-of select="$LINKPATH" /><xsl:value-of select="$FILE" />.asp?</xsl:when><xsl:otherwise>va?page=we-teamsite&#38;TS=<xsl:value-of select="$FILE" />&#38;</xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
