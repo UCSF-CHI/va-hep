@@ -1562,10 +1562,8 @@
   <!-- THIS IS THE SPECIAL CHARACTER TEMPLATE, DEPENDS ON ROB'S SCRIPT -->
   <xsl:template match="character">
     <xsl:choose>
-      <xsl:when test="$TS = 'true'">
-        <xsl:text disable-output-escaping="yes">&amp;#</xsl:text><xsl:value-of select="@code" />;</xsl:when>
-      <xsl:otherwise>
-        <xsl:text>&amp;#</xsl:text><xsl:value-of select="@code" />;</xsl:otherwise>
+      <xsl:when test="$TS = 'true'"><xsl:text disable-output-escaping="yes">&amp;#</xsl:text><xsl:value-of select="@code" />;<xsl:text disable-output-escaping="yes"><![CDATA[&nbsp;]]></xsl:text></xsl:when>
+      <xsl:otherwise><xsl:text>&amp;#</xsl:text><xsl:value-of select="@code" />;<xsl:text disable-output-escaping="yes"><![CDATA[&nbsp;]]></xsl:text></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
@@ -8641,6 +8639,7 @@
         <xsl:when test="$MONTH = '10'">October</xsl:when>
         <xsl:when test="$MONTH = '11'">November</xsl:when>
         <xsl:when test="$MONTH = '12'">December</xsl:when>
+        <xsl:text disable-output-escaping="yes"><![CDATA[,&nbsp;]]></xsl:text>
       </xsl:choose>
     </xsl:variable>
     <!-- display date in letters -->
