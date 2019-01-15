@@ -1737,6 +1737,17 @@ a[href$=".rar"] {
   border: solid 2px #ddd;
 }
 
+#content-main .boxes .boxcontent h3 {
+  font-size: 1rem;
+  line-height: 1.25;
+  padding: 0;
+  margin: 1.25rem 0 0.625rem;
+}
+
+#content-main .boxes .boxcontent h3:first-of-type {
+  margin-top: 0;
+}
+
 .related-column .promo,
 .related-column .promo-home {
   margin: 0 0 1.25rem;

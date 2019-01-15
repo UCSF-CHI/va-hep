@@ -7,6 +7,18 @@
     .boxcontent {
       padding: rem(20);
       border: solid 2px $very-light-grey;
+
+      h3 {
+        @include font(16, 20);
+        padding: 0;
+        margin: rem(20) 0 rem(10);
+
+        &:first-of-type {
+          margin-top: 0;
+        }
+
+      }
+
     }//boxcontent
 
   }//#content-main &
