@@ -8639,7 +8639,6 @@
         <xsl:when test="$MONTH = '10'">October</xsl:when>
         <xsl:when test="$MONTH = '11'">November</xsl:when>
         <xsl:when test="$MONTH = '12'">December</xsl:when>
-        <xsl:text disable-output-escaping="yes"><![CDATA[,&nbsp;]]></xsl:text>
       </xsl:choose>
     </xsl:variable>
     <!-- display date in letters -->
@@ -8650,12 +8649,12 @@
             <xsl:value-of select="$LONGMONTH" />
             <xsl:text/>
             <xsl:value-of select="$DAY" />
-            <xsl:text>,</xsl:text>
+            <xsl:text disable-output-escaping="yes"><![CDATA[,&nbsp;]]></xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="$LONGMONTH" />
-            <xsl:text/>
+            <xsl:text disable-output-escaping="yes"><![CDATA[,&nbsp;]]></xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:otherwise>
         </xsl:choose>
