@@ -980,6 +980,7 @@ h2.page-title {
   outline: 2px dotted #c30000;
 }
 
+#content-main .related-column .widget h3,
 #content-main .related-column .widget h4, #content-main .faq-callout h2, #content-main .faq-menu h2, #content-main .content-column .listing h2,
 #content-main .content-column .listing h3, #content-main .content-column .toc h2,
 #content-main .content-column .toc h3, #content-main .searchbox label, .searchbox #content-main label {
@@ -995,6 +996,7 @@ h2.page-title {
 }
 
 @media screen and (min-width: 640px) {
+  #content-main .related-column .widget h3,
   #content-main .related-column .widget h4, #content-main .faq-callout h2, #content-main .faq-menu h2, #content-main .content-column .listing h2,
   #content-main .content-column .listing h3, #content-main .content-column .toc h2,
   #content-main .content-column .toc h3, #content-main .searchbox label, .searchbox #content-main label {
@@ -1708,6 +1710,7 @@ a[href$=".rar"] {
   padding: 0;
 }
 
+#content-main .related-column .widget h3,
 #content-main .related-column .widget h4 {
   font-size: 0.875rem;
   text-align: left;
