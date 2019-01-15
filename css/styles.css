@@ -2061,6 +2061,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
   background: none;
 }
 
+#content-main .related-column .contentsbox h2,
 #content-main .related-column .contentsbox h3 {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);

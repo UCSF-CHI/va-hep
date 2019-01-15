@@ -9,6 +9,7 @@
       border: 0;
       background: none;
 
+      h2,
       h3 {
         @include visually-hidden;
       }
