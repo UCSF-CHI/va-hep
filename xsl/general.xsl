@@ -8649,12 +8649,12 @@
             <xsl:value-of select="$LONGMONTH" />
             <xsl:text/>
             <xsl:value-of select="$DAY" />
-            <xsl:text disable-output-escaping="yes"><![CDATA[,&nbsp;]]></xsl:text>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="$LONGMONTH" />
-            <xsl:text disable-output-escaping="yes"><![CDATA[,&nbsp;]]></xsl:text>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:otherwise>
         </xsl:choose>
