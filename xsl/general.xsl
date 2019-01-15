@@ -2912,9 +2912,9 @@
             </a>
         </xsl:if>
         <xsl:if test="title">
-            <h5>
+            <h4>
                 <xsl:apply-templates select="title" />
-            </h5>
+            </h4>
         </xsl:if>
 
         <xsl:apply-templates select="*[not(self::title)]" />
@@ -3762,15 +3762,15 @@
                     <xsl:when test="@title">
 			<xsl:choose>
 				<xsl:when test="$PAGEINCL != ''">
-					<h5 class="{$HCLASS}section"><xsl:value-of select="@title" disable-output-escaping="yes" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)</xsl:if></h5>
+					<h4 class="{$HCLASS}section"><xsl:value-of select="@title" disable-output-escaping="yes" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)</xsl:if></h4>
 				</xsl:when>
 				<xsl:when test="$TSXML != '' and document($TSXML)/pg/@include != ''">
-					<h5 class="{$HCLASS}section">
+					<h4 class="{$HCLASS}section">
 					<xsl:value-of select="@title" disable-output-escaping="yes" />
 					<xsl:if test="@ref">
 					(<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 					</xsl:if>
-					</h5>
+					</h4>
 				</xsl:when>
 				<xsl:otherwise>
 					<h3 class="{$HCLASS}section"><xsl:value-of select="@title" disable-output-escaping="yes" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)</xsl:if></h3>
@@ -3781,16 +3781,16 @@
 				<xsl:when test="title">
 					<xsl:choose>
 						<xsl:when test="$PAGEINCL != ''">
-						<h5 class="{$HCLASS}section"><xsl:apply-templates select="title" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a></xsl:if></h5>
+						<h4 class="{$HCLASS}section"><xsl:apply-templates select="title" /><xsl:if test="@ref"> (<a href="#note{@ref}"><xsl:value-of select="@ref" /></a></xsl:if></h4>
 						</xsl:when>
 
 						<xsl:when test="$TSXML != '' and document($TSXML)/pg/@include != ''">
-						<h5 class="{$HCLASS}section">
+						<h4 class="{$HCLASS}section">
 						<xsl:value-of select="title" disable-output-escaping="yes" />
 						<xsl:if test="@ref">
 						(<a href="#note{@ref}"><xsl:value-of select="@ref" /></a>)
 						</xsl:if>
-						</h5>
+						</h4>
 						</xsl:when>
 
 						<xsl:otherwise>
@@ -3812,7 +3812,7 @@
             <xsl:when test="@class= 'intra'">
                 <xsl:if test="$INTRA != ''">
 
-                    <h5 class="unisection">
+                    <h4 class="unisection">
                         <xsl:if test="@no">
                             <a name="S{@no}X">
                                 <xsl:text> </xsl:text>
@@ -3827,14 +3827,14 @@
                         <xsl:if test="@ref"> (<a href="#note{@ref}">
                                 <xsl:value-of select="@ref" />
                             </a>)</xsl:if>
-                    </h5>
+                    </h4>
 
                     <xsl:apply-templates />
 
                 </xsl:if>
             </xsl:when>
             <xsl:otherwise>
-                <h5 class="unisection">
+                <h4 class="unisection">
                     <xsl:if test="@no">
                         <a name="S{@no}X">
                             <xsl:text> </xsl:text>
@@ -3849,7 +3849,7 @@
                     <xsl:if test="@ref"> (<a href="#note{@ref}">
                             <xsl:value-of select="@ref" />
                         </a>)</xsl:if>
-                </h5>
+                </h4>
 
                 <xsl:apply-templates select="*[not(self::title)]" />
             </xsl:otherwise>
@@ -6494,12 +6494,12 @@
     </xsl:template>
 
     <xsl:template match="pr-box/sec">
-        <h5>
+        <h4>
             <xsl:choose>
                 <xsl:when test="@title"><xsl:value-of select="@title" /></xsl:when>
                 <xsl:otherwise><xsl:apply-templates select="title" /></xsl:otherwise>
             </xsl:choose>
-        </h5>
+        </h4>
 
         <xsl:apply-templates select="*[not(self::title)]" />
     </xsl:template>
@@ -6550,12 +6550,12 @@
     </xsl:template>
 
     <xsl:template match="about-box/sec">
-        <h5>
+        <h4>
             <xsl:choose>
                 <xsl:when test="@title"><xsl:value-of select="@title" /></xsl:when>
                 <xsl:otherwise><xsl:apply-templates select="title" /></xsl:otherwise>
             </xsl:choose>
-        </h5>
+        </h4>
 
         <xsl:apply-templates select="*[not(self::title)]" />
     </xsl:template>
@@ -6902,7 +6902,7 @@
     </li>
 </xsl:template>
 <xsl:template match="header" mode="dose-images">
-    <h5><xsl:apply-templates /></h5>
+    <h4><xsl:apply-templates /></h4>
 </xsl:template>
 
 <xsl:template match="dose-image" mode="dose-images">
