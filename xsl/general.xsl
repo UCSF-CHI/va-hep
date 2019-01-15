@@ -6623,7 +6623,7 @@
       <xsl:when test="@title">
         <li>
           <a href="{$newREF}">
-            <img src="{$TSP}images/tools/printall.gif" width="20" height="20" border="0" alt="{@type} icon" />
+            <img src="{$TSP}images/tools/printall.gif" width="20" height="20" border="0" alt="{@type} icon" />&nbsp;
             <xsl:text/>
             <xsl:value-of select="@title" />
           </a>
@@ -6632,7 +6632,7 @@
       <xsl:otherwise>
         <li>
           <a href="{$newREF}">
-            <img src="{$TSP}images/tools/printall.gif" width="20" height="20" border="0" alt="{@type} icon" />
+            <img src="{$TSP}images/tools/printall.gif" width="20" height="20" border="0" alt="{@type} icon" />&nbsp;
             See entire lesson
           </a>
         </li>
