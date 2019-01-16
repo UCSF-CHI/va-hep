@@ -8600,12 +8600,12 @@
             <xsl:value-of select="$LONGMONTH" />
             <xsl:text/>
             <xsl:value-of select="$DAY" />
-            <xsl:text>,</xsl:text>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="$LONGMONTH" />
-            <xsl:text/>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:otherwise>
         </xsl:choose>
@@ -8647,7 +8647,7 @@
         <xsl:choose>
           <xsl:when test="$DAY != '00' and $DAY != ''">
             <xsl:value-of select="$LONGMONTH" />
-            <xsl:text/>
+            <xsl:text> </xsl:text>
             <xsl:value-of select="$DAY" />
             <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
@@ -8734,19 +8734,19 @@
                 <xsl:when test="$DAY1 != '0'">
                   <xsl:value-of select="$DAY1"/>
                   <xsl:value-of select="$DAY2"/>
-                  <xsl:text>,</xsl:text>
+                  <xsl:text>, </xsl:text>
                   <xsl:value-of select="$YEAR"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:value-of select="$DAY2"/>
-                  <xsl:text>,</xsl:text>
+                  <xsl:text>, </xsl:text>
                   <xsl:value-of select="$YEAR"/>
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
               <xsl:value-of select="$LONGMONTH"/>
-              <xsl:text/>
+              <xsl:text>, </xsl:text>
               <xsl:value-of select="$YEAR"/>
             </xsl:otherwise>
           </xsl:choose>
@@ -8796,14 +8796,14 @@
         <xsl:choose>
           <xsl:when test="$DAY != '00' and $DAY != ''">
             <xsl:value-of select="$LONGMONTH" />
-            <xsl:text/>
+            <xsl:text> </xsl:text>
             <xsl:value-of select="$DAY" />
-            <xsl:text>,</xsl:text>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="$LONGMONTH" />
-            <xsl:text/>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:otherwise>
         </xsl:choose>
@@ -8848,12 +8848,12 @@
             <xsl:value-of select="$LONGMONTH" />
             <xsl:text/>
             <xsl:value-of select="$DAY" />
-            <xsl:text>,</xsl:text>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="$LONGMONTH" />
-            <xsl:text/>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:otherwise>
         </xsl:choose>
@@ -8902,12 +8902,12 @@
             <xsl:value-of select="$LONGMONTH" />
             <xsl:text/>
             <xsl:value-of select="$DAY" />
-            <xsl:text>,</xsl:text>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="$LONGMONTH" />
-            <xsl:text/>
+            <xsl:text>, </xsl:text>
             <xsl:value-of select="$YEAR" />
           </xsl:otherwise>
         </xsl:choose>
