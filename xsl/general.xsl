@@ -1562,8 +1562,8 @@
   <!-- THIS IS THE SPECIAL CHARACTER TEMPLATE, DEPENDS ON ROB'S SCRIPT -->
   <xsl:template match="character">
     <xsl:choose>
-      <xsl:when test="$TS = 'true'"><xsl:text disable-output-escaping="yes">&amp;#</xsl:text><xsl:value-of select="@code" />;<xsl:text disable-output-escaping="yes"><![CDATA[&nbsp;]]></xsl:text></xsl:when>
-      <xsl:otherwise><xsl:text>&amp;#</xsl:text><xsl:value-of select="@code" />;<xsl:text disable-output-escaping="yes"><![CDATA[&nbsp;]]></xsl:text></xsl:otherwise>
+      <xsl:when test="$TS = 'true'"><xsl:text disable-output-escaping="yes">&amp;#</xsl:text><xsl:value-of select="@code" />;<xsl:text> </xsl:text></xsl:when>
+      <xsl:otherwise><xsl:text>&amp;#</xsl:text><xsl:value-of select="@code" />;<xsl:text> </xsl:text></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
@@ -6615,7 +6615,7 @@
       <xsl:when test="@title">
         <li>
           <a href="{$newREF}">
-            <img src="{$TSP}images/tools/printall.gif" width="20" height="20" border="0" alt="{@type} icon" /><xsl:text disable-output-escaping="yes"><![CDATA[&nbsp;]]></xsl:text>
+            <img src="{$TSP}images/tools/printall.gif" width="20" height="20" border="0" alt="{@type} icon" /><xsl:text> </xsl:text>
             <xsl:text/>
             <xsl:value-of select="@title" />
           </a>
@@ -6624,7 +6624,7 @@
       <xsl:otherwise>
         <li>
           <a href="{$newREF}">
-            <img src="{$TSP}images/tools/printall.gif" width="20" height="20" border="0" alt="{@type} icon" /><xsl:text disable-output-escaping="yes"><![CDATA[&nbsp;]]></xsl:text>
+            <img src="{$TSP}images/tools/printall.gif" width="20" height="20" border="0" alt="{@type} icon" /><xsl:text> </xsl:text>
             See entire lesson
           </a>
         </li>
