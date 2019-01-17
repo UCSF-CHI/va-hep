@@ -42,6 +42,7 @@
 
   > li {
     position: relative;
+    padding-left: 28px;
 
     &::before {
       position: absolute;
@@ -60,8 +61,7 @@
     }
 
     a {
-      display: inline-block !important;
-      padding-left: 28px;
+
     }
 
   }//> li

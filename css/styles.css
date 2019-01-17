@@ -1787,6 +1787,10 @@ a[href$=".rar"] {
   height: auto !important;
 }
 
+.linkicons {
+  padding-left: 5px;
+}
+
 .accordion-menu {
   margin-bottom: 20px;
 }
@@ -1973,6 +1977,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 #content-main .accordion-menu > ul > li.patients .submenu > ul > li {
   position: relative;
+  padding-left: 28px;
 }
 
 #content-main .accordion-menu > ul > li.patients .submenu > ul > li::before {
@@ -1988,11 +1993,6 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 .patients #content-main .accordion-menu > ul > li.patients .submenu > ul > li::before {
   background-color: #BCAAA4;
-}
-
-#content-main .accordion-menu > ul > li.patients .submenu > ul > li a {
-  display: inline-block !important;
-  padding-left: 28px;
 }
 
 #content-main .accordion-menu > ul > li .submenu {
@@ -2024,6 +2024,7 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 #content-main .accordion-menu > ul > li .submenu > ul > li {
   position: relative;
+  padding-left: 28px;
 }
 
 #content-main .accordion-menu > ul > li .submenu > ul > li::before {
@@ -2039,11 +2040,6 @@ html:not(.js-enabled) #content-main .accordion-menu > ul > li > button:focus ~ .
 
 .patients #content-main .accordion-menu > ul > li .submenu > ul > li::before {
   background-color: #BCAAA4;
-}
-
-#content-main .accordion-menu > ul > li .submenu > ul > li a {
-  display: inline-block !important;
-  padding-left: 28px;
 }
 
 @media screen and (min-width: 640px) {
@@ -2761,6 +2757,7 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 #content-main .content-column .listing ul > li, #content-main .content-column
 .toc ul > li {
   position: relative;
+  padding-left: 28px;
 }
 
 #content-main .content-column .listing ul > li::before, #content-main .content-column
@@ -2778,12 +2775,6 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 .patients #content-main .content-column .listing ul > li::before, .patients #content-main .content-column
 .toc ul > li::before {
   background-color: #BCAAA4;
-}
-
-#content-main .content-column .listing ul > li a, #content-main .content-column
-.toc ul > li a {
-  display: inline-block !important;
-  padding-left: 28px;
 }
 
 #content-main .content-column .listing ul > li, #content-main .content-column
@@ -3052,6 +3043,7 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 
 #content-main .content-column .whats-new .fat-bullets > li {
   position: relative;
+  padding-left: 28px;
 }
 
 #content-main .content-column .whats-new .fat-bullets > li::before {
@@ -3067,11 +3059,6 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 
 .patients #content-main .content-column .whats-new .fat-bullets > li::before {
   background-color: #BCAAA4;
-}
-
-#content-main .content-column .whats-new .fat-bullets > li a {
-  display: inline-block !important;
-  padding-left: 28px;
 }
 
 .slider .scrollable {
