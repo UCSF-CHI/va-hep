@@ -32,6 +32,11 @@ h1 {
 
   button {
     cursor: default;
+    @include font(15);
+
+    @include mq($tablet) {
+      @include font(16);
+    }
 
     &:focus {
       outline: 2px dotted #c30000;
