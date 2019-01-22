@@ -8,7 +8,9 @@
       padding: rem(20);
       border: solid 2px $very-light-grey;
 
-      h3 {
+      h3,
+      > b {
+        display: block;
         @include font(16, 20);
         padding: 0;
         margin: rem(20) 0 rem(10);

@@ -1748,14 +1748,17 @@ a[href$=".rar"] {
   border: solid 2px #ddd;
 }
 
-#content-main .boxes .boxcontent h3 {
+#content-main .boxes .boxcontent h3,
+#content-main .boxes .boxcontent > b {
+  display: block;
   font-size: 1rem;
   line-height: 1.25;
   padding: 0;
   margin: 1.25rem 0 0.625rem;
 }
 
-#content-main .boxes .boxcontent h3:first-of-type {
+#content-main .boxes .boxcontent h3:first-of-type,
+#content-main .boxes .boxcontent > b:first-of-type {
   margin-top: 0;
 }
 
