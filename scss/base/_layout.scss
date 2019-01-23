@@ -55,6 +55,7 @@ h2.page-title {
   .content-column {
     padding: 0;
     margin-bottom: rem(40);
+    width: 100%;
 
     @include mq($tablet) {
       width: auto;
