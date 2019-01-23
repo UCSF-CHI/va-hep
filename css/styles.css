@@ -1046,7 +1046,7 @@ h2.page-title {
 #content-main h1 span {
   display: block;
   color: #767676;
-  font-size: 1.625rem;
+  font-size: 1.25rem;
 }
 
 @media screen and (min-width: 640px) {
@@ -1919,10 +1919,6 @@ a[href$=".rar"] {
 
 #content-main .accordion-menu > ul > li > h3 > span {
   color: #212121;
-}
-
-#content-main .accordion-menu > ul > li > button {
-  display: none;
 }
 
 #content-main .accordion-menu > ul > li > button {

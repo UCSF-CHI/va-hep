@@ -94,7 +94,7 @@ h1 {
     span {
       display: block;
       color: $empress;
-      @include font(26);
+      @include font(20);
 
       @include mq($tablet) {
         @include font(26);
