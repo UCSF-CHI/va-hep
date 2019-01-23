@@ -48,4 +48,10 @@
 
 .prboxcontent {
   padding: 0;
+  @include font(15, 24);
+
+  @include mq($tablet) {
+    min-width: 200px;
+    @include font(16, 28);
+  }
 }
