@@ -31,7 +31,7 @@ h2.page-title {
   // wide column
   .content-full {
 
-    &#main-content {
+    &#main-content-column {
       padding: 0 $gutter-mobile;
 
       @include mq($tablet) {
@@ -62,7 +62,7 @@ h2.page-title {
       grid-column: 1;
     }
 
-    &#main-content {
+    &#main-content-column {
       padding: 0 $gutter-mobile;
 
       @include mq($tablet) {

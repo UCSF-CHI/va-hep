@@ -810,12 +810,12 @@ h2.page-title {
   display: none;
 }
 
-#content-main .content-full#main-content {
+#content-main .content-full#main-content-column {
   padding: 0 20px;
 }
 
 @media screen and (min-width: 640px) {
-  #content-main .content-full#main-content {
+  #content-main .content-full#main-content-column {
     padding: 0 40px;
   }
 }
@@ -846,12 +846,12 @@ h2.page-title {
   }
 }
 
-#content-main .content-column#main-content {
+#content-main .content-column#main-content-column {
   padding: 0 20px;
 }
 
 @media screen and (min-width: 640px) {
-  #content-main .content-column#main-content {
+  #content-main .content-column#main-content-column {
     padding: 0 40px;
   }
 }
