@@ -376,5 +376,6 @@ a[href$=".vdw"],
 a[href$=".mp3"],
 a[href$=".zip"],
 a[href$=".rar"] {
+  display: inline;
   line-height: inherit;
 }
