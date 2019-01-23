@@ -51,7 +51,7 @@
   @include font(15, 24);
 
   @include mq($tablet) {
-    min-width: 200px;
+    min-width: 184px;
     @include font(16, 28);
   }
 }
