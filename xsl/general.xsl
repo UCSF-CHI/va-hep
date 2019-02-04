@@ -1562,8 +1562,8 @@
   <!-- THIS IS THE SPECIAL CHARACTER TEMPLATE, DEPENDS ON ROB'S SCRIPT -->
   <xsl:template match="character">
     <xsl:choose>
-      <xsl:when test="$TS = 'true'"><xsl:text disable-output-escaping="yes">&amp;#</xsl:text><xsl:value-of select="@code" />;<xsl:text> </xsl:text></xsl:when>
-      <xsl:otherwise><xsl:text>&amp;#</xsl:text><xsl:value-of select="@code" />;<xsl:text> </xsl:text></xsl:otherwise>
+      <xsl:when test="$TS = 'true'"><xsl:text disable-output-escaping="yes">&amp;#</xsl:text><xsl:value-of select="@code" /><xsl:text>;</xsl:text></xsl:when>
+      <xsl:otherwise><xsl:text>&amp;#</xsl:text><xsl:value-of select="@code" /><xsl:text>;</xsl:text></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
@@ -1862,12 +1862,11 @@
               </h1>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'faq')">
-              <h1 class="pgtitle">
-                Frequently Asked Questions
+              <h1 class="pgtitle">Frequently Asked Questions
                 <span>
                   <xsl:value-of select="@title" />
                   <xsl:if test="contains ($PGID, 'patient')">
-                    <xsl:text>for Patients</xsl:text>
+                    <xsl:text> for Patients</xsl:text>
                   </xsl:if>
                 </span>
               </h1>
@@ -9701,9 +9700,11 @@
 
   <xsl:template match="faq-menu">
     <section class="faq-menu">
+      <xsl:if test="title">
       <h2>
         <xsl:apply-templates select="title" />
       </h2>
+      </xsl:if>
       <button class="expand-all">
         <span>+</span>
         Expand all
