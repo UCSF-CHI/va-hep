@@ -8,6 +8,17 @@ h1 {
     color: $nero;
   }
 
+  &#site-title {
+    font-family: $sans-serif;
+    @include font(24);
+    color: $nero;
+
+    @include mq($mobile) {
+      @include font(20);
+    }
+
+  }
+
 }
 
 #content-main {
