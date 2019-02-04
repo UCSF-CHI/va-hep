@@ -953,18 +953,6 @@ h2.page-title {
   }
 }
 
-h1#site-title {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
-  color: #212121;
-}
-
-@media screen and (max-width: 639px) {
-  h1#site-title {
-    font-size: 1.25rem;
-  }
-}
-
 #content-main {
   color: #212121;
   -webkit-font-smoothing: antialiased;
