@@ -1072,6 +1072,18 @@ h2.page-title {
   color: #9B8E69;
 }
 
+#content-main h1 .seperator {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 #content-main h2 {
   margin-top: 1.875rem;
   padding: 0;

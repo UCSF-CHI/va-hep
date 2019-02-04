@@ -123,6 +123,10 @@ h1 {
 
     }//.patients &
 
+    .seperator {
+      @include visually-hidden;
+    }
+
   }//h1
 
   h2 {
