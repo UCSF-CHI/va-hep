@@ -33,49 +33,49 @@
             <xsl:choose>
               <xsl:when test="contains ($PGID, 'hav')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis A for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'hbv')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis B for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'hcv')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis C for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'cirrhosis/')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Cirrhosis for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'liver-cancer')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Cancer for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'liver-transplant')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Transplant for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'nafl') and not(contains ($PGID, 'index'))">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Non-Alcoholic Fatty Liver</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'alcohol')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Alcoholic Liver Disease for Patients</span>
                 </h1>
               </xsl:when>
@@ -87,61 +87,61 @@
             <xsl:choose>
               <xsl:when test="contains ($PGID, 'hav')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis A</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'hbv')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis B</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'hcv')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis C</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'cirrhosis/')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Cirrhosis</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'liver-cancer')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Cancer</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'liver-transplant')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Transplant</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'nafl')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Non-Alcoholic Fatty Liver</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'alcohol')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Alcoholic Liver Disease</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'basics')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Basics</span>
                 </h1>
               </xsl:when>
               <xsl:otherwise>
                 <h1 class="pgtitle">
-                  <xsl:value-of select="/pg/@title" />
+                  <xsl:value-of select="/pg/@title" /><span class="separator"> - </span>
                 </h1>
               </xsl:otherwise>
             </xsl:choose>
@@ -154,6 +154,7 @@
           <xsl:when test="contains ($PGID, 'faq')">
             <h1 class="pgtitle">
               Frequently Asked Questions
+              <span class="separator"> - </span>
               <span>
                 <xsl:value-of select="/pg/@title" />
                 <xsl:if test="contains ($PGID, 'patient')">
@@ -180,49 +181,49 @@
             <xsl:choose>
               <xsl:when test="contains ($PGID, 'hav')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span><span class="separator"> - </span>
                   <span>Hepatitis A for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'hbv')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis B for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'hcv')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis C for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'cirrhosis/')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Cirrhosis for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'liver-cancer')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Cancer for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'liver-transplant')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Transplant for Patients</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'nafl') and not(contains ($PGID, 'index'))">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Non-Alcoholic Fatty Liver</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'alcohol')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Alcoholic Liver Disease for Patients</span>
                 </h1>
               </xsl:when>
@@ -234,55 +235,55 @@
             <xsl:choose>
               <xsl:when test="contains ($PGID, 'hav')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis A</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'hbv')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis B</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'hcv')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Hepatitis C</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'cirrhosis/')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Cirrhosis</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'liver-cancer')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Cancer</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'liver-transplant')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Transplant</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'nafl')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Non-Alcoholic Fatty Liver</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'alcohol')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Alcoholic Liver Disease</span>
                 </h1>
               </xsl:when>
               <xsl:when test="contains ($PGID, 'basics')">
                 <h1 class="pgtitle">
-                  <xsl:value-of select="document($TSXML)/pg/@title" />
+                  <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
                   <span>Liver Basics</span>
                 </h1>
               </xsl:when>
@@ -295,7 +296,7 @@
           </xsl:when>
           <xsl:when test="contains ($AREA, 't1')">
             <h1 class="pgtitle">
-              <xsl:value-of select="document($TSXML)/pg/@title" />
+              <xsl:value-of select="document($TSXML)/pg/@title" /><span class="separator"> - </span>
             </h1>
           </xsl:when>
           <xsl:when test="contains ($PGID, 'faq')">
@@ -1603,49 +1604,49 @@
               <xsl:choose>
                 <xsl:when test="contains ($PGID, 'hav')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Hepatitis A for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'hbv')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Hepatitis B for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'hcv')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Hepatitis C for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'cirrhosis/')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Cirrhosis for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'liver-cancer')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Liver Cancer for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'liver-transplant')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Liver Transplant for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'nafl') and not(contains ($PGID, 'index'))">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Non-Alcoholic Fatty Liver</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'alcohol')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Alcoholic Liver Disease for Patients</span>
                   </h1>
                 </xsl:when>
@@ -1657,55 +1658,55 @@
               <xsl:choose>
                 <xsl:when test="contains ($PGID, 'hav')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Hepatitis A</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'hbv')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Hepatitis B</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'hcv')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Hepatitis C</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'cirrhosis/')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Cirrhosis</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'liver-cancer')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Liver Cancer</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'liver-transplant')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Liver Transplant</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'nafl')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Non-Alcoholic Fatty Liver</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'alcohol')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Alcoholic Liver Disease</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'basics')">
                   <h1 class="pgtitle">
-                    <xsl:apply-templates select="title" />
+                    <xsl:apply-templates select="title" /><span class="separator"> - </span>
                     <span>Liver Basics</span>
                   </h1>
                 </xsl:when>
@@ -1723,7 +1724,7 @@
             </xsl:when>
             <xsl:when test="contains ($PGID, 'faq')">
               <h1 class="pgtitle">
-                Frequently Asked Questions
+                Frequently Asked Questions<span class="separator"> - </span>
                 <span>
                   <xsl:apply-templates select="title" />
                   <xsl:if test="contains ($PGID, 'patient')">
@@ -1743,49 +1744,49 @@
               <xsl:choose>
                 <xsl:when test="contains ($PGID, 'hav')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Hepatitis A for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'hbv')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Hepatitis B for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'hcv')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Hepatitis C for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'cirrhosis/')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Cirrhosis for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'liver-cancer')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Liver Cancer for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'liver-transplant')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Liver Transplant for Patients</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'nafl') and not(contains ($PGID, 'index'))">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Non-Alcoholic Fatty Liver</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'alcohol')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Alcoholic Liver Disease for Patients</span>
                   </h1>
                 </xsl:when>
@@ -1797,55 +1798,55 @@
               <xsl:choose>
                 <xsl:when test="contains ($PGID, 'hav')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Hepatitis A</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'hbv')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Hepatitis B</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'hcv')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Hepatitis C</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'cirrhosis/')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Cirrhosis</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'liver-cancer')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Liver Cancer</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'liver-transplant')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Liver Transplant</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'nafl')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Non-Alcoholic Fatty Liver</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'alcohol')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Alcoholic Liver Disease</span>
                   </h1>
                 </xsl:when>
                 <xsl:when test="contains ($PGID, 'basics')">
                   <h1 class="pgtitle">
-                    <xsl:value-of select="@title" />
+                    <xsl:value-of select="@title" /><span class="separator"> - </span>
                     <span>Liver Basics</span>
                   </h1>
                 </xsl:when>
@@ -1862,7 +1863,7 @@
               </h1>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'faq')">
-              <h1 class="pgtitle">Frequently Asked Questions
+              <h1 class="pgtitle">Frequently Asked Questions<span class="separator"> - </span>
                 <span>
                   <xsl:value-of select="@title" />
                   <xsl:if test="contains ($PGID, 'patient')">
@@ -9543,39 +9544,39 @@
           <xsl:choose>
             <xsl:when test="contains ($PGID, 'hav')">
               <xsl:text>Hepatitis A</xsl:text>
-              <span>for Patients</span>
+              <span class="separator"> - </span><span>for Patients</span>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'hbv')">
               <xsl:text>Hepatitis B</xsl:text>
-              <span>for Patients</span>
+              <span class="separator"> - </span><span>for Patients</span>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'hcv')">
               <xsl:text>Hepatitis C</xsl:text>
-              <span>for Patients</span>
+              <span class="separator"> - </span><span>for Patients</span>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'cirrhosis/')">
               <xsl:text>Cirrhosis</xsl:text>
-              <span>for Patients</span>
+              <span class="separator"> - </span><span>for Patients</span>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'liver-cancer')">
               <xsl:text>Liver Cancer</xsl:text>
-              <span>for Patients</span>
+              <span class="separator"> - </span><span>for Patients</span>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'liver-transplant')">
               <xsl:text>Liver Transplant</xsl:text>
-              <span>for Patients</span>
+              <span class="separator"> - </span><span>for Patients</span>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'nafl')">
               <xsl:text>Non-Alcoholic Fatty Liver</xsl:text>
-              <span>for Patients</span>
+              <span class="separator"> - </span><span>for Patients</span>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'alcohol')">
               <xsl:text>Alcoholic Liver Disease</xsl:text>
-              <span>for Patients</span>
+              <span class="separator"> - </span><span>for Patients</span>
             </xsl:when>
             <xsl:when test="contains ($PGID, 'basics')">
               Introduction to the Liver
-              <span>Liver Basics</span>
+              <span class="separator"> - </span><span>Liver Basics</span>
             </xsl:when>
             <xsl:otherwise>
             </xsl:otherwise>

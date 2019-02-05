@@ -1072,7 +1072,7 @@ h2.page-title {
   color: #9B8E69;
 }
 
-#content-main h1 .seperator {
+#content-main h1 .separator {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   /* IE6, IE7 */
