@@ -2433,7 +2433,7 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
 }
 
 #content-main .hero header.cirrhosis {
-  background-image: url("../images/hero/doctor-cirrhosis.jpg");
+  background-image: url("../images/hero/patient-cirrhosis.jpg");
 }
 
 @media screen and (min-width: 640px) {

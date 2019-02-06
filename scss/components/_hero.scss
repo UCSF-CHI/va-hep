@@ -51,7 +51,7 @@
       }
 
       &.cirrhosis {
-        background-image: url($images-path + 'hero/doctor-cirrhosis.jpg');
+        background-image: url($images-path + 'hero/patient-cirrhosis.jpg');
         p {
           @include mq($tablet) {
             width: 90%;
