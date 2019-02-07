@@ -942,7 +942,7 @@ h2.page-title {
 
 @media screen and (min-width: 640px) {
   .align-right {
-    margin: 0 0 32px 20x;
+    margin: 0 0 32px 20px;
   }
 }
 
@@ -1240,7 +1240,7 @@ h2.page-title {
 
 #content-main blockquote {
   position: relative;
-  padding: 0 cols(2) 0 cols(2);
+  padding: 0 1.25rem 0 1.25rem;
   margin: 1.25rem 0;
   font-size: 1.125rem;
   line-height: 1.3334;

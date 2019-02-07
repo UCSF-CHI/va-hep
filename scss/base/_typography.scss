@@ -263,7 +263,7 @@ h1 {
 
   blockquote {
     position: relative;
-    padding: 0 cols(2) 0 cols(2);
+    padding: 0 rem(20) 0 rem(20);
     margin: rem(20) 0;
     @include font(18, 24);
     font-style: italic;
