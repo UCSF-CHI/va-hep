@@ -7056,7 +7056,7 @@
   <xsl:template match="youtube-video">
 
     <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/{@id}" frameborder="0" allowfullscreen="y">
+      <iframe src="https://www.youtube.com/embed/{@id}" frameborder="0" allowfullscreen="y" title="YouTube Video">
         <xsl:text/>
       </iframe>
     </div>
