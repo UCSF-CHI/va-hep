@@ -1,0 +1,60 @@
+
+------------------------------------
+
+Hepatitis B Management: Monitoring Patients Not on Treatment
+URL: hepatitis.va.gov/hbv/treatment/HBeAg-positive-elevated-alt
+
+HBeAg-Positive Patients with Elevated ALT and Without Cirrhosis
+
+*Cut off (Upper limit of normal= ULN) of a normal ALT  ≤35 U/L for males and ≤25 U/L for females is recommended to guide management decision
+
+**Additionally monitor HBeAg every 6-12 mo
+
+***Other factors in decision to treat elevated ALT that is < 2x upper limit and HBV DNA is < 20,000:
+Age > 40, Family history of HCC, Previous treatment history, Presence of extrahepatic manifestations, presence of cirrhosis
+
+Adapted from: Terrault NA, et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. Hepatology. 2018;67(4):1560-1599. doi: 10.1002/hep. 29800.
+
+
+------------------------------------
+
+
+Hepatitis B Management: Monitoring Patients Not on Treatment
+URL: hepatitis.va.gov/hbv/treatment/HBeAg-positive-normal-alt
+
+HBeAg-Positive Patients with Normal ALT and Without Cirrhosis
+
+*Cut off (Upper limit of normal= ULN) of a normal ALT  ≤35 U/L for males and ≤25 U/L for females is recommended to guide management decision
+
+Adapted from: Terrault NA, et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. Hepatology. 2018;67(4):1560-1599. doi: 10.1002/hep. 29800.
+
+
+------------------------------------
+
+
+Hepatitis B Management: Monitoring Patients Not on Treatment
+URL: hepatitis.va.gov/hbv/treatment/HBeAg-negative-elevated-alt
+
+HBeAg-Negative Patients with Elevated ALT and Without Cirrhosis
+
+*Cut off (Upper limit of normal= ULN) of a normal ALT  ≤35 U/L for males and ≤25 U/L for females is recommended to guide management decision
+
+** Additionally exclude other causes of ALT elevation
+
+**Other factors in decision to treat HBeAg (-) with elevated ALT that is < 2x upper limit and HBV DNA
+≥  2,000 are Age > 40, Family history of HCC, Previous treatment history, Presence of extrahepatic manifestations
+
+Adapted from: Terrault NA, et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. Hepatology. 2018;67(4):1560-1599. doi: 10.1002/hep.29800.
+
+
+------------------------------------
+
+
+Hepatitis B Management: Monitoring Patients Not on Treatment
+URL: hepatitis.va.gov/hbv/treatment/HBeAg-negative-normal-alt
+
+HBeAg-Negative Patients With Normal ALT and Without Cirrhosis
+
+*Cut off (Upper limit of normal= ULN) of a normal ALT  ≤35 U/L for males and ≤25 U/L for females is recommended to guide management decision
+
+Adapted from: Terrault NA, et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. Hepatology. 2018;67(4):1560-1599. doi: 10.1002/hep. 29800.
