@@ -2844,6 +2844,13 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   background-color: #212121;
 }
 
+#content-main .content-column .listing ul > li a.active, #content-main .content-column
+.toc ul > li a.active {
+  color: #212121;
+  text-decoration: none;
+  font-weight: strong;
+}
+
 @media screen and (min-width: 640px) {
   #content-main .content-column .listing ul.cols-2, #content-main .content-column
   .toc ul.cols-2 {

@@ -60,6 +60,12 @@
 
         }//&.active
 
+        a.active {
+          color: $nero;
+          text-decoration: none;
+          font-weight: strong;
+        }
+
       }//li
 
       &.cols-2 {
