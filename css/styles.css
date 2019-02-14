@@ -2823,6 +2823,27 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   }
 }
 
+#content-main .content-column .listing ul > li.active, #content-main .content-column
+.toc ul > li.active {
+  font-weight: bold;
+}
+
+#content-main .content-column .listing ul > li.active a, #content-main .content-column
+.toc ul > li.active a {
+  color: #212121;
+  text-decoration: none;
+}
+
+#content-main .content-column .listing ul > li.active::before, #content-main .content-column
+.toc ul > li.active::before {
+  background-color: #212121;
+}
+
+.patients #content-main .content-column .listing ul > li.active::before, .patients #content-main .content-column
+.toc ul > li.active::before {
+  background-color: #212121;
+}
+
 @media screen and (min-width: 640px) {
   #content-main .content-column .listing ul.cols-2, #content-main .content-column
   .toc ul.cols-2 {

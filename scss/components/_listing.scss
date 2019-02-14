@@ -41,6 +41,25 @@
           @include margin(0 null rem(16));
         }
 
+        &.active {
+          font-weight: bold;
+
+          a {
+            color: $nero;
+            text-decoration: none;
+          }
+
+          &::before {
+            background-color: $nero;
+
+            .patients & {
+              background-color: $nero;
+            }
+
+          }
+
+        }//&.active
+
       }//li
 
       &.cols-2 {
