@@ -2995,6 +2995,17 @@ html:not(.js-enabled) #content-main .faq-menu > ul > li > button:focus ~ .answer
   text-indent: -24px;
 }
 
+@media print {
+  .tree h2 {
+    page-break-before: always;
+  }
+  .tree img {
+    width: 72%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 #content-main .content-column .whats-new {
   list-style: none;
   padding: 0;

@@ -1,0 +1,16 @@
+@media print {
+  .tree {
+
+    h2 {
+      page-break-before: always;
+    }
+
+    img {
+      width: 72%;
+      margin: 0 auto;
+      display: block;
+    }
+
+  }
+
+}
