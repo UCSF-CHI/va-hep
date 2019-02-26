@@ -186,7 +186,7 @@
             </xsl:otherwise>
         </xsl:choose>
         <script src="/HEPATITIS/styles/scripts.js"></script>
-
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c7477df651ca90a"></script>
     </xsl:template>
 
     <xsl:template match="pg" mode="local">
