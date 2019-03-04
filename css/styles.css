@@ -802,6 +802,10 @@ h2.page-title {
   display: none;
 }
 
+#main-header {
+  position: relative;
+}
+
 #content-main .ptheader {
   display: none;
 }
@@ -940,6 +944,12 @@ h2.page-title {
   .align-right {
     margin: 0 0 32px 20px;
   }
+}
+
+.return-course {
+  position: absolute;
+  right: 0;
+  bottom: -58px;
 }
 
 @media screen and (max-width: 639px) {

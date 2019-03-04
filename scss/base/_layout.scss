@@ -18,6 +18,10 @@ h2.page-title {
 	display: none;
 }
 
+#main-header {
+  position: relative;
+}
+
 #content-main {
 
   .ptheader {
@@ -158,4 +162,11 @@ h2.page-title {
     margin: 0 0 32px 20px;
   }
 
+}
+
+// courses
+.return-course {
+  position: absolute;
+  right: 0;
+  bottom: -58px;
 }
