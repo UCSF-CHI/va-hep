@@ -98,10 +98,15 @@
       }
 
       h1 {
+        margin-top: rem(10);
         line-height: 1;
         position: relative;
         z-index: 1;
         color: $white;
+
+        @include mq($desktop) {
+          margin-top: rem(-7);
+        }
 
         span {
           color: $white;
